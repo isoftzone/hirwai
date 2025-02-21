@@ -23,7 +23,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 100; 
     
-} 
+} */
 .services-three__single-icon .inner {
     position: relative;
     display: flex;
@@ -32,10 +32,25 @@
     width: 270px;
     left: -30px;
     top: -45px;
-    height: 254px;
+    height: 247px;
     background: var(--thm-black);
    
-} */
+} 
+.services-three__single-content {
+    position: relative;
+    display: block;
+    top: -38px;
+}
+.services-three__single {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 45px 30px 35px;
+    overflow: hidden;
+    height: 521px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
 
 /* .sidebar {
     transition: all 0.3s ease-in-out;
