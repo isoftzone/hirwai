@@ -71,7 +71,7 @@ export default class ServiceThree extends React.Component {
                                     <div className="shape1"></div>
                                     <div className="services-three__single-icon">
                                         <div className="inner">
-                                        <img src='../../../public/assets/images/backgrounds/s2.png/'/>
+                                        <img src={publicUrl+"assets/images/backgrounds/s1.png"} alt="#" />
                                             {/* <span className="icon-shovels">{}</span> */}
                                         </div>
                                       
