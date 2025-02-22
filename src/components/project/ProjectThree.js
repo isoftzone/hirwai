@@ -1,7 +1,19 @@
-import React from 'react';
+// import React from 'react';
+import React, { Component, createRef } from 'react';
+import { Autoplay,Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
 // import ss from '../../../public/assets/images/home/home/company client/Frame_12-removebg-preview.png'
 export default class ProjectThree extends React.Component {
+    constructor(props) {
+        super(props);
+        this.progressCircle = createRef();
+        this.progressContent = createRef();
+    }
+
+        onAutoplayTimeLeft = (s, time, progress) => {
+            this.progressCircle.current.style.setProperty('--progress', 1 - progress);
+            this.progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+          };
     componentDidMount() {
 
         const $ = window.$;
@@ -11,10 +23,11 @@ export default class ProjectThree extends React.Component {
               loop: true,
               margin: 30,
               nav: true,
-              smartSpeed: 500,
+              smartSpeed: 1000,
               autoHeight: false,
               autoplay: true,
-              dots: false,
+              dots:false,
+              autoplay:true,
               autoplayTimeout: 10000,
               navText: [
                 '<span class="icon-left-arrow"></span>',
@@ -38,6 +51,7 @@ export default class ProjectThree extends React.Component {
         }
     
     }
+    
     render(){
         let publicUrl = process.env.PUBLIC_URL+'/'
         return (
@@ -135,14 +149,25 @@ export default class ProjectThree extends React.Component {
                     <div className="projects-three-brand">
                         <div className="auto-container">
                             <Swiper 
-                                loop={true}
-                                spaceBetween={100}
-                                slidesPerView={5}
-                                speed={1400}
-                                freeMode={true}
-                                watchSlidesVisibility={true}
-                                watchSlidesProgress={true}
-                                autoplay={{delay:   5000}}
+                             spaceBetween={30}
+                             autoplayTimeout={1000}
+                              autoplay={{
+                                delay: 10000,
+                                // disableOnInteraction: false,
+                              }}
+                             
+                             
+                              modules={[Autoplay, Navigation]}
+                          
+                                // loop={true}
+                                // spaceBetween={100}
+                                // slidesPerView={5}
+                                // speed={1400}
+                                // freeMode={true}
+                                // watchSlidesVisibility={true}
+                                // watchSlidesProgress={true}
+                                // modules={[Autoplay]}
+                                // autoplay={{delay:800}}
                                 breakpoints={{
                                     0: {
                                         spaceBetween: 30,
@@ -201,6 +226,14 @@ export default class ProjectThree extends React.Component {
 
                                     <SwiperSlide className="swiper-slide">
                                         <img src={publicUrl+"assets/images/brand/brand8.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand9.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand10.png"} alt="#" />
                                     </SwiperSlide>
                                 </div>
                             </Swiper>

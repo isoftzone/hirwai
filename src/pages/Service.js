@@ -14,6 +14,7 @@ const Service = () => {
             <Breadcrumb 
                 heading="Our Services"
                 currentPage="Our Services" 
+                Img="aboutBanner.png"
             />
             <FeatureOne />
             <ServiceTwo />

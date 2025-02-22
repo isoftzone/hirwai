@@ -11,6 +11,7 @@ const DesignerWalls = () => {
             <Breadcrumb 
                 heading="Designer Walls"
                 currentPage="Designer Walls" 
+                 Img='dw-banner.png'
             />
             <SingleArborManagement para="Designer Walls" />
             <FooterOne />

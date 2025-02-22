@@ -11,6 +11,7 @@ const Pergolas = () => {
             <Breadcrumb 
                 heading="Pergolas"
                 currentPage="Pergolas" 
+                Img='pergolas-banner.png'
             />
             <SingleArborManagement para="Pergolas" />
             <FooterOne />
