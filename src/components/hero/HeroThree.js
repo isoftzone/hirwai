@@ -28,7 +28,7 @@ export default class HeroThree extends React.Component {
 
                             {/* Start Main Slider Three */}
                             <SwiperSlide className="swiper-slide">
-                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider-v3-img1.jpg)'}}></div>
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slide11.png)'}}></div>
                                 <div className="shape1"><img src={publicUrl+"assets/images/shapes/slider-v3-shape1.png"} alt="#" /></div>
                                 <div className="container">
                                     <div className="main-slider-three__content">
@@ -53,7 +53,7 @@ export default class HeroThree extends React.Component {
 
                             {/* Start Main Slider Three */}
                             <SwiperSlide className="swiper-slide">
-                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider-v4-img1_org.png)'}}></div>
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider2.png)'}}></div>
                                 <div className="shape1"><img src={publicUrl+"assets/images/shapes/slider-v3-shape1.png"} alt="#" /></div>
                                 <div className="container">
                                     <div className="main-slider-three__content">
@@ -79,7 +79,7 @@ export default class HeroThree extends React.Component {
 
                             {/* Start Main Slider Three */}
                             <SwiperSlide className="swiper-slide">
-                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider-v3-img1.jpg)'}}></div>
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider3.png)'}}></div>
                                 <div className="shape1"><img src={publicUrl+"assets/images/shapes/slider-v3-shape1.png"} alt="#" /></div>
                                 <div className="container">
                                     <div className="main-slider-three__content">

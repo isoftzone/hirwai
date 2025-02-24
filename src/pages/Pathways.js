@@ -10,7 +10,8 @@ const Pathways = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Pathways"
-                currentPage="Pathways" 
+                currentPage="Pathways"
+                Img='pathwaysBanner.png'
             />
             <SingleArborManagement para="Pathways" />
             <FooterOne />

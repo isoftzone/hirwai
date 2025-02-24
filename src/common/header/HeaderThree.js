@@ -45,14 +45,14 @@ export default class HeaderThree extends React.Component {
                                             <SearchButton />
 
                                             <div className="right-box">
-                                                <div className="top-box">
+                                                {/* <div className="top-box">
                                                     <div className="icon-box">
                                                         <span className="icon-dollar"></span>
                                                     </div>
                                                     <div className="text-box">
                                                         <p>We do not received <br /> extra charges </p>
                                                     </div>
-                                                </div>
+                                                </div> */}
 
                                                 <div className="btn-box">
                                                     <Link to={process.env.PUBLIC_URL + `/contact`}>Book Appointment</Link>

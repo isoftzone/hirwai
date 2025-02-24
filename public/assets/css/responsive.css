@@ -25,7 +25,9 @@
     
 } */
 
-
+.main-slider-three .swiper-slide-active .image-layer::before{
+    transform: translate(1) !important;
+}
 
 .projects-three__carousel {
     height: 550px; 
@@ -45,7 +47,11 @@
     max-width: 1530px;
     width: 100%;
 } */
-/* .services-three__single-icon .inner {
+
+.main-slider-three .swiper-slide-active .image-layer{
+    height: 795px;
+}
+ .services-three__single-icon .inner {
     position: relative;
     display: flex;
     align-items: center;
@@ -71,8 +77,12 @@
     height: 521px;
     margin-bottom: 30px;
     z-index: 1;
-} */
+}
 
+/* //--------------------------------------------------------------------- */
+
+/* Default state before animation */
+/* Initial hidden state */
 
 
 
@@ -441,21 +451,6 @@
         margin-right: 45px;
         padding-right: 45px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
@@ -1045,24 +1040,6 @@
     .testimonials-three--about::before {
         top: -257px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

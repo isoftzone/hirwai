@@ -8,6 +8,7 @@ export default class ProjectThree extends React.Component {
         super(props);
         this.progressCircle = createRef();
         this.progressContent = createRef();
+        
     }
 
         onAutoplayTimeLeft = (s, time, progress) => {
@@ -149,6 +150,7 @@ export default class ProjectThree extends React.Component {
                     <div className="projects-three-brand">
                         <div className="auto-container">
                             <Swiper 
+                            loop={true}
                              spaceBetween={30}
                              autoplayTimeout={1000}
                               autoplay={{

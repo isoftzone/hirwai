@@ -11,6 +11,7 @@ const OrnamentalFabrication = () => {
             <Breadcrumb 
                 heading="Ornamental Fabrication"
                 currentPage="Ornamental Fabrication" 
+                 Img='of-banner.png'
             />
             <SingleArborManagement para="Ornamental Fabrication" />
             <FooterOne />
