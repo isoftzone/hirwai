@@ -18,7 +18,8 @@
 --------------------------------------------------------------*/
 :root {
   --thm-font: 'Poppins', sans-serif;
-  --thm-font-2: 'Fredoka One', cursive;
+  /* --thm-font-2: 'Fredoka One', cursive; */
+  --thm-font-2: 'Lato',sans-serif;
   --thm-reey-font: 'reeyregular';
   --thm-gray: #7c8082;
   --thm-gray-rgb: 124, 128, 130;
@@ -65,6 +66,7 @@ a:hover,
 a:focus,
 a:visited {
   text-decoration: none;
+  right: 0px;
 }
 
 ::-webkit-input-placeholder {
@@ -172,6 +174,7 @@ select:focus {
 }
 
 .container {
+  
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -179,6 +182,7 @@ select:focus {
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
+    
   }
 }
 
@@ -315,7 +319,7 @@ li {
 .sec-title__title {
   font-size: 50px;
   line-height: 1em;
-  font-weight: 400;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
@@ -398,7 +402,7 @@ li {
   color: var(--thm-black);
   font-size: 50px;
   line-height: 60px;
-  font-weight: 400;
+  font-weight: 800;
   text-transform: capitalize;
   margin-top: 13px;
 }
@@ -2714,6 +2718,7 @@ Main Header Three
   display: block;
   padding: 43px 20px 42px;
   z-index: 1;
+  right: 17px;
 }
 
 .main-header-three__middle .logo-box-one::before {
@@ -3463,6 +3468,7 @@ Main Slider Three
   left: 0;
   bottom: 0;
   right: 0;
+  height:795px;
   opacity: 1;
   background-repeat: no-repeat;
   background-position: center center;
@@ -3487,7 +3493,7 @@ Main Slider Three
   top: 0;
   left: 0;
   bottom: 0;
-  right: 45%;
+  right: 50%;
   background: rgba(var(--thm-primary-rgb), 0.85);
   content: "";
   z-index: -1;
@@ -3556,6 +3562,7 @@ Main Slider Three
   opacity: 1;
   -webkit-transform: translateX(0);
   transform: translateX(0);
+  right: 60px;
   -webkit-transition-delay: 1000ms;
   transition-delay: 1000ms;
 }
@@ -3564,7 +3571,7 @@ Main Slider Three
   color: #ffffff;
   font-size: 75px;
   line-height: 85px;
-  font-weight: 400;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
@@ -3582,6 +3589,7 @@ Main Slider Three
 .main-slider-three .swiper-slide-active .main-slider-three__content .text {
   opacity: 1;
   -webkit-transform: translateX(0);
+  right: 55px;
   transform: translateX(0);
   -webkit-transition-delay: 1500ms;
   transition-delay: 1500ms;
@@ -5049,7 +5057,7 @@ Work Process One
 
 .work-process-one .shape2 {
   position: absolute;
-  top: 262px;
+  top: 335px;
   left: 0;
   right: 0;
   text-align: center;
@@ -5201,7 +5209,7 @@ Work Process One
 .work-process-one__single-content h2 {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: capitalize;
   letter-spacing: -0.02em;
   margin-bottom: 2px;
@@ -9558,8 +9566,10 @@ Services Three
 .services-three__single-icon {
   position: relative;
   display: block;
-  width: 120px;
-  margin-bottom: 32px;
+  width: 271px;
+  right: 30px;
+  margin-bottom: 90px;
+
 }
 
 .services-three__single-icon .icon {
@@ -9588,10 +9598,10 @@ Services Three
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
+  /* width: 120px; */
   height: 120px;
-  background: var(--thm-black);
-  border-radius: 50%;
+  /* background: var(--thm-black); */
+  /* border-radius: 50%; */
 }
 
 .services-three__single-icon .inner span::before {
@@ -10635,6 +10645,7 @@ Pricing Table Two
 Projects Three
 =====================================================
 ***/
+
 .projects-three {
   position: relative;
   display: block;
@@ -10899,11 +10910,21 @@ Projects Three
   color: #ffffff;
 }
 
+.container .projects-three-brand{
+  height: 670px;
+  padding-top: 584px;
+}
 .projects-three-brand {
   position: relative;
   display: block;
-  padding: 144px 0 0px;
+  
+  /* padding: 144px 0 0px; */
+  /* padding: 591px 0 0px; */
   z-index: 2;
+}
+.swiper-wrapper {
+  display: flex !important;
+  
 }
 
 .projects-three-brand .auto-container {
