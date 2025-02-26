@@ -74,7 +74,7 @@ export default class FeatureTwo extends React.Component {
                                     </div>
 
                                     <div className="features-two__single-img">
-                                        <img src={publicUrl + "assets/images/resources/features-v2-img1.jpg"} alt="#" />
+                                        <img src={publicUrl + "assets/images/resources/features-v2-img1.png"} alt="#" />
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ export default class FeatureTwo extends React.Component {
                                     </div>
 
                                     <div className="features-two__single-img">
-                                        <img src={publicUrl + "assets/images/resources/features-v2-img2.jpg"} alt="#" />
+                                        <img src={publicUrl + "assets/images/resources/features-v2-img2.png"} alt="#" />
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ export default class FeatureTwo extends React.Component {
                                     </div>
 
                                     <div className="features-two__single-img">
-                                        <img src={publicUrl + "assets/images/resources/features-v2-img3.jpg"} alt="#" />
+                                        <img src={publicUrl + "assets/images/resources/features-v2-img3.png"} alt="#" />
                                     </div>
                                 </div>
                             </div>

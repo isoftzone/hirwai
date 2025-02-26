@@ -10920,8 +10920,8 @@ Projects Three
   position: relative;
   display: block;
  
-  /* padding: 144px 0 0px; */
-  padding: 591px 0 0px;
+  padding: 144px 0 0px;
+  /* padding: 591px 0 0px; */
   z-index: 2;
 }
 .swiper-wrapper {
