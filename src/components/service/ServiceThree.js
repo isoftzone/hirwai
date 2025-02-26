@@ -38,7 +38,7 @@ export default class ServiceThree extends React.Component {
                                    
                                     <div className="services-three__single-icon">
                                         <div className="inner">
-                                        <img src={publicUrl+"assets/images/backgrounds/s1.png"} alt="#" />
+                                        <img src={publicUrl+"assets/images/backgrounds/hard.png"} alt="#" />
                                             {/* <img src='' style={{ backgroundImage: 'url(' + publicUrl + 'assets/images/backgrounds/s1.png)' }}></img> */}
                                             {/* <span className="icon-gardener-1"></span> */}
                                         </div>
@@ -68,10 +68,10 @@ export default class ServiceThree extends React.Component {
                             {/* Start Services Three Single */}
                             <div className="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.2s">
                                 <div className="services-three__single">
-                                    <div className="shape1"></div>
+                                   
                                     <div className="services-three__single-icon">
                                         <div className="inner">
-                                        <img src='../../../public/assets/images/backgrounds/s2.png/'/>
+                                        <img src={publicUrl+"assets/images/backgrounds/soft.png"} alt="#" />
                                             {/* <span className="icon-shovels">{}</span> */}
                                         </div>
                                       
@@ -103,8 +103,9 @@ export default class ServiceThree extends React.Component {
                                    
                                     <div className="services-three__single-icon">
                                         <div className="inner">
-                                        <img src='../../../public/assets/images/backgrounds/s3.png'></img>
-                                            <span className="icon-agriculture"></span>
+                                        <img src={publicUrl+"assets/images/backgrounds/aqua.png"} alt="#" />
+                                        {/* <img src='../../../public/assets/images/backgrounds/s3.png'></img> */}
+                                            {/* <span className="icon-agriculture"></span> */}
                                         </div>
                                        
                                     </div>
@@ -135,7 +136,8 @@ export default class ServiceThree extends React.Component {
                                     
                                     <div className="services-three__single-icon">
                                         <div className="inner">
-                                        <img src='../../../public/assets/images/backgrounds/s4.png'/>
+                                        <img src={publicUrl+"assets/images/backgrounds/plant.png"} alt="#" />
+                                        {/* <img src='../../../public/assets/images/backgrounds/s4.png'/> */}
                                             {/* <span className="icon-gardening"></span> */}
                                         </div>
                                      

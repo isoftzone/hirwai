@@ -10,7 +10,8 @@ const Deck = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Deck"
-                currentPage="Deck" 
+                currentPage="Deck"
+                Img="deckBanner.png" 
             />
             <SingleArborManagement para="Deck" />
             <FooterOne />

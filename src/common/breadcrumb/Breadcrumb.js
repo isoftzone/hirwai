@@ -6,7 +6,7 @@ export default class Breadcrumb extends React.Component {
         let heading = this.props.heading;
         let publicUrl = process.env.PUBLIC_URL+'/'
         let currentPage = this.props.currentPage ? this.props.currentPage : heading
-        let Img = this.props.Img ? this.props.Img :'aboutBanner.png'
+        let Img = this.props.Img ? this.props.Img :'Nothing Found'
         let Img2 = this.props.Img2 ? this.props.Img2 :'aboutBanner.png'
         return (
             <>

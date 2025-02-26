@@ -11,6 +11,7 @@ const Sculptures = () => {
             <Breadcrumb 
                 heading="Sculptures"
                 currentPage="Sculptures" 
+                 Img="sculptures-banner.png"
             />
             <SingleArborManagement para="Sculptures" />
             <FooterOne />

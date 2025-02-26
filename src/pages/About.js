@@ -16,6 +16,7 @@ const About = () => {
             <Breadcrumb 
                 heading="About Us"
                 currentPage="About Us" 
+                Img='aboutBanner.png'
             />
             <FeatureTwo />
             <AboutThree />

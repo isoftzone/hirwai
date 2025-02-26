@@ -28,7 +28,7 @@ export default class HeroThree extends React.Component {
 
                             {/* Start Main Slider Three */}
                             <SwiperSlide className="swiper-slide">
-                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider-v3-img1.jpg)'}}></div>
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider1.png)'}}></div>
                                 <div className="shape1"><img src={publicUrl+"assets/images/shapes/slider-v3-shape1.png"} alt="#" /></div>
                                 <div className="container">
                                     <div className="main-slider-three__content">
@@ -53,7 +53,7 @@ export default class HeroThree extends React.Component {
 
                             {/* Start Main Slider Three */}
                             <SwiperSlide className="swiper-slide">
-                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider-v4-img1_org.png)'}}></div>
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider2.png)'}}></div>
                                 <div className="shape1"><img src={publicUrl+"assets/images/shapes/slider-v3-shape1.png"} alt="#" /></div>
                                 <div className="container">
                                     <div className="main-slider-three__content">
@@ -79,7 +79,33 @@ export default class HeroThree extends React.Component {
 
                             {/* Start Main Slider Three */}
                             <SwiperSlide className="swiper-slide">
-                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider-v3-img1.jpg)'}}></div>
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider3.png)'}}></div>
+                                <div className="shape1"><img src={publicUrl+"assets/images/shapes/slider-v3-shape1.png"} alt="#" /></div>
+                                <div className="container">
+                                    <div className="main-slider-three__content">
+                                        <div className="title">
+                                            <h2>We Are The Best</h2>
+                                        </div>
+
+                                        <div className="text">
+                                            <p>There are many variations of passage available the major <br /> suffered alteration
+                                            </p>
+                                        </div>
+
+                                        <div className="btn-box">
+                                            <Link to={process.env.PUBLIC_URL + `/contact`} className="thm-btn">
+                                                <span className="txt">Book Appointment</span>
+                                                <i className="fa fa-angle-double-right"></i>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            {/* End Main Slider Three */}
+
+                              {/* Start Main Slider Three */}
+                              <SwiperSlide className="swiper-slide">
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/slides/slider4.png)'}}></div>
                                 <div className="shape1"><img src={publicUrl+"assets/images/shapes/slider-v3-shape1.png"} alt="#" /></div>
                                 <div className="container">
                                     <div className="main-slider-three__content">

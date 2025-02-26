@@ -10,7 +10,8 @@ const Gazebo = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Gazebo’s"
-                currentPage="Gazebo’s" 
+                currentPage="Gazebo’s"
+                Img='gazeboBanner.png' 
             />
             <SingleArborManagement para="Gazebo" />
             <FooterOne />

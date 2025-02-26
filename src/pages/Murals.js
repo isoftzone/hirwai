@@ -11,6 +11,7 @@ const Murals = () => {
             <Breadcrumb 
                 heading="Murals"
                 currentPage="Murals" 
+                Img='muralsBanner.png'
             />
             <SingleArborManagement para="Murals" />
             <FooterOne />

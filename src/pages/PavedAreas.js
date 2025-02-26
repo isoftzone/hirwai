@@ -10,7 +10,8 @@ const PavedAreas = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Paved Areas"
-                currentPage="Paved Areas" 
+                currentPage="Paved Areas"
+                Img='pa-banner.png'
             />
             <SingleArborManagement para="Paved Areas" />
             <FooterOne />

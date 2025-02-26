@@ -11,6 +11,7 @@ const RockGardens = () => {
             <Breadcrumb 
                 heading="Rock Gardens"
                 currentPage="Rock Gardens" 
+                 Img='rg-banner.png'
             />
             <SingleArborManagement para="Rock Gardens" />
             <FooterOne />

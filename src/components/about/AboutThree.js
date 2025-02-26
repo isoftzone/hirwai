@@ -31,7 +31,7 @@ export default class AboutThree extends React.Component {
         return (
             <>
                 <section className="about-three">
-                    <div className="about-three__bg" style={{ backgroundImage: 'url(' + publicUrl + 'assets/images/backgrounds/about-v3-bg.png)' }}></div>
+                    <div className="about-three__bg" style={{ backgroundImage: 'url(' + publicUrl + 'assets/images/backgrounds/content1.png)' }}></div>
                     <div className="container">
                         <div className="row">
 
