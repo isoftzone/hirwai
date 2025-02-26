@@ -59,7 +59,7 @@ export default class ProjectThree extends React.Component {
             <>
                 <section className="projects-three">
                     <div className="projects-three__bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/Slider8.png)'}}></div>
-                    <div className="projects-three__bg-two" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/Slider1.png)'}}>
+                    <div className="projects-three__bg-two" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/Slider12.png)'}}>
 
                         <ul className="projects-three__bg-two-content">
                             <li className="text-center">

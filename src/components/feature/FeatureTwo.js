@@ -66,9 +66,9 @@ export default class FeatureTwo extends React.Component {
 
                                             <div className="content-box">
                                                 <div className="title">
-                                                    <h2><Link to={process.env.PUBLIC_URL + `/arbor-management`}>Initial Consultation</Link></h2>
+                                                    <h2><Link to={process.env.PUBLIC_URL + `/arbor-management`}>Experienced & Passionate Team</Link></h2>
                                                 </div>
-                                                <p>Discuss your vision, preferences, and project requirements.Share your property layout, photos, and specific idea </p>
+                                                <p>Our team consists of highly skilled landscapers, designers, and horticulturists who bring years of experience and creativity to every project. We stay up to date with the latest landscaping trends, materials, and techniques to ensure you receive the best service possible </p>
                                             </div>
                                         </div>
                                     </div>
@@ -94,9 +94,9 @@ export default class FeatureTwo extends React.Component {
 
                                             <div className="content-box">
                                                 <div className="title">
-                                                    <h2><Link to={process.env.PUBLIC_URL + `/arbor-management`}>Site Assessment</Link></h2>
+                                                    <h2><Link to={process.env.PUBLIC_URL + `/arbor-management`}>High-Quality Materials</Link></h2>
                                                 </div>
-                                                <p> Our team visits your site for analysis of space, soil, opportunities to ensure an optimized design and for environment.                                               </p>
+                                                <p>We believe in delivering long-lasting results by using top-quality materials and the latest landscaping techniques. Whether it’s durable pavers, premium-grade plants, or eco-friendly fertilizers, we source the best products to ensure sustainability and beauty.                                             </p>
                                             </div>
                                         </div>
                                     </div>
@@ -122,9 +122,9 @@ export default class FeatureTwo extends React.Component {
 
                                             <div className="content-box">
                                                 <div className="title">
-                                                    <h2><Link to={process.env.PUBLIC_URL + `/arbor-management`}>Concept Design</Link></h2>
+                                                    <h2><Link to={process.env.PUBLIC_URL + `/arbor-management`}>Residential Landscaping</Link></h2>
                                                 </div>
-                                                <p>Present initial sketches and design concepts based on your input.Include hardscape, softscape,and unique elements</p>
+                                                <p>Whether you’re a homeowner looking to create a relaxing backyard oasis or a business owner wanting to enhance your commercial property's curb appeal, we have the expertise to handle projects of all sizes. Our diverse portfolio includes residential gardens and estates.</p>
                                             </div>
                                         </div>
                                     </div>

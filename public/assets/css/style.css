@@ -419,6 +419,7 @@ li {
   border-radius: 5px;
   padding: 0px 45px 0px;
   line-height: 65px;
+  right: 55px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
@@ -3682,6 +3683,7 @@ Main Slider Three
 .page-header__inner {
   position: relative;
   display: block;
+  right: 185px;
 }
 
 .page-header__inner h2 {
@@ -10917,9 +10919,9 @@ Projects Three
 .projects-three-brand {
   position: relative;
   display: block;
-  
+ 
   /* padding: 144px 0 0px; */
-  /* padding: 591px 0 0px; */
+  padding: 591px 0 0px;
   z-index: 2;
 }
 .swiper-wrapper {

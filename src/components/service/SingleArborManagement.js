@@ -1866,7 +1866,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="faq-two__accordion faq-two__accordion--services">
-                                                <h5> Why Choose Us for Your Hardscaping Needs</h5><br />
+                                                <h5> Why Choose Sculptures</h5><br />
                                                 <ul className="accordion-box">
                                                     <li className="accordion block">
                                                         <div className="acc-btn">
