@@ -10,7 +10,8 @@ const VegetableGarden = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="VegetableGarden"
-                currentPage="VegetableGarden" 
+                currentPage="VegetableGarden"
+                Img='vg-banner.png' 
             />
             <SingleArborManagement para="VegetableGarden" />
             <FooterOne />

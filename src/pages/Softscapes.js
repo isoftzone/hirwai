@@ -11,6 +11,7 @@ const Softscapes = () => {
             <Breadcrumb 
                 heading="Softscapes"
                 currentPage="Softscapes" 
+                 Img='softBanner.png'
             />
             <SingleArborManagement para="Softscapes" />
             <FooterOne />

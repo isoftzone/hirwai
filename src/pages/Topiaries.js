@@ -10,7 +10,8 @@ const Topiaries = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Topiaries"
-                currentPage="Topiaries" 
+                currentPage="Topiaries"
+                Img='topiariesBanner.png'  
             />
             <SingleArborManagement para="Topiaries" />
             <FooterOne />
