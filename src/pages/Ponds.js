@@ -10,7 +10,8 @@ const Ponds = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Ponds"
-                currentPage="Ponds" 
+                currentPage="Ponds"
+                Img='pondsBanner.png' 
             />
             <SingleArborManagement para="Ponds"/>
             <FooterOne />

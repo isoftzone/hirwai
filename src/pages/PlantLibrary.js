@@ -10,7 +10,8 @@ const PlantLibrary = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Plant Library"
-                currentPage="Plant Library" 
+                currentPage="Plant Library"
+                Img='pl-Banner.png'
             />
             <SingleArborManagement para="Plant Library"/>
             <FooterOne />

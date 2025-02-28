@@ -10,7 +10,8 @@ const Succulent = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Succulent"
-                currentPage="Succulent" 
+                currentPage="Succulent"
+                Img='succulentBanner.png' 
             />
             <SingleArborManagement para="Succulent"/>
             <FooterOne />

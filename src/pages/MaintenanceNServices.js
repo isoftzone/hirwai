@@ -9,8 +9,9 @@ const MaintenanceNServices = () => {
         <>
             <HeaderThree />
             <Breadcrumb 
-                heading="MAINTENANCE & SERVICES"
-                currentPage="MAINTENANCE & SERVICES" 
+                heading="MAINTENANCE&SERVICES"
+                currentPage="MAINTENANCE & SERVICES"
+                Img='maitenanceBanner.png'
             />
             <SingleArborManagement para="MAINTENANCE & SERVICES"/>
             <FooterOne />
