@@ -87,9 +87,9 @@ export default class ExcellentWorkOne extends React.Component {
                     <div className="shape1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <img className="float-bob-y" src={publicUrl+"assets/images/shapes/excellent-work-v1-shape1.png"} alt="#" />
                     </div>
-                    <div className="excellent-work-one__bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/excellent-work-v1-bg.jpg)'}}>
+                    <div className="excellent-work-one__bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/service-side.png)'}}>
 
-                        <div className="content-box">
+                        {/* <div className="content-box">
                             <div className="img-box">
                                 <img src={publicUrl+"assets/images/resources/excellent-work-v1-img2.png"} alt="#" />
                             </div>
@@ -103,7 +103,7 @@ export default class ExcellentWorkOne extends React.Component {
                                     <i className="fa fa-angle-double-right"></i>
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                     <div className="container">
@@ -115,16 +115,14 @@ export default class ExcellentWorkOne extends React.Component {
                                 <div className="excellent-work-one__content">
                                     <div className="sec-title">
                                         <div className="sec-title__tagline">
-                                            <h6>Excellent Work</h6>
+                                            <h6>Excellent Services</h6>
                                             <span className="right"></span>
                                         </div>
-                                        <h2 className="sec-title__title">We Work at a Landscape <br /> Company Process</h2>
+                                        <h2 className="sec-title__title">We provide services at a Landscaping</h2>
                                     </div>
 
                                     <div className="text-box">
-                                        <p>There cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum leo
-                                            massa mollis estiegittis massa at urnaaculis estie. miristum nulla sed medy
-                                            fringilla vitae.</p>
+                                        <p>A landscaping company provides services like designing and planning outdoor spaces, ensuring a balance of beauty and functionality. It includes lawn care, planting, and gardening to maintain healthy greenery. Hardscaping services such as patios, walkways, and retaining walls enhance outdoor areas. Irrigation and drainage solutions ensure proper water management for landscapes. Additionally, seasonal maintenance and lighting installation keep the landscape vibrant and well-maintained year-round.</p>
                                     </div>
 
                                     <div className="excellent-work-one__progress">
@@ -135,15 +133,15 @@ export default class ExcellentWorkOne extends React.Component {
                                                         <div className="graph-outer">
                                                             <input type="text" className="dial" data-fgColor="#79b823"
                                                                 data-bgColor="#dbe3e0" data-width="110" data-height="110"
-                                                                data-linecap="normal" value="90" />
+                                                                data-linecap="normal" value="100" />
                                                             <div className="inner-text count-box"><span className="count-text"
-                                                                    data-stop="90" data-speed="2000"></span><span
+                                                                    data-stop="100" data-speed="2000"></span><span
                                                                     className="count-Parsent">%</span>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="title-box">
-                                                        <h2>Agriculture <br /> Projects</h2>
+                                                        <h2>Landscape Design & Planning</h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -154,15 +152,15 @@ export default class ExcellentWorkOne extends React.Component {
                                                         <div className="graph-outer">
                                                             <input type="text" className="dial" data-fgColor="#79b823"
                                                                 data-bgColor="#dbe3e0" data-width="110" data-height="110"
-                                                                data-linecap="normal" value="66" />
+                                                                data-linecap="normal" value="100" />
                                                             <div className="inner-text count-box"><span className="count-text"
-                                                                    data-stop="66" data-speed="2000"></span><span
+                                                                    data-stop="100" data-speed="2000"></span><span
                                                                     className="count-Parsent">%</span>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="title-box">
-                                                        <h2>Quality <br /> products</h2>
+                                                        <h2> Planting & Gardening </h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -172,8 +170,8 @@ export default class ExcellentWorkOne extends React.Component {
                                     </div>
 
                                     <ul className="excellent-work-one__content-list">
-                                        <li><p><span className="icon-tick"></span> There are many variations of passage of lorem.</p></li>
-                                        <li><p><span className="icon-tick"></span> Available but the majority alteration.</p></li>
+                                        <li><p><span className="icon-tick"></span> Custom garden layouts, 3D designs, and blueprint creation.</p></li>
+                                        <li><p><span className="icon-tick"></span> Mowing, fertilization, aeration, and weed control.</p></li>
                                     </ul>
                                 </div>
                             </div>

@@ -127,7 +127,7 @@ export default class WorkProcessFour extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            {/* End Work Process One Single */}
+                            End Work Process One Single
                                  {/* Start Work Process One Single q5 */}
                                  <div className="col-xl-2 col-lg-2 col-md-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
                                 <div className="work-process-one__single">

@@ -8337,7 +8337,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/architech/a1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -8358,7 +8358,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/architech/a2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -8369,7 +8369,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/architech/a3.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -8578,7 +8578,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/treeReplanting/tr1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -8598,7 +8598,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/treeReplanting/tr2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -8610,7 +8610,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/treeReplanting/tr3.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">

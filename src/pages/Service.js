@@ -6,6 +6,8 @@ import ServiceTwo from '../components/service/ServiceTwo';
 import WorkProcessThree from '../components/work-process/WorkProcessThree';
 import BlogFour from '../components/blog/BlogFour';
 import FooterOne from '../common/footer/FooterOne';
+import WorkProcessFour from '../components/work-process/WorkProcessFour';
+import ExcellentWorkOne from '../components/excellent-work/ExcellentWorkOne';
 
 const Service = () => {
     return (
@@ -16,10 +18,11 @@ const Service = () => {
                 currentPage="Our Services" 
                 Img="aboutBanner.png"
             />
-            <FeatureOne />
+            {/* <FeatureOne /> */}
+            <ExcellentWorkOne />
             <ServiceTwo />
-            <WorkProcessThree />
-            <BlogFour />
+             <WorkProcessFour />
+            {/* <BlogFour /> */}
             <FooterOne />
         </>
     )

@@ -80,8 +80,8 @@ const Nav = () => {
         <ul className="main-menu__list">
             {/* Home Section (Default Active) */}
             <li className={location.pathname === "/home-three" ? "dropdown current" : "dropdown"}>
-                <Link to={process.env.PUBLIC_URL + `/`}>Home <span className="line"></span></Link>
-                <ul>
+                <Link to={process.env.PUBLIC_URL + `/home-three`}>Home <span className="line"></span></Link>
+                {/* <ul>
                     <li><Link to={process.env.PUBLIC_URL + `/`}>Home One</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + `/home-two`}>Home Two</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + `/home-three`}>Home Three</Link></li>
@@ -93,7 +93,7 @@ const Nav = () => {
                             <li><Link to={process.env.PUBLIC_URL + `/home-three`}>Header Three</Link></li>
                         </ul>
                     </li>
-                </ul>
+                </ul> */}
             </li>
 
             {/* About Section */}
@@ -115,7 +115,7 @@ const Nav = () => {
             </li>
 
             {/* Pages Section */}
-            <li className={`dropdown ${location.pathname.startsWith("/team") || location.pathname.startsWith("/portfolio") || location.pathname === "/faq" ? "current" : ""}`}>
+            {/* <li className={`dropdown ${location.pathname.startsWith("/team") || location.pathname.startsWith("/portfolio") || location.pathname === "/faq" ? "current" : ""}`}>
                 <Link to={process.env.PUBLIC_URL + `#`}>Pages <span className="line"></span></Link>
                 <ul>
                     <li><Link to={process.env.PUBLIC_URL + `/team`}>Team</Link></li>
@@ -124,17 +124,17 @@ const Nav = () => {
                     <li><Link to={process.env.PUBLIC_URL + `/portfolio-2`}>Portfolio 02</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + `/faq`}>Faq</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
             {/* Blog Section */}
-            <li className={`dropdown ${location.pathname.startsWith("/blog") ? "current" : ""}`}>
+            {/* <li className={`dropdown ${location.pathname.startsWith("/blog") ? "current" : ""}`}>
                 <Link to={process.env.PUBLIC_URL + `#`}>Blog <span className="line"></span></Link>
                 <ul>
                     <li><Link to={process.env.PUBLIC_URL + `/blog`}>Blog</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + `/blog-grid`}>Blog Grid</Link></li>
                     <li><Link to={process.env.PUBLIC_URL + `/blog-details`}>Blog Details</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
             {/* Contact Section */}
             <li className={location.pathname === "/contact" ? "current" : ""}>

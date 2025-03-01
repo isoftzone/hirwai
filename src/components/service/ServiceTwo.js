@@ -32,7 +32,7 @@ export default class ServiceTwo extends React.Component {
                                     <div className="services-two__single-inner">
                                         <div className="services-two__single-img">
                                             <div className="inner">
-                                                <img src={publicUrl + "assets/images/services/services-v2-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/short/hards.png"} alt="#" />
                                             </div>
                                             <div className="icon-box">
                                                 <span className="icon-shovels"></span>
@@ -56,7 +56,7 @@ export default class ServiceTwo extends React.Component {
                                     <div className="services-two__single-inner">
                                         <div className="services-two__single-img">
                                             <div className="inner">
-                                                <img src={publicUrl + "assets/images/services/services-v2-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/short/soft.png"} alt="#" />
                                             </div>
                                             <div className="icon-box">
                                                 <span className="icon-lawn-mower"></span>
@@ -82,7 +82,7 @@ export default class ServiceTwo extends React.Component {
                                     <div className="services-two__single-inner">
                                         <div className="services-two__single-img">
                                             <div className="inner">
-                                                <img src={publicUrl + "assets/images/services/services-v2-img3.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/short/aqua.png"} alt="#" />
                                             </div>
                                             <div className="icon-box">
                                                 <span className="icon-agriculture"></span>
@@ -106,7 +106,7 @@ export default class ServiceTwo extends React.Component {
                                     <div className="services-two__single-inner">
                                         <div className="services-two__single-img">
                                             <div className="inner">
-                                                <img src={publicUrl + "assets/images/services/services-v2-img4.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/short/plantlib.png"} alt="#" />
                                             </div>
                                             <div className="icon-box">
                                                 <span className="icon-gardening-1"></span>
@@ -114,7 +114,7 @@ export default class ServiceTwo extends React.Component {
                                         </div>
 
                                         <div className="services-two__single-content">
-                                            <div className="services-two__single-content-bg" style={{ backgroundImage: 'url(' + publicUrl + 'assets/images/shapes/services-v2-shape1.png)' }}></div>
+                                            <div className="services-two__single-content-bg" style={{ backgroundImage: 'url(' + publicUrl + 'assets/images/shapes/services-v2-s.png)' }}></div>
                                             <h2><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></h2>
                                             <p>A plant library is a collection of
                                                 diverse plant species
@@ -131,7 +131,7 @@ export default class ServiceTwo extends React.Component {
                                     <div className="services-two__single-inner">
                                         <div className="services-two__single-img">
                                             <div className="inner">
-                                                <img src={publicUrl + "assets/images/services/services-v2-img5.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/tree.png"} alt="#" />
                                             </div>
                                             <div className="icon-box">
                                                 <span className="icon-pruning-shears"></span>
@@ -155,7 +155,7 @@ export default class ServiceTwo extends React.Component {
                                     <div className="services-two__single-inner">
                                         <div className="services-two__single-img">
                                             <div className="inner">
-                                                <img src={publicUrl + "assets/images/services/services-v2-img6.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/short/sr-arch.png"} alt="#" />
                                             </div>
                                             <div className="icon-box">
                                                 <span className="icon-planting"></span>

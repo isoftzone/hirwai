@@ -430,7 +430,7 @@ li {
   overflow: hidden;
   font-family: var(--thm-font);
   text-transform: capitalize;
-  transition: all 0.5s ease-in-out 0.2s;
+  /* transition: all 0.5s ease-in-out 0.2s; */
   z-index: 1;
 }
 
@@ -2722,7 +2722,8 @@ Main Header Three
   display: block;
   padding: 43px 20px 42px;
   z-index: 1;
-  right: 17px;
+  /* right: 17px; */
+  left: 43px;
 }
 
 .main-header-three__middle .logo-box-one::before {
@@ -4563,6 +4564,7 @@ Contact One
 .contact-one__form-btn button.thm-btn {
   width: 100%;
   line-height: 60px;
+  right: 0px;
 }
 
 
