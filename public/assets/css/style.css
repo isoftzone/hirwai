@@ -435,7 +435,7 @@ li {
 }
 
 
-.thm-btn:before {
+/* .thm-btn:before {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -447,7 +447,7 @@ li {
   transition: all .5s;
   z-index: -1;
   border-radius: 5px;
-}
+} */
 
 .thm-btn:hover:before {
   transform: rotateX(90deg);

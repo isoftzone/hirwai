@@ -11,7 +11,8 @@ const Contact = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Contact Us"
-                currentPage="Contact" 
+                currentPage="Contact"
+                Img='contact-banner.png'  
             />
             <ContactForm />
             <ContactMap />
