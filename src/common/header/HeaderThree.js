@@ -38,7 +38,7 @@ export default class HeaderThree extends React.Component {
 
                                                 <div className="content-box">
                                                     <p>Call In Anytime</p>
-                                                    <a href="tel:9288006780">91759 32372</a>
+                                                    <a href="tel:9288006780">096875 83548</a>
                                                 </div>
                                             </div>
 

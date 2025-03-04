@@ -66,18 +66,18 @@ export default class TestimonialTwo extends React.Component {
                                         {/* Start Testimonilas Two Single */}
                                         <div className="testimonilas-two__single">
                                             <div className="testimonilas-two__single-top">
-                                                <p>“ There are many variations of passages of available at
-                                                    but the majority have suffered alteration in some atlok
-                                                    form, by injected randomised words which koiu layio
-                                                    don’t look even slightly believable avialabalo ore a do
-                                                    psum is a simply to free dumy to text the pricing.”</p>
+                                                <p>“ Hirwai website is easy to navigate, which made me feel comfortable
+                                                    The step-by-step guides are simple and beginner-friendly
+                                                    I love the "Beginner's Corner"; it’s a great starting point
+                                                    Some plant care terms could use simpler explanations
+                                                    More pictures or short videos would help with learning”</p>
                                             </div>
 
                                             <div className="testimonilas-two__single-bottom">
                                                 <div className="left-box">
                                                     <div className="img-box">
                                                         <div className="inner">
-                                                            <img src={publicUrl+"assets/images/testimonial/testimonial-v2-img1.jpg"} alt="#" />
+                                                            <img src={publicUrl+"assets/images/testimonial/t1.png"} alt="#" />
                                                         </div>
                                                         <div className="icon-box">
                                                             <span className="icon-quote-1"></span>
@@ -85,8 +85,8 @@ export default class TestimonialTwo extends React.Component {
                                                     </div>
 
                                                     <div className="text-box">
-                                                        <h3>Robert Smith</h3>
-                                                        <p>Ceo & Founder</p>
+                                                        <h3>Ashish Sharma</h3>
+                                                        <p>Director</p>
                                                     </div>
                                                 </div>
 
@@ -109,18 +109,18 @@ export default class TestimonialTwo extends React.Component {
                                         {/* Start Testimonilas Two Single */}
                                         <div className="testimonilas-two__single">
                                             <div className="testimonilas-two__single-top">
-                                                <p>“ There are many variations of passages of available at
-                                                    but the majority have suffered alteration in some atlok
-                                                    form, by injected randomised words which koiu layio
-                                                    don’t look even slightly believable avialabalo ore a do
-                                                    psum is a simply to free dumy to text the pricing.”</p>
+                                                <p>“The seasonal planting guides are super helpful
+                                                     The Hirwai site layout makes it easy to find relevant information
+                                                     The search function is fast and accurate
+                                                     Some articles feel too basic for someone with experience
+                                                     A user forum or community section would be a great addition”</p>
                                             </div>
 
                                             <div className="testimonilas-two__single-bottom">
                                                 <div className="left-box">
                                                     <div className="img-box">
                                                         <div className="inner">
-                                                            <img src={publicUrl+"assets/images/testimonial/testimonial-v2-img2.jpg"} alt="#" />
+                                                            <img src={publicUrl+"assets/images/testimonial/t2.png"} alt="#" />
                                                         </div>
                                                         <div className="icon-box">
                                                             <span className="icon-quote-1"></span>
@@ -128,8 +128,8 @@ export default class TestimonialTwo extends React.Component {
                                                     </div>
 
                                                     <div className="text-box">
-                                                        <h3>Robert Smith</h3>
-                                                        <p>Ceo & Founder</p>
+                                                        <h3>Pankaj Mehta</h3>
+                                                        <p>Manager</p>
                                                     </div>
                                                 </div>
 
@@ -163,18 +163,18 @@ export default class TestimonialTwo extends React.Component {
                                         {/* Start Testimonilas Two Single */}
                                         <div className="testimonilas-two__single">
                                             <div className="testimonilas-two__single-top">
-                                                <p>“ There are many variations of passages of available at
-                                                    but the majority have suffered alteration in some atlok
-                                                    form, by injected randomised words which koiu layio
-                                                    don’t look even slightly believable avialabalo ore a do
-                                                    psum is a simply to free dumy to text the pricing.”</p>
+                                                <p>“ The plant care database is well-structured and informative
+                                                    The mobile version of the site runs smoothly
+                                                    General advice is well-written but could be more detailed
+                                                    The pest and disease section needs more scientific depth
+                                                    Adding sources for gardening tips would boost credibility”</p>
                                             </div>
 
                                             <div className="testimonilas-two__single-bottom">
                                                 <div className="left-box">
                                                     <div className="img-box">
                                                         <div className="inner">
-                                                            <img src={publicUrl+"assets/images/testimonial/testimonial-v2-img1.jpg"} alt="#" />
+                                                            <img src={publicUrl+"assets/images/testimonial/t3.png"} alt="#" />
                                                         </div>
                                                         <div className="icon-box">
                                                             <span className="icon-quote-1"></span>
@@ -182,8 +182,8 @@ export default class TestimonialTwo extends React.Component {
                                                     </div>
 
                                                     <div className="text-box">
-                                                        <h3>Robert Smith</h3>
-                                                        <p>Ceo & Founder</p>
+                                                        <h3>Kapil Singh</h3>
+                                                        <p>Vice Presidents</p>
                                                     </div>
                                                 </div>
 
@@ -207,18 +207,18 @@ export default class TestimonialTwo extends React.Component {
                                         {/* Start Testimonilas Two Single */}
                                         <div className="testimonilas-two__single">
                                             <div className="testimonilas-two__single-top">
-                                                <p>“ There are many variations of passages of available at
-                                                    but the majority have suffered alteration in some atlok
-                                                    form, by injected randomised words which koiu layio
-                                                    don’t look even slightly believable avialabalo ore a do
-                                                    psum is a simply to free dumy to text the pricing.”</p>
+                                                <p>“ Hirwai website design is modern, clean, and responsive
+                                                     The blog section is well-maintained with fresh content
+                                                     Some images take longer to load—optimization is needed
+                                                     A dark mode option would improve user experience
+                                                     The navigation bar could be more dynamic for better UX”</p>
                                             </div>
 
                                             <div className="testimonilas-two__single-bottom">
                                                 <div className="left-box">
                                                     <div className="img-box">
                                                         <div className="inner">
-                                                            <img src={publicUrl+"assets/images/testimonial/testimonial-v2-img2.jpg"} alt="#" />
+                                                            <img src={publicUrl+"assets/images/testimonial/t4.png"} alt="#" />
                                                         </div>
                                                         <div className="icon-box">
                                                             <span className="icon-quote-1"></span>
@@ -226,8 +226,8 @@ export default class TestimonialTwo extends React.Component {
                                                     </div>
 
                                                     <div className="text-box">
-                                                        <h3>Robert Smith</h3>
-                                                        <p>Ceo & Founder</p>
+                                                        <h3>Ganesh Yadav</h3>
+                                                        <p>Senior Manager</p>
                                                     </div>
                                                 </div>
 

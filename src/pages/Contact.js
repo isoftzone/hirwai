@@ -12,7 +12,7 @@ const Contact = () => {
             <Breadcrumb 
                 heading="Contact Us"
                 currentPage="Contact"
-                Img='contact-banner.png'  
+                Img='contact-banner.jpg'  
             />
             <ContactForm />
             <ContactMap />

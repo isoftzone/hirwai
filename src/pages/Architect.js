@@ -11,7 +11,7 @@ const Architect = () => {
             <Breadcrumb 
                 heading="Architect"
                 currentPage="Architect"
-                Img="a-banner.png" 
+                Img="architect-banner.png" 
             />
             <SingleArborManagement para="Architect"/>
             <FooterOne />

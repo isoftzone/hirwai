@@ -8332,12 +8332,12 @@ export default class SingleArborManagement extends React.Component {
                                     {/* End Services Details Content */}
                                 </div>
                             ) : para === 'Architect' ? (
-                                <div className="row">
+                                <div className="">
                                     {/* Start Services Details Content */}
-                                    <div className="col-xl-8">
+                                    <div className="">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/architech/a1.png"} alt="#" />
+                                                {/* <img src={publicUrl + "assets/images/services/architech/a1.png"} alt="#" /> */}
                                             </div>
 
                                             <div className="text-box1">
@@ -8548,37 +8548,16 @@ export default class SingleArborManagement extends React.Component {
                                         </div>
                                     </div>
                                     {/* Start Sidebar */}
-                                    <div className="col-xl-4">
-                                        <div className="sidebar">
-                                            <ServiceSearchWidget />
-                                            {/* Start Sidebar Single */}
-                                            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-                                                <h3 className="sidebar__title">Services</h3>
-                                                <ul className="sidebar__category-list">
-                                                    <li><Link to={process.env.PUBLIC_URL + `/Hardscapes`}>Hardscapes </Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architect</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>Tree Replanting</Link></li>
-                                                </ul>
-                                            </div>
-                                            {/* End Sidebar Single */}
-                                            {/* <ServiceButtonWidget />
-                                            <ServiceTagsWidget />
-                                            <ServiceSupportWidget /> */}
-                                        </div>
-                                        {/* End Sidebar */}
-                                    </div>
+                                 
                                     {/* End Services Details Content */}
                                 </div>
                             ) : para === 'Tree Replanting' ? (
-                                <div className="row">
+                                <div className="">
                                     {/* Start Services Details Content */}
-                                    <div className="col-xl-8">
+                                    <div className="">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/treeReplanting/tr1.png"} alt="#" />
+                                                {/* <img src={publicUrl + "assets/images/services/treeReplanting/tr1.png"} alt="#" /> */}
                                             </div>
 
                                             <div className="text-box1">
@@ -8787,28 +8766,7 @@ export default class SingleArborManagement extends React.Component {
                                         </div>
                                     </div>
                                     {/* Start Sidebar */}
-                                    <div className="col-xl-4">
-                                        <div className="sidebar">
-                                            <ServiceSearchWidget />
-                                            {/* Start Sidebar Single */}
-                                            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-                                                <h3 className="sidebar__title">Services</h3>
-                                                <ul className="sidebar__category-list">
-                                                    <li><Link to={process.env.PUBLIC_URL + `/Hardscapes`}>Hardscapes </Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architect</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>Tree Replanting</Link></li>
-                                                </ul>
-                                            </div>
-                                            {/* End Sidebar Single */}
-                                            {/* <ServiceButtonWidget />
-                                            <ServiceTagsWidget />
-                                            <ServiceSupportWidget /> */}
-                                        </div>
-                                        {/* End Sidebar */}
-                                    </div>
+                                 
                                     {/* End Services Details Content */}
                                 </div>
                             ) : (<h1>Contained Not Found</h1>)

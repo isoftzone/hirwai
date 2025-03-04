@@ -9,7 +9,7 @@ const MaintenanceNServices = () => {
         <>
             <HeaderThree />
             <Breadcrumb 
-                heading="MAINTENANCE&SERVICES"
+                heading={<span>MAINTENANCE <br/>& SERVICES</span>}
                 currentPage="MAINTENANCE & SERVICES"
                 Img='maitenanceBanner.png'
             />
