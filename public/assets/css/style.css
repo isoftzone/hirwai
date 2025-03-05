@@ -29,13 +29,13 @@
   --thm-black-rgb: 18, 51, 22;
 }
 
-link[rel="icon"] {
-  /* background-color: red !important; */
-  border-radius:50% !important;
-  /* filter: hue-rotate(180deg); Change to a different hue */
+.icon-call:before {
+  content: "\e93e";
 }
 
-
+.icon-youtube:before {
+  content: "\ea9d" /* This Unicode may vary */
+}
 
 
 .auto-container {
