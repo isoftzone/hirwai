@@ -10,7 +10,8 @@ const SpiceGarden = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Spice Garden"
-                currentPage="Spice Garden" 
+                currentPage="Spice Garden"
+                Img='sg-banner.png' 
             />
             <SingleArborManagement para="Spice Garden" />
             <FooterOne />

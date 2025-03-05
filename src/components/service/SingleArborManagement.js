@@ -526,7 +526,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -782,7 +782,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -1037,7 +1037,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -1282,7 +1282,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -1526,7 +1526,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -1769,7 +1769,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -2013,7 +2013,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -2256,7 +2256,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -2496,7 +2496,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -2740,7 +2740,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -2768,7 +2768,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/soft-content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -2793,7 +2793,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/soft-content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -2807,7 +2807,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/soft-content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -3013,14 +3013,14 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden <span>(15)</span></Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts<span>(08)</span></Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden<span>(20)</span></Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion<span>(20)</span></Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens<span>(20)</span></Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/topiaries`}>Topiaries<span>(20)</span></Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/shrubPlantation`}>Shrub Plantation<span>(20)</span></Link></li>
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/topiaries`}>Topiaries</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/shrubPlantation`}>Shrub Plantation</Link></li>
 
 
                                                 </ul>
@@ -3041,7 +3041,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/lawn-expansion/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -3064,7 +3064,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/lawn-expansion/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -3078,7 +3078,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/softscape/lawn-expansion/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -3284,7 +3284,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
@@ -3311,7 +3311,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/aroma-gardens/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -3335,7 +3335,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/aroma-gardens/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -3349,7 +3349,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/softscape/aroma-gardens/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -3553,7 +3553,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li> */}
+                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
@@ -3590,7 +3590,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/topiaries/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -3614,7 +3614,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/topiaries/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -3628,7 +3628,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/softscape/topiaries/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -3832,7 +3832,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li> */}
+                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
@@ -3869,7 +3869,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/shurbs-plantation/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -3891,7 +3891,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/shurbs-plantation/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -3905,7 +3905,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/softscape/shurbs-plantation/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -4110,7 +4110,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li> */}
+                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
@@ -4136,7 +4136,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/vegetable-garden/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -4157,7 +4157,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/vegetable-garden/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -4171,7 +4171,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/softscape/vegetable-garden/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -4376,7 +4376,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li> */}
+                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
@@ -4402,7 +4402,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/mounts/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -4425,7 +4425,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/mounts/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -4439,7 +4439,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/softscape/mounts/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -4643,7 +4643,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li> */}
+                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
@@ -4680,7 +4680,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/spice-garden/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -4705,7 +4705,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/softscape/spice-garden/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -4719,7 +4719,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/softscape/spice-garden/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -4924,7 +4924,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li> */}
+                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
@@ -4950,7 +4950,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/ponds/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -4970,7 +4970,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/ponds/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -4982,7 +4982,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/aquascapes/ponds/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -5166,7 +5166,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
@@ -5190,7 +5190,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/irrigation-system/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -5210,7 +5210,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/irrigation-system/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -5222,7 +5222,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/aquascapes/irrigation-system/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -5406,7 +5406,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
@@ -5430,7 +5430,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/swimming-pool/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -5450,7 +5450,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/swimming-pool/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -5462,7 +5462,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/aquascapes/swimming-pool/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -5651,7 +5651,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
@@ -5675,7 +5675,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/waterfall/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -5695,7 +5695,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/waterfall/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -5707,7 +5707,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/aquascapes/waterfall/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -5891,7 +5891,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
@@ -5926,7 +5926,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/aquaspace/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -5946,7 +5946,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/aquaspace/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -5958,7 +5958,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/aquascapes/aquaspace/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -6142,7 +6142,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
@@ -6166,7 +6166,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/ponds/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -6186,7 +6186,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/ponds/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -6200,7 +6200,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/aquascapes/ponds/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -6384,7 +6384,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
@@ -6408,7 +6408,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -6429,7 +6429,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/aquascapes/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -6443,7 +6443,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/aquascapes/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -6652,7 +6652,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -6673,7 +6673,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -6685,7 +6685,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/plant-library/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -6893,7 +6893,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/indoor&outdoor/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -6914,7 +6914,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/indoor&outdoor/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -6926,7 +6926,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/plant-library/indoor&outdoor/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -7110,7 +7110,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
@@ -7134,7 +7134,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/succulent/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -7154,7 +7154,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/succulent/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -7166,7 +7166,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/plant-library/succulent/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -7350,7 +7350,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
@@ -7374,7 +7374,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/maintenance-n-services/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -7395,7 +7395,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/maintenance-n-services/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -7407,7 +7407,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/plant-library//content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -7592,7 +7592,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
@@ -7616,7 +7616,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/decorative-pots/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -7637,7 +7637,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/decorative-pots/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -7649,7 +7649,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/plant-library/decorative-pots/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -7833,7 +7833,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
@@ -7857,7 +7857,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/plant-decoration/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -7878,7 +7878,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/plant-decoration/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -7890,7 +7890,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/plant-library/plant-decoration/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -8074,7 +8074,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
@@ -8098,7 +8098,7 @@ export default class SingleArborManagement extends React.Component {
                                     <div className="col-xl-8">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/plants/content1.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box1">
@@ -8119,7 +8119,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/plants/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -8130,7 +8130,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/plant-library/plants/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -8313,7 +8313,7 @@ export default class SingleArborManagement extends React.Component {
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    {/* <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library <span>(12)</span></Link></li> */}
+                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
@@ -8332,12 +8332,12 @@ export default class SingleArborManagement extends React.Component {
                                     {/* End Services Details Content */}
                                 </div>
                             ) : para === 'Architect' ? (
-                                <div className="row">
+                                <div className="">
                                     {/* Start Services Details Content */}
-                                    <div className="col-xl-8">
+                                    <div className="">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                {/* <img src={publicUrl + "assets/images/services/architech/a1.png"} alt="#" /> */}
                                             </div>
 
                                             <div className="text-box1">
@@ -8358,7 +8358,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/architech/a2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -8369,7 +8369,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/architech/a3.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -8548,37 +8548,16 @@ export default class SingleArborManagement extends React.Component {
                                         </div>
                                     </div>
                                     {/* Start Sidebar */}
-                                    <div className="col-xl-4">
-                                        <div className="sidebar">
-                                            <ServiceSearchWidget />
-                                            {/* Start Sidebar Single */}
-                                            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-                                                <h3 className="sidebar__title">Services</h3>
-                                                <ul className="sidebar__category-list">
-                                                    <li><Link to={process.env.PUBLIC_URL + `/Hardscapes`}>Hardscapes </Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architect</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>Tree Replanting</Link></li>
-                                                </ul>
-                                            </div>
-                                            {/* End Sidebar Single */}
-                                            {/* <ServiceButtonWidget />
-                                            <ServiceTagsWidget />
-                                            <ServiceSupportWidget /> */}
-                                        </div>
-                                        {/* End Sidebar */}
-                                    </div>
+                                 
                                     {/* End Services Details Content */}
                                 </div>
                             ) : para === 'Tree Replanting' ? (
-                                <div className="row">
+                                <div className="">
                                     {/* Start Services Details Content */}
-                                    <div className="col-xl-8">
+                                    <div className="">
                                         <div className="services-details__content">
                                             <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/services-details-img1.jpg"} alt="#" />
+                                                {/* <img src={publicUrl + "assets/images/services/treeReplanting/tr1.png"} alt="#" /> */}
                                             </div>
 
                                             <div className="text-box1">
@@ -8598,7 +8577,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/services-details-img2.jpg"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/treeReplanting/tr2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -8610,7 +8589,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/services-details-img3.jpg"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/treeReplanting/tr3.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -8787,28 +8766,7 @@ export default class SingleArborManagement extends React.Component {
                                         </div>
                                     </div>
                                     {/* Start Sidebar */}
-                                    <div className="col-xl-4">
-                                        <div className="sidebar">
-                                            <ServiceSearchWidget />
-                                            {/* Start Sidebar Single */}
-                                            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-                                                <h3 className="sidebar__title">Services</h3>
-                                                <ul className="sidebar__category-list">
-                                                    <li><Link to={process.env.PUBLIC_URL + `/Hardscapes`}>Hardscapes </Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architect</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>Tree Replanting</Link></li>
-                                                </ul>
-                                            </div>
-                                            {/* End Sidebar Single */}
-                                            {/* <ServiceButtonWidget />
-                                            <ServiceTagsWidget />
-                                            <ServiceSupportWidget /> */}
-                                        </div>
-                                        {/* End Sidebar */}
-                                    </div>
+                                 
                                     {/* End Services Details Content */}
                                 </div>
                             ) : (<h1>Contained Not Found</h1>)

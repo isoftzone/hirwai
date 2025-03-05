@@ -324,3 +324,6 @@
 .icon-love:before {
   content: "\e948";
 }
+.icon-play:before {
+  content: "\e949" 
+}

@@ -10,7 +10,8 @@ const LawnExpansion = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="LawnExpansion"
-                currentPage="LawnExpansion" 
+                currentPage="LawnExpansion"
+                Img='le-banner.png' 
             />
             <SingleArborManagement para="LawnExpansion" />
             <FooterOne />

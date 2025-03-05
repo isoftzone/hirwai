@@ -10,7 +10,8 @@ const Aquaspace = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Aquaspace"
-                currentPage="Aquaspace" 
+                currentPage="Aquaspace"
+                Img='aquasBanner.png' 
             />
             <SingleArborManagement para="Aquaspace"/>
             <FooterOne />

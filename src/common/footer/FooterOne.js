@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import LogoThree from '../header/LogoThree';
 
 export default class FooterOne extends React.Component {
     render(){
@@ -19,7 +20,8 @@ export default class FooterOne extends React.Component {
                                     <div class="footer-widget__single">
                                         <div class="footer-widget__single-about">
                                             <div class="logo-box">
-                                                <Link to={process.env.PUBLIC_URL + `/`}><img src={publicUrl+"assets/images/resources/footer-logo.png"} alt="#" /></Link>
+                                                 <LogoThree />
+                                                {/* <Link to={process.env.PUBLIC_URL + `/`}><img src={publicUrl+"assets/images/resources/footer-logo.png"} alt="#" /></Link> */}
                                             </div>
 
                                             <form class="footer-widget__subscribe-box">
@@ -50,11 +52,12 @@ export default class FooterOne extends React.Component {
                                                     </div>
                                                     <div class="footer-one__right-single-services">
                                                         <ul class="footer-one__right-single-list">
-                                                            <li><Link to={process.env.PUBLIC_URL + `/services`}>Lawn Moving</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/services`}>Hedge Cutting</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/services`}>Flower Planting</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/services`}>Working Process</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/services`}>Garden Restoration</Link></li>
+                                                        <li><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architect</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>PlantLibrary</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>Tree Replanting</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -68,12 +71,14 @@ export default class FooterOne extends React.Component {
                                                         <h2>Links</h2>
                                                     </div>
                                                     <div class="footer-one__right-single-links">
-                                                        <ul class="footer-one__right-single-list">
-                                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>About Us</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/team`}>Our Team</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/contact`}>Contact Us</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/`}>Our History</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/`}>Testimonials</Link></li>
+                                                        <ul class="footer-one__right-single-list">                                                            
+                                                            <li><Link to={process.env.PUBLIC_URL + `/home-three`}>Home</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>About</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/services`}>Services</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/contact`}>Contact</Link></li>
+                                                            {/* <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>PlantLibrary</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>TreeReplanting</Link></li> */}
+
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -87,10 +92,12 @@ export default class FooterOne extends React.Component {
                                                         <h2>Contact</h2>
                                                     </div>
                                                     <div class="footer-one__right-single-contact">
-                                                        <p> <a href="mailto:yourmail@email.com">needhelp@company.com</a>
-                                                            <br /> 80 Broklyn Road Street <br />
-                                                            New York. USA</p>
-                                                        <a href=" mailto:yourmail@email.com">info@example.com</a>
+                                                    {/* <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a> */}
+                                                        <p>
+                                                         1103 Ambika, Sardar Height, Tithal Road, Valsad, Gujrat 396001 <br/>
+                                                            </p>
+                                                        <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a>
+                                                    
                                                     </div>
                                                 </div>
                                             </div>
@@ -99,19 +106,19 @@ export default class FooterOne extends React.Component {
 
                                         <div class="footer-one__right-bottom wow animated fadeInUp" data-wow-delay="0.1s">
                                             <ul class="social-links">
-                                                <li><Link to={process.env.PUBLIC_URL + `/`}><span class="icon-twitter"></span></Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + `/`}><span class="icon-facebook"></span></Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + `/`}><span class="icon-pinterest"></span></Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + `/`}><span class="icon-instagram"></span></Link></li>
+                                                
+                                                <li><Link to={`https://www.youtube.com/@Hirwailandscape`}><span class="icon-play"></span></Link></li>
+                                                <li><Link to={`https://www.pinterest.com/hirwailandscape/?invite_code=71376df149cc401faec1abf513263ccb&sender=572098096322986051`}><span class="icon-pinterest"></span></Link></li>
+                                                <li><Link to={process.env.PUBLIC_URL + `/https://www.instagram.com/hirwai_landscape/?igsh=bDlvaGxvdWlyM2M%3D&utm_source=qr#`}><span class="icon-instagram"></span></Link></li>
                                             </ul>
 
                                             <div class="footer-one__right-bottom-contact">
                                                 <div class="icon-box">
-                                                    <span class="icon-phone-call"></span>
+                                                    <span class="icon-call"></span>
                                                 </div>
-                                                <div class="content-box">
+                                                <div class="content-box" >
                                                     <p>Call Anytime</p>
-                                                    <h4><a href="tel:9288006780">+92 ( 8800 ) - 6780</a></h4>
+                                                    <h4><a href="tel:9288006780">+91-96875-83548</a></h4>
                                                 </div>
                                             </div>
 
@@ -128,7 +135,7 @@ export default class FooterOne extends React.Component {
                         <div class="container">
                             <div class="bottom-inner">
                                 <div class="copyright">
-                                    <p>Copyright © 2023 All Rights Reserved.</p>
+                                    <p>Copyright © 2025 All Rights Reserved.</p>
                                 </div>
 
                                 <ul class="footer-one__bottom-menu">

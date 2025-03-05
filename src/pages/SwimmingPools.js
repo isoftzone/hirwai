@@ -10,7 +10,8 @@ const SwimmingPools = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Swimming Pools"
-                currentPage="Swimming Pools" 
+                currentPage="Swimming Pools"
+                Img='swp-banner.png' 
             />
             <SingleArborManagement para="Swimming Pools"/>
             <FooterOne />

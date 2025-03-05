@@ -29,6 +29,15 @@
   --thm-black-rgb: 18, 51, 22;
 }
 
+link[rel="icon"] {
+  /* background-color: red !important; */
+  border-radius:50% !important;
+  /* filter: hue-rotate(180deg); Change to a different hue */
+}
+
+
+
+
 .auto-container {
   position: static;
   max-width: 1200px;
@@ -419,7 +428,7 @@ li {
   border-radius: 5px;
   padding: 0px 45px 0px;
   line-height: 65px;
-  right: 55px;
+  /* right: 55px; */
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
@@ -427,7 +436,7 @@ li {
   overflow: hidden;
   font-family: var(--thm-font);
   text-transform: capitalize;
-  transition: all 0.5s ease-in-out 0.2s;
+  /* transition: all 0.5s ease-in-out 0.2s; */
   z-index: 1;
 }
 
@@ -2719,7 +2728,8 @@ Main Header Three
   display: block;
   padding: 43px 20px 42px;
   z-index: 1;
-  right: 17px;
+  /* right: 17px; */
+  left: 43px;
 }
 
 .main-header-three__middle .logo-box-one::before {
@@ -3618,6 +3628,7 @@ Main Slider Three
   opacity: 1;
   -webkit-transform: translateX(0);
   transform: translateX(0);
+  right:55px;
   -webkit-transition-delay: 2000ms;
   transition-delay: 2000ms;
 }
@@ -4560,6 +4571,7 @@ Contact One
 .contact-one__form-btn button.thm-btn {
   width: 100%;
   line-height: 60px;
+  right: 0px;
 }
 
 
@@ -6574,20 +6586,21 @@ Footer One
 .footer-one__right-bottom-contact {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items:end;
   margin-left: 90px;
 }
 
-.footer-one__right-bottom-contact .icon-box {
+.footer-one__right-bottom-contact .icon-box{
   position: relative;
   display: block;
+  bottom: 8px;
 }
 
 .footer-one__right-bottom-contact .icon-box span:before {
   position: relative;
   display: inline-block;
   color: rgba(255, 255, 255, .5);
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .footer-one__right-bottom-contact .content-box {
@@ -9520,6 +9533,7 @@ Services Three
 .services-three__top-text {
   position: relative;
   display: block;
+  color: white;
   max-width: 500px;
   width: 100%;
   padding-left: 35px;
@@ -10877,7 +10891,125 @@ Projects Three
 .projects-three__carousel.owl-carousel .owl-nav.disabled {
   display: block;
 }
+/* //------------------------------------------------------------------------------------------- */
 
+.projects-threeTwo__carousel.owl-carousel  {
+  display: block;
+  height: 130px;
+}
+
+.projects-threeTwo__single {
+  position: relative;
+  display: block;
+}
+
+.projects-threeTwo__single.mt45 {
+  margin-top: 45px;
+}
+
+.projects-threeTwo__single-img {
+  position: relative;
+  display: block;
+  width: 230px;
+  overflow: hidden;
+  /* border-radius: 10px; */
+}
+
+
+.projects-threeTwo__single-img::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: .7s;
+  transition-property: all;
+  background: rgba(var(--thm-base-rgb), 0.5);
+  opacity: 0;
+  z-index: 1;
+  content: "";
+}
+
+.projects-threeTwo__single:hover .projects-threeTwo__single-img::before {
+  opacity: 1;
+}
+
+
+.projects-threeTwo__single-img img {
+  width: 100%;
+  transition: .5s ease;
+  transform: scale(1.05);
+}
+
+.projects-threeTwo__single:hover .projects-threeTwo__single-img img {
+  transform: scale(1);
+}
+
+.projects-threeTwo__single-img .overlay-content {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 100px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  width: max-content;
+  text-align: center;
+  padding: 0px 23px 0px 19px;
+  z-index: 5;
+  -webkit-transform: perspective(400px) rotateY(40deg) scaleY(0.7);
+  -ms-transform: perspective(400px) rotateY(40deg) scaleY(0.7);
+  transform: perspective(400px) rotateY(40deg) scaleY(0.7);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: .5s;
+  transition-property: all;
+  opacity: 0;
+}
+
+.projects-threeTwo__single:hover .projects-threeTwo__single-img .overlay-content {
+  -webkit-transform: perspective(400px) rotateY(0deg) scaleY(1.0);
+  -ms-transform: perspective(400px) rotateY(0deg) scaleY(1.0);
+  transform: perspective(400px) rotateY(0deg) scaleY(1.0);
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: .7s;
+  transition-property: all;
+  opacity: 1;
+}
+
+
+.projects-threeTwo__single-img .overlay-content::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(var(--thm-primary-rgb), 0.9);
+  clip-path: polygon(0 0, 100% 5%, 100% 94%, 0% 100%);
+  content: "";
+}
+
+.projects-threeTwo__single-img .overlay-content h2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  width: max-content;
+  text-align: center;
+}
+
+.projects-threeTwo__single-img .overlay-content h2 a {
+  color: #ffffff;
+}
+/* //--------------------------------------------------------------------------------------- */
 .projects-three .owl-theme .owl-nav {
   position: absolute;
   margin-top: 0;
@@ -10920,8 +11052,8 @@ Projects Three
   position: relative;
   display: block;
  
-  /* padding: 144px 0 0px; */
-  padding: 591px 0 0px;
+  padding: 144px 0 0px;
+  /* padding: 591px 0 0px; */
   z-index: 2;
 }
 .swiper-wrapper {

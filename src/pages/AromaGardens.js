@@ -10,7 +10,8 @@ const AromaGardens = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="AromaGardens"
-                currentPage="AromaGardens" 
+                currentPage="AromaGardens"
+                Img='ag-banner.png'  
             />
             <SingleArborManagement para="AromaGardens" />
             <FooterOne />

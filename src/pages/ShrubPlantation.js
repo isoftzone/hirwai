@@ -11,6 +11,7 @@ const ShrubPlantation = () => {
             <Breadcrumb 
                 heading="ShrubPlantation"
                 currentPage="ShrubPlantation" 
+                 Img='sp-banner.png'
             />
             <SingleArborManagement para="ShrubPlantation" />
             <FooterOne />

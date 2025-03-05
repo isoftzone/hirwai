@@ -10,7 +10,8 @@ const Architect = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Architect"
-                currentPage="Architect" 
+                currentPage="Architect"
+                Img="architect-banner.png" 
             />
             <SingleArborManagement para="Architect"/>
             <FooterOne />

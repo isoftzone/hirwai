@@ -10,7 +10,8 @@ const IrrigationSystems = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Irrigation Systems"
-                currentPage="Irrigation Systems" 
+                currentPage="Irrigation Systems"
+                Img='is-banner.png' 
             />
             <SingleArborManagement para="Irrigation Systems"/>
             <FooterOne />

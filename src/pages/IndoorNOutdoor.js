@@ -10,7 +10,8 @@ const IndoorNOutdoor = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="INDOOR & OUTDOOR"
-                currentPage="INDOOR & OUTDOOR" 
+                currentPage="INDOOR & OUTDOOR"
+                Img='ino-banner.png' 
             />
             <SingleArborManagement para="INDOOR & OUTDOOR"/>
             <FooterOne />
