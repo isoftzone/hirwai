@@ -57,7 +57,7 @@ export default class FooterOne extends React.Component {
                                                             <li><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architect</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>PlantLibrary</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>TreeReplanting</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>Tree Replanting</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -92,8 +92,9 @@ export default class FooterOne extends React.Component {
                                                         <h2>Contact</h2>
                                                     </div>
                                                     <div class="footer-one__right-single-contact">
-                                                        <p> <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a>
-                                                            <br /> 1103 Ambika,Sardar Height,Tithal Road,valsad,Gujrat 396001 <br />
+                                                    {/* <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a> */}
+                                                        <p>
+                                                         1103 Ambika, Sardar Height, Tithal Road, Valsad, Gujrat 396001 <br/>
                                                             </p>
                                                         <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a>
                                                     
@@ -106,7 +107,7 @@ export default class FooterOne extends React.Component {
                                         <div class="footer-one__right-bottom wow animated fadeInUp" data-wow-delay="0.1s">
                                             <ul class="social-links">
                                                 
-                                                <li><Link to={`https://www.youtube.com/@Hirwailandscape`}><span class="icon-youtube"></span></Link></li>
+                                                <li><Link to={`https://www.youtube.com/@Hirwailandscape`}><span class="icon-play"></span></Link></li>
                                                 <li><Link to={`https://www.pinterest.com/hirwailandscape/?invite_code=71376df149cc401faec1abf513263ccb&sender=572098096322986051`}><span class="icon-pinterest"></span></Link></li>
                                                 <li><Link to={process.env.PUBLIC_URL + `/https://www.instagram.com/hirwai_landscape/?igsh=bDlvaGxvdWlyM2M%3D&utm_source=qr#`}><span class="icon-instagram"></span></Link></li>
                                             </ul>

@@ -31,7 +31,7 @@ export default class ContactMap extends React.Component {
                                         <h2 className="sec-title__title">Get In Touch</h2>
                                     </div>
                                     <div className="contact-page-bottom__content-img">
-                                        <img src={publicUrl+"assets/images/resources/contact-page-bottom-img.jpg"} alt="#" />
+                                        <img src={publicUrl+"assets/images/resources/contact-side2.png"} alt="#" />
 
                                         <div className="contact-info">
                                             <ul>
@@ -42,7 +42,7 @@ export default class ContactMap extends React.Component {
                                                         </div>
 
                                                         <div className="content-box">
-                                                            <p> Tel : <a href="tel:12345615523">096875 83548
+                                                            <p><a href="tel:12345615523">+91-96875 83548
                                                         </a></p>
                                                         </div>
                                                     </div>
@@ -55,7 +55,7 @@ export default class ContactMap extends React.Component {
                                                         </div>
 
                                                         <div className="content-box">
-                                                            <p> Email : <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a></p>
+                                                            <p><a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a></p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -67,7 +67,7 @@ export default class ContactMap extends React.Component {
                                                         </div>
 
                                                         <div className="content-box">
-                                                            <p>Add :1103, Ambika, Sardar Heights, Tithal Road, Valsad, Gujrat 396001</p>
+                                                            <p>1103, Ambika, Sardar Heights,<br/> Tithal Road, Valsad, Gujrat 396001</p>
                                                         </div>
                                                     </div>
                                                 </li>

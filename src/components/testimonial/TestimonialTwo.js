@@ -43,7 +43,7 @@ export default class TestimonialTwo extends React.Component {
             <>
                 <section className="testimonilas-two">
                     <div className="testimonilas-two__pattern" style={{backgroundImage: 'url('+publicUrl+'assets/images/pattern/testimonilas-v2-pattern.png)'}}></div>
-                    <div className="testimonilas-two__bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/pattern/testimonial/test1.png)'}}></div>
+                    <div className="testimonilas-two__bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/pattern/test2.png)'}}></div>
                     <div className="shape1 float-bob-y"><img src={publicUrl+"assets/images/shapes/testimonilas-v2-shape1.png"} alt="#" /></div>
                     <div className="container">
 
