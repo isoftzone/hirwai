@@ -11,25 +11,68 @@ export default class SingleArborManagement extends React.Component {
 
         const $ = window.$;
 
-        if ($('.accordion-box').length) {
-            $(".accordion-box").on('click', '.acc-btn', function () {
+        // if ($('.accordion-box').length) {
+        //     $(".accordion-box").on('click', '.acc-btn', function () {
 
+        //         var outerBox = $(this).parents('.accordion-box');
+        //         var target = $(this).parents('.accordion');
+
+        //         if ($(this).hasClass('active') !== true) {
+        //             $(outerBox).find('.accordion .acc-btn').removeClass('active');
+        //         }
+
+        //         if ($(this).next('.acc-content').is(':visible')) {
+        //             return false;
+        //         } else {
+        //             $(this).addClass('active');
+        //             $(outerBox).children('.accordion').removeClass('active-block');
+        //             $(outerBox).find('.accordion').children('.acc-content').slideUp(300);
+        //             target.addClass('active-block');
+        //             $(this).next('.acc-content').slideDown(300);
+        //         }
+        //     });
+        // }
+
+
+
+
+
+        
+        if ($('.accordion-box').length) {
+            let clickTimeout;
+        
+            $(".accordion-box").on('click', '.acc-btn', function () {
                 var outerBox = $(this).parents('.accordion-box');
                 var target = $(this).parents('.accordion');
-
-                if ($(this).hasClass('active') !== true) {
-                    $(outerBox).find('.accordion .acc-btn').removeClass('active');
-                }
-
-                if ($(this).next('.acc-content').is(':visible')) {
-                    return false;
-                } else {
-                    $(this).addClass('active');
-                    $(outerBox).children('.accordion').removeClass('active-block');
-                    $(outerBox).find('.accordion').children('.acc-content').slideUp(300);
-                    target.addClass('active-block');
-                    $(this).next('.acc-content').slideDown(300);
-                }
+        
+                // Clear the previous timeout if it exists
+                clearTimeout(clickTimeout);
+        
+                // Set a timeout to handle the single click
+                clickTimeout = setTimeout(() => {
+                    // If the clicked button is not already active, activate it
+                    if (!$(this).hasClass('active')) {
+                        $(outerBox).find('.acc-btn').removeClass('active');
+                        $(outerBox).find('.acc-content').slideUp(300);
+                        
+                        $(this).addClass('active');
+                        target.addClass('active-block');
+                        $(this).next('.acc-content').slideDown(300);
+                    }
+                }, 200); // Adjust the timeout duration as needed
+        
+                // Handle double click
+                $(this).dblclick(function () {
+                    // Clear the single click timeout
+                    clearTimeout(clickTimeout);
+        
+                    // If the clicked button is active, deactivate it
+                    if ($(this).hasClass('active')) {
+                        $(this).removeClass('active');
+                        target.removeClass('active-block');
+                        $(this).next('.acc-content').slideUp(300);
+                    }
+                });
             });
         }
 
