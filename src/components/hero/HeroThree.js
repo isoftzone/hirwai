@@ -110,7 +110,7 @@ export default class HeroThree extends React.Component {
                                 <div className="container">
                                     <div className="main-slider-three__content">
                                         <div className="title">
-                                            <h2>We Are The Best</h2>
+                                            <h2>We have the best <br/> environment</h2>
                                         </div>
 
                                         <div className="text">

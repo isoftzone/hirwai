@@ -77,8 +77,24 @@ export default class SingleArborManagement extends React.Component {
         }
 
     }
+
+
+         constructor(props) {
+                 super(props);
+                 // Initialize state
+                 this.state = {
+                     activeSection: props.para // Set the initial active section based on props
+                 };
+             }
+
+             // Method to handle link clicks and update the active section
+             handleLinkClick = (section) => {
+                 this.setState({ activeSection: section });
+             };
     render() {
-        let para = this.props.para;
+        const { activeSection } = this.state;
+                 const { para } = this.props;
+        // let para = this.props.para;
         let publicUrl = process.env.PUBLIC_URL + '/'
         return (
             <>
@@ -88,7 +104,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                         {
-                            para === 'Hardscapes' ? (
+                            activeSection === 'Hardscapes' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -321,12 +337,12 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp " data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes </Link></li>
+                                                    <li className={activeSection === 'Hardscapes' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/hardscapes`} onClick={() => this.handleLinkClick('Hardscapes')}>Hardscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -348,7 +364,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Pathways' ? (
+                            ) : activeSection === 'Pathways' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -564,12 +580,12 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                    <li ><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -579,7 +595,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pathways`}>Pathways</Link></li>
+                                                    <li className={activeSection === 'Pathways' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/pathways`} onClick={() => this.handleLinkClick('Pathways')}>Pathways</Link></li>
                                                 </ul>
                                             </div>
                                             {/* <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
@@ -602,7 +618,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Gazebo' ? (
+                            ) : activeSection === 'Gazebo' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -820,12 +836,12 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -834,7 +850,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
+                                                    <li className={activeSection === 'Gazebo' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/gazebo`} onClick={() => this.handleLinkClick('Gazebo')}>Gazebo</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pathways`}>Pathways</Link></li>
                                                 </ul>
                                             </div>
@@ -858,7 +874,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Murals' ? (
+                            ) : activeSection === 'Murals' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -1075,12 +1091,12 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
@@ -1088,7 +1104,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
+                                                    <li className={activeSection === 'Murals' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/murals`} onClick={() => this.handleLinkClick('Murals')}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pathways`}>Pathways</Link></li>
                                                 </ul>
@@ -1102,7 +1118,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Ornamental Fabrication' ? (
+                            ) : activeSection === 'Ornamental Fabrication' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -1320,19 +1336,19 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
+                                                    <li className={activeSection === 'Ornamental Fabrication' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`} onClick={() => this.handleLinkClick('Ornamental Fabrication')}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pathways`}>Pathways</Link></li>
@@ -1347,7 +1363,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Paved Areas' ? (
+                            ) : activeSection === 'Paved Areas' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -1564,18 +1580,18 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li className={activeSection === 'Paved Areas' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/pavedAreas`} onClick={() => this.handleLinkClick('Paved Areas')}>PavedAreas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -1591,7 +1607,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Pergolas' ? (
+                            ) : activeSection === 'Pergolas' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -1807,17 +1823,17 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
+                                                    <li className={activeSection === 'Pergolas' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/pergolas`} onClick={() => this.handleLinkClick('Pergolas')}>Pergolas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
@@ -1834,7 +1850,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Sculptures' ? (
+                            ) : activeSection === 'Sculptures' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -2051,16 +2067,16 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
+                                                    <li className={activeSection === 'Sculptures' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/sculptures`} onClick={() => this.handleLinkClick('Sculptures')}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
@@ -2078,7 +2094,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Deck' ? (
+                            ) : activeSection === 'Deck' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -2294,15 +2310,15 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes </Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
+                                                    <li className={activeSection === 'Deck' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/deck`} onClick={() => this.handleLinkClick('Deck')}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
@@ -2321,7 +2337,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Rock Gardens' ? (
+                            ) : activeSection === 'Rock Gardens' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -2534,14 +2550,14 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
+                                                    <li className={activeSection === 'Rock Gardens' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/rockGardens`} onClick={() => this.handleLinkClick('Rock Gardens')}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
@@ -2561,7 +2577,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Designer Walls' ? (
+                            ) : activeSection === 'Designer Walls' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -2778,13 +2794,13 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes </Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes </Link></li>
+                                                    <li className={activeSection === 'Designer Walls' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/designerWalls`} onClick={() => this.handleLinkClick('Designer Walls')}>Designer Walls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
@@ -2805,7 +2821,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Softscapes' ? (
+                            ) : activeSection === 'Softscapes' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -3049,14 +3065,14 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
 
                                             {/* Start Sidebar Single */}
 
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                    <li className={activeSection === 'Softscapes' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/softscapes`} onClick={() => this.handleLinkClick('Softscapes')}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
@@ -3078,7 +3094,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'LawnExpansion' ? (
+                            ) : activeSection === 'LawnExpansion' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -3320,18 +3336,18 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
 
                                             {/* Start Sidebar Single */}
 
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion</Link></li>
+                                                    <li className={activeSection === 'Lawn Expansion' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/lawnExpansion`} onClick={() => this.handleLinkClick('Lawn Expansion')}>Lawn Expansion</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/topiaries`}>Topiaries</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/shrubPlantation`}>Shrub Plantation</Link></li>
@@ -3347,7 +3363,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'AromaGardens' ? (
+                            ) : activeSection === 'AromaGardens' ? (
                                 <div className="row">
 
                                     {/* Start Services Details Content */}
@@ -3590,18 +3606,18 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
 
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                <li className=""><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens</Link></li>
+                                                    <li className={activeSection === 'AromaGardens' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/aromaGardens`} onClick={() => this.handleLinkClick('AromaGardens')}>Aroma Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/topiaries`}>Topiaries</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/shrubPlantation`}>Shrub Plantation</Link></li>
                                                 </ul>
@@ -3627,7 +3643,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Topiaries' ? (
+                            ) : activeSection === 'Topiaries' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -3869,19 +3885,19 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
 
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                <li className=""><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/topiaries`}>Topiaries</Link></li>
+                                                    <li className={activeSection === 'Topiaries' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/topiaries`}onClick={() => this.handleLinkClick('Topiaries')}>Topiaries</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/shrubPlantation`}>Shrub Plantation</Link></li>
                                                 </ul>
                                             </div>
@@ -3906,7 +3922,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'ShrubPlantation' ? (
+                            ) : activeSection === 'ShrubPlantation' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -4146,21 +4162,21 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
 
                                             {/* Start Sidebar Single */}
 
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                <li className=""><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/topiaries`}>Topiaries</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/shrubPlantation`}>Shrub Plantation</Link></li>
+                                                    <li className={activeSection === 'ShrubPlantation' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/shrubPlantation`} onClick={() => this.handleLinkClick('ShrubPlantation')}>Shrub Plantation</Link></li>
                                                 </ul>
                                             </div>
                                             {/* End Sidebar Single */}
@@ -4173,7 +4189,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'VegetableGarden' ? (
+                            ) : activeSection === 'VegetableGarden' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -4412,15 +4428,15 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
 
                                             {/* Start Sidebar Single */}
 
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
+                                                <li className=""><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                    <li className={activeSection === 'VegetableGarden' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/VegetableGarden`} onClick={() => this.handleLinkClick('VegetableGarden')}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion</Link></li>
@@ -4439,7 +4455,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Mounts' ? (
+                            ) : activeSection === 'Mounts' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -4680,15 +4696,15 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
 
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                <li className=""><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
+                                                    <li className={activeSection === 'Mounts' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/mounts`} onClick={() => this.handleLinkClick('Mounts')}>Mounts</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens</Link></li>
@@ -4717,7 +4733,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Spice Garden' ? (
+                            ) : activeSection === 'Spice Garden' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -4960,17 +4976,17 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
 
                                             {/* Start Sidebar Single */}
 
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
+                                                <li className=""><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden</Link></li>
+                                                    <li className={activeSection === 'Spice Garden' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/spiceGarden`} onClick={() => this.handleLinkClick('Spice Garden')}>Spice Garden</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/topiaries`}>Topiaries</Link></li>
@@ -4987,7 +5003,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Ponds' ? (
+                            ) : activeSection === 'Ponds' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -5204,13 +5220,13 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
+                                                    <li className={activeSection === 'Ponds' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/ponds`} onClick={() => this.handleLinkClick('Ponds')}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
@@ -5227,7 +5243,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Irrigation Systems' ? (
+                            ) : activeSection === 'Irrigation Systems' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -5444,14 +5460,14 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
+                                                    <li className={activeSection === 'Irrigation Systems' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/irrigationSystems`} onClick={() => this.handleLinkClick('Irrigation Systems')}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
@@ -5467,7 +5483,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Swimming Pools' ? (
+                            ) : activeSection === 'Swimming Pools' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -5689,16 +5705,16 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
+                                                    <li className={activeSection === 'Swimming Pools' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/swimmingPools`} onClick={() => this.handleLinkClick('Swimming Pools')}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
                                                 </ul>
@@ -5712,7 +5728,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Waterfalls' ? (
+                            ) : activeSection === 'Waterfalls' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -5929,17 +5945,17 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
+                                                    <li className={activeSection === 'Waterfalls' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/waterfalls`} onClick={() => this.handleLinkClick('Waterfalls')}>Waterfalls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
                                                 </ul>
                                             </div>
@@ -5963,7 +5979,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Aquaspace' ? (
+                            ) : activeSection === 'Aquaspace' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -6180,18 +6196,18 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
+                                                    <li className={activeSection === 'Aquaspace' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/aquaspace`} onClick={() => this.handleLinkClick('Aquaspace')}>Aquaspace</Link></li>
                                                 </ul>
                                             </div>
                                             {/* End Sidebar Single */}
@@ -6203,7 +6219,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Fountains' ? (
+                            ) : activeSection === 'Fountains' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -6422,15 +6438,15 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
+                                                    <li className={activeSection === 'Fountains' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/fountains`} onClick={() => this.handleLinkClick('Fountains')}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
@@ -6445,7 +6461,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Aquascapes' ? (
+                            ) : activeSection === 'Aquascapes' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -6666,12 +6682,12 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes </Link></li>
+                                                    <li className={activeSection === 'Aquascapes' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/aquascapes`} onClick={() => this.handleLinkClick('Aquascapes')}>Aquascapes </Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
@@ -6689,7 +6705,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Plant Library' ? (
+                            ) : activeSection === 'Plant Library' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -6907,12 +6923,12 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+                                                    <li className={activeSection === 'Plant Library' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/plantLibrary`} onClick={() => this.handleLinkClick('Plant Library')}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
@@ -6930,7 +6946,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'INDOOR & OUTDOOR' ? (
+                            ) : activeSection === 'INDOOR & OUTDOOR' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -7148,13 +7164,13 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+                                                    <li className={activeSection === 'INDOOR & OUTDOOR' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`} onClick={() => this.handleLinkClick('INDOOR & OUTDOOR')}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
@@ -7171,7 +7187,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Succulent' ? (
+                            ) : activeSection === 'Succulent' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -7388,14 +7404,14 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
+                                                    <li className={activeSection === 'Succulent' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/succulent`} onClick={() => this.handleLinkClick('Succulent')}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
@@ -7411,7 +7427,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'MAINTENANCE & SERVICES' ? (
+                            ) : activeSection === 'MAINTENANCE & SERVICES' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -7630,15 +7646,15 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
+                                                    <li className={activeSection === 'Maintenance & Services' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}onClick={() => this.handleLinkClick('Maintenance & Services')}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
@@ -7653,7 +7669,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'DecorativePots' ? (
+                            ) : activeSection === 'DecorativePots' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -7871,16 +7887,16 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
+                                                    <li className={activeSection === 'Decorative Pots' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/decorativePots`} onClick={() => this.handleLinkClick('Decorative Pots')}>Decorative Pots</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>
@@ -7894,7 +7910,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Plant Decoration' ? (
+                            ) : activeSection === 'Plant Decoration' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -8112,17 +8128,17 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
+                                                    <li className={activeSection === 'Plant Decoration' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/plantDecoration`} onClick={() => this.handleLinkClick('Plant Decoration')}>PlantDecoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>
                                             </div>
@@ -8135,7 +8151,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Plants' ? (
+                            ) : activeSection === 'Plants' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -8351,18 +8367,18 @@ export default class SingleArborManagement extends React.Component {
                                     {/* Start Sidebar */}
                                     <div className="col-xl-4">
                                         <div className="sidebar">
-                                            <ServiceSearchWidget />
+                                            {/* <ServiceSearchWidget /> */}
                                             {/* Start Sidebar Single */}
                                             <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
                                                 <h3 className="sidebar__title">Services</h3>
                                                 <ul className="sidebar__category-list">
-                                                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
+                                                    <li className={activeSection === 'Plants' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/plants`} onClick={() => this.handleLinkClick('Plants')}>Plants</Link></li>
                                                 </ul>
                                             </div>
                                             {/* End Sidebar Single */}
@@ -8834,125 +8850,143 @@ export default class SingleArborManagement extends React.Component {
 
 
 
-{/* Start Sidebar */ }
-//    <div className="col-xl-4">
-//    {para === 'Softscapes' ? (
-//        <div className="sidebar">
-//            <ServiceSearchWidget />
-
-//            {/* Start Sidebar Single */}
-
-//            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-//                <h3 className="sidebar__title">Services</h3>
-//                <ul className="sidebar__category-list">
-//                    <li className="active"><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes <span>(12)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/VegetableGarden`}>Vegetable Garden <span>(15)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/mounts`}>Mounts<span>(08)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/spiceGarden`}>Spice Garden<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/lawnExpansion`}>Lawn Expansion<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/aromaGardens`}>Aroma Gardens<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/topiaries`}>Topiaries<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/shrubPlantation`}>Shrub Plantation<span>(20)</span></Link></li>
 
 
-//                </ul>
-//            </div>
-//            {/* End Sidebar Single */}
+// import React, { Component } from 'react';
+// import { Link } from 'react-router-dom';
+// import ServiceSearchWidget from './ServiceSearchWidget'; // Adjust the import based on your file structure
 
-//            <ServiceButtonWidget />
-//            <ServiceTagsWidget />
-//            <ServiceSupportWidget />
-//        </div>
-//    ) : para === "Hardscapes" ? (
-//        <div className="sidebar">
-//            <ServiceSearchWidget />
+// class ServicesDetails extends Component {
+//     constructor(props) {
+//         super(props);
+//         // Initialize state
+//         this.state = {
+//             activeSection: props.para // Set the initial active section based on props
+//         };
+//     }
 
-//            {/* Start Sidebar Single */}
+//     // Method to handle link clicks and update the active section
+//     handleLinkClick = (section) => {
+//         this.setState({ activeSection: section });
+//     };
 
-//            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-//                <h3 className="sidebar__title">Services</h3>
-//                <ul className="sidebar__category-list">
-//                    <li className="active"><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes <span>(12)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls<span>(15)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens<span>(08)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/pathways`}>Pathways<span>(20)</span></Link></li>
+//     render() {
+//         const { activeSection } = this.state;
+//         const { publicUrl, para } = this.props;
 
+//         return (
+//             <section className="services-details">
+//                 <div className="container">
+//                     {activeSection === 'Hardscapes' ? (
+//                         <div className="row">
+//                             {/* Start Services Details Content */}
+//                             <div className="col-xl-8">
+//                                 <div className="services-details__content">
+//                                     <h2>Hardscapes In Hirwai</h2>
+//                                     {/* ... other content for Hardscapes ... */}
+//                                 </div>
+//                             </div>
+//                             {/* Start Sidebar */}
+//                             <div className="col-xl-4">
+//                                 <div className="sidebar">
+//                                     <ServiceSearchWidget />
+//                                     {/* Start Sidebar Single */}
+//                                     <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
+//                                         <h3 className="sidebar__title">Services</h3>
+//                                         <ul className="sidebar__category-list">
+//                                             <li className={activeSection === 'Hardscapes' ? 'active' : ''}>
+//                                                 <Link to={process.env.PUBLIC_URL + `/hardscapes`} onClick={() => this.handleLinkClick('Hardscapes')}>Hardscapes</Link>
+//                                             </li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/designerWalls`}>Designer Walls</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/rockGardens`}>Rock Gardens</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/pathways`}>Pathways</Link></li>
+//                                         </ul>
+//                                     </div>
+//                                     {/* End Sidebar Single */}
+//                                 </div>
+//                             </div>
+//                             {/* End Sidebar */}
+//                         </div>
+//                     ) : activeSection === 'MAINTENANCE & SERVICES' ? (
+//                         <div className="row">
+//                             {/* Start Services Details Content */}
+//                             <div className="col-xl-8">
+//                                 <div className="services-details__content">
+//                                     <h2>Maintenance and Services In Hirwai</h2>
+//                                     {/* ... other content for Maintenance & Services ... */}
+//                                 </div>
+//                             </div>
+//                             {/* Start Sidebar */}
+//                             <div className="col-xl-4">
+//                                 <div className="sidebar">
+//                                     <ServiceSearchWidget />
+//                                     {/* Start Sidebar Single */}
+//                                     <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
+//                                         <h3 className="sidebar__title">Services</h3>
+//                                         <ul className="sidebar__category-list">
+//                                             <li className={activeSection === 'MAINTENANCE & SERVICES' ? 'active' : ''}>
+//                                                 <Link to={process.env.PUBLIC_URL + `/maintenanceNServices`} onClick={() => this.handleLinkClick('MAINTENANCE & SERVICES')}>Maintenance & Services</Link>
+//                                             </li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>Plant Decoration</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
+//                                         </ul>
+//                                     </div>
+//                                     {/* End Sidebar Single */}
+//                                 </div>
+//                             </div>
+//                             {/* End Sidebar */}
+//                         </div>
+//                     ) : activeSection === 'DecorativePots' ? (
+//                         <div className="row">
+//                             {/* Start Services Details Content */}
+//                             <div className="col-xl-8">
+//                                 <div className="services-details__content">
+//                                     <h2>Decoration Pots In Hirwai</h2>
+//                                     {/* ... other content for Decorative Pots ... */}
+//                                 </div>
+//                             </div>
+//                             {/* Start Sidebar */}
+//                             <div className="col-xl-4">
+//                                 <div className="sidebar">
+//                                     <ServiceSearchWidget />
+//                                     {/* Start Sidebar Single */}
+//                                     <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
+//                                         <h3 className="sidebar__title">Services</h3>
+//                                         <ul className="sidebar__category-list">
+//                                             <li className={activeSection === 'DecorativePots' ? 'active' : ''}>
+//                                                 <Link to={process.env.PUBLIC_URL + `/decorativePots`} onClick={() => this.handleLinkClick('DecorativePots')}>Decorative Pots</Link>
+//                                             </li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>Plant Decoration</Link></li>
+//                                             <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
+//                                         </ul>
+//                                     </div>
+//                                     {/* End Sidebar Single */}
+//                                 </div>
+//                             </div>
+//                             {/* End Sidebar */}
+//                         </div>
+//                     ) : (
+//                         <h1>Content Not Found</h1>
+//                     )}
+//                 </div>
+//             </section>
+//         );
+//     }
+// }
 
-//                </ul>
-//            </div>
-//            {/* End Sidebar Single */}
-
-//            <ServiceButtonWidget />
-//            <ServiceTagsWidget />
-//            <ServiceSupportWidget />
-//        </div>
-//    ) : para === "Aquascapes" ? (
-//        <div className="sidebar">
-//            <ServiceSearchWidget />
-
-//            {/* Start Sidebar Single */}
-
-//            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-//                <h3 className="sidebar__title">Services</h3>
-//                <ul className="sidebar__category-list">
-//                    <li className="active"><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes <span>(12)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds<span>(15)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems<span>(08)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace<span>(20)</span></Link></li>
-//                </ul>
-//            </div>
-//            {/* End Sidebar Single */}
-
-//            <ServiceButtonWidget />
-//            <ServiceTagsWidget />
-//            <ServiceSupportWidget />
-//        </div>
-//    ) : para === "Plant Library" ? (
-//        <div className="sidebar">
-//            <ServiceSearchWidget />
-
-//            {/* Start Sidebar Single */}
-
-//            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-//                <h3 className="sidebar__title">Services</h3>
-//                <ul className="sidebar__category-list">
-//                    <li className="active"><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library <span>(12)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor<span>(15)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent<span>(08)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration<span>(20)</span></Link></li>
-//                    <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants<span>(20)</span></Link></li>
-//                </ul>
-//            </div>
-//            {/* End Sidebar Single */}
-
-//            <ServiceButtonWidget />
-//            <ServiceTagsWidget />
-//            <ServiceSupportWidget />
-//        </div>
-//    ) : (
-//        <div className="sidebar">
-//            <ServiceSearchWidget />
-
-//            {/* Start Sidebar Single */}
-
-
-//            {/* End Sidebar Single */}
-
-//            <ServiceButtonWidget />
-//            <ServiceTagsWidget />
-//            <ServiceSupportWidget />
-//        </div>)}
-// </div>
-{/* End Sidebar */ }
+// export default ServicesDetails;

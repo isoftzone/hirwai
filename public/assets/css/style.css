@@ -2621,11 +2621,26 @@ Main Header Two
 Main Header Three
 =====================================================
 ***/
-.main-header-three {
+
+/* .main-header-three {
   position: relative;
   display: block;
   background: var(--thm-black);
   z-index: 10;
+} */
+
+
+
+.main-header-three {
+  position: sticky; /* Change from relative to sticky */
+  top: 0; /* Stick to the top */
+  display: block;
+  background: var(--thm-black);
+  z-index: 10;
+}
+
+.main-header-three.sticky {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .main-header-three .main-menu__wrapper-inner {
@@ -2729,7 +2744,7 @@ Main Header Three
   padding: 43px 20px 42px;
   z-index: 1;
   /* right: 17px; */
-  left: 43px;
+  left: 24%;
 }
 
 .main-header-three__middle .logo-box-one::before {
