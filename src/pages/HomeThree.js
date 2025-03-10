@@ -21,7 +21,7 @@ const HomeThree = () => {
         <>
             <HeaderThree />
             <HeroThree />
-            <WorkProcessFour />
+            <WorkProcessFour/>
             <AboutThree />
             <ServiceThree />
             <CounterOne />

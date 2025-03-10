@@ -29,13 +29,13 @@
   --thm-black-rgb: 18, 51, 22;
 }
 
-link[rel="icon"] {
-  /* background-color: red !important; */
-  border-radius:50% !important;
-  /* filter: hue-rotate(180deg); Change to a different hue */
+.icon-call:before {
+  content: "\e93e";
 }
 
-
+.icon-youtube:before {
+  content: "\ea9d" /* This Unicode may vary */
+}
 
 
 .auto-container {
@@ -2621,11 +2621,26 @@ Main Header Two
 Main Header Three
 =====================================================
 ***/
-.main-header-three {
+
+/* .main-header-three {
   position: relative;
   display: block;
   background: var(--thm-black);
   z-index: 10;
+} */
+
+
+
+.main-header-three {
+  position: sticky; /* Change from relative to sticky */
+  top: 0; /* Stick to the top */
+  display: block;
+  background: var(--thm-black);
+  z-index: 10;
+}
+
+.main-header-three.sticky {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .main-header-three .main-menu__wrapper-inner {
@@ -2729,7 +2744,7 @@ Main Header Three
   padding: 43px 20px 42px;
   z-index: 1;
   /* right: 17px; */
-  left: 43px;
+  left: 24%;
 }
 
 .main-header-three__middle .logo-box-one::before {
@@ -5043,14 +5058,39 @@ Projects One
 Work Process One
 =============================================
 ***/
+
+.row.filter-layout.masonary-layout {
+  display: flex;
+  flex-wrap: nowrap; /* Ensures items wrap if necessary */
+  justify-content: center; /* Centers all items */
+  /* align-items: center; */
+  /* gap: 20px; Adjust spacing between items */
+  max-width: 1200px; /* Prevents excessive stretching */
+  margin: 0 auto; /* Centers the row */
+  padding: 20px 0;
+  /* overflow: hidden; Removes horizontal scrolling */
+}
+
 .work-process-one {
   position: relative;
   display: block;
   background: #ffffff;
   padding: 120px 0px 90px;
+  display: flex;
   counter-reset: count;
+  flex-wrap: wrap; /* Allows multiple items in a row */
   z-index: 1;
 }
+
+/* .work-process-one {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap; /* Allows multiple items in a row */
+  /* justify-content: center; Ensures the row is centered */
+  /* background: #ffffff; */
+  /* padding: 80px 20px; */
+  /* z-index: 1; */
+/* }  */
 
 .work-process-one .shape1 {
   position: absolute;
@@ -5071,7 +5111,7 @@ Work Process One
 
 .work-process-one .shape2 {
   position: absolute;
-  top: 335px;
+  top: 262px;
   left: 0;
   right: 0;
   text-align: center;
@@ -5084,13 +5124,32 @@ Work Process One
   margin-bottom: 30px;
 }
 
-.work-process-one__single.mt100 {
+.work-process-one__single.mt100,
+.work-process-one__single.mt50 {
+  margin-top: 0; /* Remove the offset that misaligns them */
+}
+
+
+/* .work-process-one__single {
+  flex: 1 1 16%; /* Ensures 6 items in one row */
+  /* min-width: 180px; Prevents items from shrinking too much */
+  /* max-width: 200px; Prevents items from growing too large */
+  /* text-align: center; */
+  /* margin-bottom: 20px; */
+/* }  */
+/* .work-process-one__single {
+  flex: 1; /* Ensures equal width */
+  /* min-width: 200px; Prevents shrinking too much */
+  /* margin-bottom: 0; Remove extra spacing */
+/* } */ 
+
+ .work-process-one__single.mt100 {
   margin-top: 100px;
 }
 
 .work-process-one__single.mt50 {
   margin-top: 50px;
-}
+} 
 
 .work-process-one__single-icon {
   position: relative;
@@ -5098,6 +5157,21 @@ Work Process One
   width: 150px;
   margin: 0 auto 23px;
 }
+
+
+/* .work-process-one__single-icon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #8BC34A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin: 0 auto 15px;
+} */
 
 .work-process-one__single-icon .count-box {
   position: absolute;
@@ -5223,11 +5297,18 @@ Work Process One
 .work-process-one__single-content h2 {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: capitalize;
   letter-spacing: -0.02em;
   margin-bottom: 2px;
 }
+
+
+/* .work-process-one__single-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+} */
 
 .work-process-one__single-content h2 a {
   color: var(--thm-black);
@@ -5243,7 +5324,10 @@ Work Process One
   margin: 0;
 }
 
-
+/* .work-process-one__single-content p {
+  font-size: 14px;
+  color: #777;
+} */
 /***
 =============================================
 Faq One
@@ -10891,125 +10975,7 @@ Projects Three
 .projects-three__carousel.owl-carousel .owl-nav.disabled {
   display: block;
 }
-/* //------------------------------------------------------------------------------------------- */
 
-.projects-threeTwo__carousel.owl-carousel  {
-  display: block;
-  height: 130px;
-}
-
-.projects-threeTwo__single {
-  position: relative;
-  display: block;
-}
-
-.projects-threeTwo__single.mt45 {
-  margin-top: 45px;
-}
-
-.projects-threeTwo__single-img {
-  position: relative;
-  display: block;
-  width: 230px;
-  overflow: hidden;
-  /* border-radius: 10px; */
-}
-
-
-.projects-threeTwo__single-img::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition-delay: .1s;
-  transition-timing-function: ease-in-out;
-  transition-duration: .7s;
-  transition-property: all;
-  background: rgba(var(--thm-base-rgb), 0.5);
-  opacity: 0;
-  z-index: 1;
-  content: "";
-}
-
-.projects-threeTwo__single:hover .projects-threeTwo__single-img::before {
-  opacity: 1;
-}
-
-
-.projects-threeTwo__single-img img {
-  width: 100%;
-  transition: .5s ease;
-  transform: scale(1.05);
-}
-
-.projects-threeTwo__single:hover .projects-threeTwo__single-img img {
-  transform: scale(1);
-}
-
-.projects-threeTwo__single-img .overlay-content {
-  position: absolute;
-  top: 100px;
-  left: 0;
-  bottom: 100px;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  width: max-content;
-  text-align: center;
-  padding: 0px 23px 0px 19px;
-  z-index: 5;
-  -webkit-transform: perspective(400px) rotateY(40deg) scaleY(0.7);
-  -ms-transform: perspective(400px) rotateY(40deg) scaleY(0.7);
-  transform: perspective(400px) rotateY(40deg) scaleY(0.7);
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  transition-delay: .1s;
-  transition-timing-function: ease-in-out;
-  transition-duration: .5s;
-  transition-property: all;
-  opacity: 0;
-}
-
-.projects-threeTwo__single:hover .projects-threeTwo__single-img .overlay-content {
-  -webkit-transform: perspective(400px) rotateY(0deg) scaleY(1.0);
-  -ms-transform: perspective(400px) rotateY(0deg) scaleY(1.0);
-  transform: perspective(400px) rotateY(0deg) scaleY(1.0);
-  transition-delay: .1s;
-  transition-timing-function: ease-in-out;
-  transition-duration: .7s;
-  transition-property: all;
-  opacity: 1;
-}
-
-
-.projects-threeTwo__single-img .overlay-content::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(var(--thm-primary-rgb), 0.9);
-  clip-path: polygon(0 0, 100% 5%, 100% 94%, 0% 100%);
-  content: "";
-}
-
-.projects-threeTwo__single-img .overlay-content h2 {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
-  text-transform: capitalize;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(180deg);
-  width: max-content;
-  text-align: center;
-}
-
-.projects-threeTwo__single-img .overlay-content h2 a {
-  color: #ffffff;
-}
-/* //--------------------------------------------------------------------------------------- */
 .projects-three .owl-theme .owl-nav {
   position: absolute;
   margin-top: 0;
@@ -11044,21 +11010,11 @@ Projects Three
   color: #ffffff;
 }
 
-.container .projects-three-brand{
-  height: 670px;
-  padding-top: 584px;
-}
 .projects-three-brand {
   position: relative;
   display: block;
- 
   padding: 144px 0 0px;
-  /* padding: 591px 0 0px; */
   z-index: 2;
-}
-.swiper-wrapper {
-  display: flex !important;
-  
 }
 
 .projects-three-brand .auto-container {
@@ -12590,9 +12546,16 @@ Blog Page
     Sidebar
 =====================================================
 ***/
-.sidebar {
+/* .sidebar {
   position: relative;
   display: block;
+} */
+.sidebar {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 20px; /* Adjust this value as needed */
+  height: calc(100vh - 20px); /* Adjust this value based on your layout */
+  overflow-y:hidden; /* Allows scrolling if the content exceeds the height */
 }
 
 .sidebar__single+.sidebar__single {
@@ -13677,6 +13640,7 @@ Contact Page Bottom
 Services Details
 =============================================
 ***/
+
 .services-details {
   position: relative;
   display: block;

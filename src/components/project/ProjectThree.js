@@ -1,80 +1,261 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
-export default class ProjectThree extends Component {
+// export default class ProjectThree extends Component {
+//     componentDidMount() {
+//         const $ = window.$; // Ensure jQuery is available globally
+
+//         // Initialize Owl Carousel for .projects-three__carousel
+//         $(".projects-three__carousel").owlCarousel({
+//             loop: true,
+//             margin: 30,
+//             nav: true,
+//             smartSpeed: 1000,
+//             autoHeight: false,
+//             autoplay: true,
+//             dots: false,
+//             autoplayTimeout: 10000,
+//             navText: [
+//                 '<span class="icon-left-arrow"></span>',
+//                 '<span class="icon-right-arrow"></span>',
+//             ],
+//             responsive: {
+//                 0: { items: 1 },
+//                 768: { items: 2 },
+//                 992: { items: 3 },
+//                 1200: { items: 4 },
+//             },
+//         });
+
+//         // Initialize Owl Carousel for .projects-threeTwo__carousel
+//         $(".projects-threeTwo__carousel").owlCarousel({
+//             loop: true,
+//             margin: 0,
+//             nav: true,
+//             smartSpeed: 1000,
+//             autoHeight: false,
+//             autoplay: true,
+//             dots: false,
+//             autoplayTimeout: 10000,
+//             navText: [
+//                 '<span class="icon-left-arrow"></span>',
+//                 '<span class="icon-right-arrow"></span>',
+//             ],
+//             responsive: {
+//                 0: { items: 2 },
+//                 768: { items: 3 },
+//                 992: { items: 4 },
+//                 1200: { items: 5 },
+//             },
+//         });
+//     }
+
+//     render() {
+//         let publicUrl = process.env.PUBLIC_URL + '/';
+
+//         return (
+//             <>
+//                 <section className="projects-three">
+//                     <div className="projects-three__bg" style={{ backgroundImage: `url(${publicUrl}assets/images/backgrounds/Slider8.png)` }}></div>
+//                     <div className="projects-three__bg-two" style={{ backgroundImage: `url(${publicUrl}assets/images/backgrounds/Slider12.png)` }}>
+//                         <ul className="projects-three__bg-two-content">
+//                             <li className="text-center">
+//                                 <div className="icon-box">
+//                                     <span className="icon-watering-plants"></span>
+//                                 </div>
+//                                 <div className="title-box">
+//                                     <h2><a href="#">Take Care <br /> More</a></h2>
+//                                 </div>
+//                             </li>
+//                             <li className="text-center">
+//                                 <div className="icon-box">
+//                                     <span className="icon-pruning-shears"></span>
+//                                 </div>
+//                                 <div className="title-box">
+//                                     <h2><a href="#">Take Care <br /> More</a></h2>
+//                                 </div>
+//                             </li>
+//                         </ul>
+//                     </div>
+//                     <div className="container">
+//                         <div className="row filter-layout masonary-layout">
+//                             <div className="col-xl-12">
+//                                 <div className="projects-three__inner">
+//                                     <div className="sec-title-three">
+//                                         <div className="sec-title-three__tagline">
+//                                             <h6>Our Portfolio</h6>
+//                                         </div>
+//                                         <h2 className="sec-title-three__title">Our latest projects</h2>
+//                                     </div>
+
+//                                     {/* Owl Carousel for Project Items */}
+//                                     <div className="owl-carousel owl-theme projects-three__carousel">
+//                                         <div className="projects-three__single">
+//                                             <div className="projects-three__single-img">
+//                                                 <img src={`${publicUrl}assets/images/project/Slider2.png`} alt="#" />
+//                                                 <div className="overlay-content">
+//                                                     <h2><a href="#">Landscaping</a></h2>
+//                                                 </div>
+//                                             </div>
+//                                         </div>
+//                                         <div className="projects-three__single mt45">
+//                                             <div className="projects-three__single-img">
+//                                                 <img src={`${publicUrl}assets/images/project/Slider3.png`} alt="#" />
+//                                                 <div className="overlay-content">
+//                                                     <h2><a href="#">Landscaping</a></h2>
+//                                                 </div>
+//                                             </div>
+//                                         </div>
+//                                         <div className="projects-three__single">
+//                                             <div className="projects-three__single-img">
+//                                                 <img src={`${publicUrl}assets/images/project/Slider4.png`} alt="#" />
+//                                                 <div className="overlay-content">
+//                                                     <h2><a href="#">Landscaping</a></h2>
+//                                                 </div>
+//                                             </div>
+//                                         </div>
+//                                         <div className="projects-three__single mt45">
+//                                             <div className="projects-three__single-img">
+//                                                 <img src={`${publicUrl}assets/images/project/Slider5.png`} alt="#" />
+//                                                 <div className="overlay-content">
+//                                                     <h2><a href="#">Landscaping</a></h2>
+//                                                 </div>
+//                                             </div>
+//                                         </div>
+//                                     </div>
+//                                     {/* End Owl Carousel */}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+
+//                     {/* Brand Carousel */}
+//                     <div className="projects-three-brand">
+//                         <div className="auto-container">
+//                             <div className="owl-carousel owl-theme projects-threeTwo__carousel">
+//                                 <div className="projects-threeTwo__single">
+//                                     <div className="projects-threeTwo__single-img">
+//                                         <img src={`${publicUrl}assets/images/brand/brand1.png`} alt="#" />
+//                                     </div>
+//                                 </div>
+//                                 <div className="projects-threeTwo__single">
+//                                     <div className="projects-threeTwo__single-img">
+//                                         <img src={`${publicUrl}assets/images/brand/brand2.png`} alt="#" />
+//                                     </div>
+//                                 </div>
+//                                 <div className="projects-threeTwo__single">
+//                                     <div className="projects-threeTwo__single-img">
+//                                         <img src={`${publicUrl}assets/images/brand/brand3.png`} alt="#" />
+//                                     </div>
+//                                 </div>
+//                                 <div className="projects-threeTwo__single">
+//                                     <div className="projects-threeTwo__single-img">
+//                                         <img src={`${publicUrl}assets/images/brand/brand4.png`} alt="#" />
+//                                     </div>
+//                                 </div>
+//                                 <div className="projects-threeTwo__single">
+//                                     <div className="projects-threeTwo__single-img">
+//                                         <img src={`${publicUrl}assets/images/brand/brand5.png`} alt="#" />
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </section>
+//             </>
+//         );
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React from 'react';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from 'swiper';
+export default class ProjectThree extends React.Component {
     componentDidMount() {
-        const $ = window.$; // Ensure jQuery is available globally
 
-        // Initialize Owl Carousel for .projects-three__carousel
-        $(".projects-three__carousel").owlCarousel({
-            loop: true,
-            margin: 30,
-            nav: true,
-            smartSpeed: 1000,
-            autoHeight: false,
-            autoplay: true,
-            dots: false,
-            autoplayTimeout: 10000,
-            navText: [
+        const $ = window.$;
+
+        if ($(".projects-three__carousel").length) {
+            $(".projects-three__carousel").owlCarousel({
+              loop: true,
+              margin: 30,
+              nav: true,
+            //   smartSpeed: 500,
+              autoHeight: false,
+              autoplay: true,
+              dots: false,
+              autoplayTimeout: 8000,
+              navText: [
                 '<span class="icon-left-arrow"></span>',
                 '<span class="icon-right-arrow"></span>',
-            ],
-            responsive: {
-                0: { items: 1 },
-                768: { items: 2 },
-                992: { items: 3 },
-                1200: { items: 4 },
-            },
-        });
-
-        // Initialize Owl Carousel for .projects-threeTwo__carousel
-        $(".projects-threeTwo__carousel").owlCarousel({
-            loop: true,
-            margin: 0,
-            nav: true,
-            smartSpeed: 1000,
-            autoHeight: false,
-            autoplay: true,
-            dots: false,
-            autoplayTimeout: 10000,
-            navText: [
-                '<span class="icon-left-arrow"></span>',
-                '<span class="icon-right-arrow"></span>',
-            ],
-            responsive: {
-                0: { items: 2 },
-                768: { items: 3 },
-                992: { items: 4 },
-                1200: { items: 5 },
-            },
-        });
+              ],
+              responsive: {
+                0: {
+                  items: 4,
+                },
+                768: {
+                  items: 4,
+                },
+                992: {
+                  items: 4,
+                },
+                1200: {
+                  items: 4,
+                },
+              },
+            });
+        }
+    
     }
-
-    render() {
-        let publicUrl = process.env.PUBLIC_URL + '/';
-
+    render(){
+        let publicUrl = process.env.PUBLIC_URL+'/'
         return (
             <>
                 <section className="projects-three">
-                    <div className="projects-three__bg" style={{ backgroundImage: `url(${publicUrl}assets/images/backgrounds/Slider8.png)` }}></div>
-                    <div className="projects-three__bg-two" style={{ backgroundImage: `url(${publicUrl}assets/images/backgrounds/Slider12.png)` }}>
+                    <div className="projects-three__bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/Slider8.png)'}}></div>
+                    <div className="projects-three__bg-two" style={{backgroundImage: 'url('+publicUrl+'assets/images/project/Slider12.png)'}}>
+
                         <ul className="projects-three__bg-two-content">
                             <li className="text-center">
                                 <div className="icon-box">
                                     <span className="icon-watering-plants"></span>
                                 </div>
+
                                 <div className="title-box">
                                     <h2><a href="#">Take Care <br /> More</a></h2>
                                 </div>
                             </li>
+
                             <li className="text-center">
                                 <div className="icon-box">
                                     <span className="icon-pruning-shears"></span>
                                 </div>
+
                                 <div className="title-box">
                                     <h2><a href="#">Take Care <br /> More</a></h2>
                                 </div>
                             </li>
                         </ul>
+
                     </div>
                     <div className="container">
                         <div className="row filter-layout masonary-layout">
@@ -87,82 +268,146 @@ export default class ProjectThree extends Component {
                                         <h2 className="sec-title-three__title">Our latest projects</h2>
                                     </div>
 
-                                    {/* Owl Carousel for Project Items */}
-                                    <div className="owl-carousel owl-theme projects-three__carousel">
+                                    <div className="owl-carousel owl-theme thm-owl__carousel projects-three__carousel">
+
+                                        {/* Start Projects Three Single */}
                                         <div className="projects-three__single">
                                             <div className="projects-three__single-img">
-                                                <img src={`${publicUrl}assets/images/project/Slider2.png`} alt="#" />
+                                                <img src={publicUrl+"assets/images/project/Slider2.png"} alt="#" />
                                                 <div className="overlay-content">
                                                     <h2><a href="#">Landscaping</a></h2>
                                                 </div>
                                             </div>
                                         </div>
+                                        {/* End Projects Three Single */}
+
+                                        {/* Start Projects Three Single */}
                                         <div className="projects-three__single mt45">
                                             <div className="projects-three__single-img">
-                                                <img src={`${publicUrl}assets/images/project/Slider3.png`} alt="#" />
+                                                <img src={publicUrl+"assets/images/project/Slider3.png"} alt="#" />
                                                 <div className="overlay-content">
                                                     <h2><a href="#">Landscaping</a></h2>
                                                 </div>
                                             </div>
                                         </div>
+                                        {/* End Projects Three Single */}
+
+                                        {/* Start Projects Three Single */}
                                         <div className="projects-three__single">
                                             <div className="projects-three__single-img">
-                                                <img src={`${publicUrl}assets/images/project/Slider4.png`} alt="#" />
+                                                <img src={publicUrl+"assets/images/project/Slider4.png"} alt="#" />
                                                 <div className="overlay-content">
                                                     <h2><a href="#">Landscaping</a></h2>
                                                 </div>
                                             </div>
                                         </div>
+                                        {/* End Projects Three Single */}
+
+                                        {/* Start Projects Three Single */}
                                         <div className="projects-three__single mt45">
                                             <div className="projects-three__single-img">
-                                                <img src={`${publicUrl}assets/images/project/Slider5.png`} alt="#" />
+                                                <img src={publicUrl+"assets/images/project/Slider5.png"} alt="#" />
                                                 <div className="overlay-content">
                                                     <h2><a href="#">Landscaping</a></h2>
                                                 </div>
                                             </div>
                                         </div>
+                                        {/* End Projects Three Single */}
                                     </div>
-                                    {/* End Owl Carousel */}
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    {/* Brand Carousel */}
+                    {/* Start Projects Three Brand */}
                     <div className="projects-three-brand">
                         <div className="auto-container">
-                            <div className="owl-carousel owl-theme projects-threeTwo__carousel">
-                                <div className="projects-threeTwo__single">
-                                    <div className="projects-threeTwo__single-img">
-                                        <img src={`${publicUrl}assets/images/brand/brand1.png`} alt="#" />
-                                    </div>
+                            <Swiper 
+                             
+                                loop={true}
+                                spaceBetween={100}
+                                slidesPerView={5}
+                                speed={1400}
+                                freeMode={true}
+                                 modules={[Autoplay, Navigation]}
+                                watchSlidesVisibility={true}
+                                watchSlidesProgress={true}
+                                autoplay={{delay:8000}}
+                                breakpoints={{
+                                    0: {
+                                        spaceBetween: 30,
+                                        slidesPerView: 1
+                                    },
+                                    375: {
+                                        spaceBetween: 30,
+                                        slidesPerView: 1
+                                    },
+                                    575: {
+                                        spaceBetween: 30,
+                                        slidesPerView: 2
+                                    },
+                                    768: {
+                                        spaceBetween: 30,
+                                        slidesPerView: 3
+                                    },
+                                    992: {
+                                        spaceBetween: 30,
+                                        slidesPerView: 4
+                                    },
+                                     1200: {
+                                        spaceBetween: 30,
+                                        slidesPerView: 5
+                                    },
+                                  
+                                }}
+                                className="thm-swiper__slider swiper-container">
+                                <div className="swiper-wrapper">
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand1.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand2.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand3.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand4.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand5.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand6.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand7.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand8.png"} alt="#" />
+                                    </SwiperSlide>
+
+                                      <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand9.png"} alt="#" />
+                                    </SwiperSlide> 
+                                     <SwiperSlide className="swiper-slide">
+                                        <img src={publicUrl+"assets/images/brand/brand10.png"} alt="#" />
+                                    </SwiperSlide>
                                 </div>
-                                <div className="projects-threeTwo__single">
-                                    <div className="projects-threeTwo__single-img">
-                                        <img src={`${publicUrl}assets/images/brand/brand2.png`} alt="#" />
-                                    </div>
-                                </div>
-                                <div className="projects-threeTwo__single">
-                                    <div className="projects-threeTwo__single-img">
-                                        <img src={`${publicUrl}assets/images/brand/brand3.png`} alt="#" />
-                                    </div>
-                                </div>
-                                <div className="projects-threeTwo__single">
-                                    <div className="projects-threeTwo__single-img">
-                                        <img src={`${publicUrl}assets/images/brand/brand4.png`} alt="#" />
-                                    </div>
-                                </div>
-                                <div className="projects-threeTwo__single">
-                                    <div className="projects-threeTwo__single-img">
-                                        <img src={`${publicUrl}assets/images/brand/brand5.png`} alt="#" />
-                                    </div>
-                                </div>
-                            </div>
+                            </Swiper>
                         </div>
                     </div>
+                    {/* End Projects Three Brand */}
                 </section>
             </>
-        );
+        )
     }
 }
 
@@ -278,16 +523,3 @@ export default class ProjectThree extends Component {
 //         );
 //     }
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-

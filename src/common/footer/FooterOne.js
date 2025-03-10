@@ -96,7 +96,7 @@ export default class FooterOne extends React.Component {
                                                         <p>
                                                          1103 Ambika, Sardar Height, Tithal Road, Valsad, Gujrat 396001 <br/>
                                                             </p>
-                                                        <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a>
+                                                        <a href="mailto:hirwailandscapers@gmail.com">hirwailandscapers@gmail.com</a>
                                                     
                                                     </div>
                                                 </div>
@@ -109,7 +109,7 @@ export default class FooterOne extends React.Component {
                                                 
                                                 <li><Link to={`https://www.youtube.com/@Hirwailandscape`}><span class="icon-play"></span></Link></li>
                                                 <li><Link to={`https://www.pinterest.com/hirwailandscape/?invite_code=71376df149cc401faec1abf513263ccb&sender=572098096322986051`}><span class="icon-pinterest"></span></Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + `/https://www.instagram.com/hirwai_landscape/?igsh=bDlvaGxvdWlyM2M%3D&utm_source=qr#`}><span class="icon-instagram"></span></Link></li>
+                                                <li><Link to={`https://www.instagram.com/hirwai_landscape/?igsh=bDlvaGxvdWlyM2M%3D&utm_source=qr#`}><span class="icon-instagram"></span></Link></li>
                                             </ul>
 
                                             <div class="footer-one__right-bottom-contact">
@@ -118,7 +118,7 @@ export default class FooterOne extends React.Component {
                                                 </div>
                                                 <div class="content-box" >
                                                     <p>Call Anytime</p>
-                                                    <h4><a href="tel:9288006780">+91-96875-83548</a></h4>
+                                                    <h4><a href="tel:96875-83548">+91-96875-83548</a></h4>
                                                 </div>
                                             </div>
 
