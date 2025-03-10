@@ -23,7 +23,7 @@ const menuData = [
             },
             {
                 title: 'Home Three',
-                path: '/home-three',
+                path: '/',
             },
         ],
     },
