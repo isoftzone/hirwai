@@ -79,7 +79,7 @@ const Nav = () => {
     return (
         <ul className="main-menu__list">
             {/* Home Section (Default Active) */}
-            <li className={location.pathname === "/home-three" ? "dropdown current" : "dropdown"}>
+            <li className={location.pathname === "/" ? "dropdown current" : "dropdown"}>
                 <Link to={process.env.PUBLIC_URL + `/home-three`}>Home <span className="line"></span></Link>
                 {/* <ul>
                     <li><Link to={process.env.PUBLIC_URL + `/`}>Home One</Link></li>
