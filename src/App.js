@@ -82,7 +82,7 @@ function App() {
       <ScrollToTopRoute />
       
         <Routes>
-            <Route path={`${process.env.PUBLIC_URL}/`} exact element={<HomeDefault />} />
+            <Route path={`${process.env.PUBLIC_URL}/home-three`} exact element={<HomeThree />} />
             <Route path={`${process.env.PUBLIC_URL}/home-two`} exact element={<HomeTwo />} />
             <Route path={`${process.env.PUBLIC_URL}/home-three`} exact element={<HomeThree />} />
             <Route path={`${process.env.PUBLIC_URL}/about`} exact element={<About />} />
