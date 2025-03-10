@@ -8,7 +8,7 @@ export default class WorkProcessFour extends React.Component {
             <>
                 <section className="work-process-one">
                     <div className="shape1"></div>
-                    <div className="shape2"><img src={publicUrl+"assets/images/shapes/work-process-v1-shape1.png"} alt="#" /></div>
+                    {/* <div className="shape2"><img src={publicUrl+"assets/images/shapes/work-process-v1-shape1.png"} alt="#" /></div> */}
                     <div className="container">
                         <div className="sec-title text-center">
                             <div className="sec-title__tagline">

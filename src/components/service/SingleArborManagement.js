@@ -7213,7 +7213,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/plant-library/succulent/content1.png"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/plant-library/succulent/content2.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -7896,7 +7896,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/indoorNOutdoor`}>Indoor & Outdoor</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
-                                                    <li className={activeSection === 'Decorative Pots' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/decorativePots`} onClick={() => this.handleLinkClick('Decorative Pots')}>Decorative Pots</Link></li>
+                                                    <li className={activeSection === 'DecorativePots' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/decorativePots`} onClick={() => this.handleLinkClick('DecorativePots')}>Decorative Pots</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>

@@ -96,7 +96,7 @@ export default class FooterOne extends React.Component {
                                                         <p>
                                                          1103 Ambika, Sardar Height, Tithal Road, Valsad, Gujrat 396001 <br/>
                                                             </p>
-                                                        <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a>
+                                                        <a href="mailto:hirwailandscapers@gmail.com">hirwailandscapers@gmail.com</a>
                                                     
                                                     </div>
                                                 </div>
@@ -118,7 +118,7 @@ export default class FooterOne extends React.Component {
                                                 </div>
                                                 <div class="content-box" >
                                                     <p>Call Anytime</p>
-                                                    <h4><a href="tel:9288006780">+91-96875-83548</a></h4>
+                                                    <h4><a href="tel:96875-83548">+91-96875-83548</a></h4>
                                                 </div>
                                             </div>
 

@@ -23,7 +23,7 @@ const About = () => {
             <ServiceThree />
             <CounterOne />
             <TestimonialTwo />
-            <TeamThree />
+            {/* <TeamThree /> */}
             <FooterOne />
         </>
     )
