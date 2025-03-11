@@ -42,7 +42,7 @@ export default class ContactMap extends React.Component {
                                                         </div>
 
                                                         <div className="content-box">
-                                                            <p><a href="tel:12345615523">+91-96875 83548
+                                                            <p><a href="tel:12345615523">+91-91759 32372
                                                         </a></p>
                                                         </div>
                                                     </div>

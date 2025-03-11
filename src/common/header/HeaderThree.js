@@ -60,15 +60,17 @@ export default class HeaderThree extends React.Component {
 
                                             <div className="content-box">
                                                 <p>Call In Anytime</p>
-                                                <a href="tel:9288006780">+91-96875 83548</a>
+                                                <a href="tel:9288006780">+91-91759 32372</a>
                                             </div>
                                         </div>
 
                                         <SearchButton />
 
                                         <div className="right-box">
+
                                             <div className="btn-box">
-                                                <Link to={process.env.PUBLIC_URL + `/contact`}>Book Appointment</Link>
+                                                <Link to={`https://wa.me/919175932372`}><span class="icon-whatsapp"></span> Book Appointment</Link>
+                                              {/* <Link to={process.env.PUBLIC_URL + `/contact`}> <span class="icon-whatsapp"></span> Book Appointment</Link> */}
                                             </div>
                                         </div>
                                     </div>

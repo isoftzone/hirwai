@@ -74,7 +74,7 @@ export default class FeatureTwo extends React.Component {
                                     </div>
 
                                     <div className="features-two__single-img">
-                                        <img src={publicUrl + "assets/images/resources/features-v2-img1.png"} alt="#" />
+                                        <img src={publicUrl + "assets/images/resources/features-v2-img4.png"} alt="#" />
                                     </div>
                                 </div>
                             </div>

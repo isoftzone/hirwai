@@ -2919,6 +2919,14 @@ Main Header Three
   z-index: 1;
 }
 
+.main-header-three__right .right-box .btn-box a span{
+  position: absolute;
+  /* gap: 0px; */
+  left: 33px;
+  bottom: 19px;
+  font-size:x-large;
+}
+
 .main-header-three__right .right-box .btn-box a::before {
   position: absolute;
   top: 0;
