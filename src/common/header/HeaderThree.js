@@ -69,7 +69,7 @@ export default class HeaderThree extends React.Component {
                                         <div className="right-box">
 
                                             <div className="btn-box">
-                                                <Link to={`https://www.youtube.com/@Hirwailandscape`}><span class="icon-whatsapp"></span> Book Appointment</Link>
+                                                <Link to={`https://wa.me/919175932372`}><span class="icon-whatsapp"></span> Book Appointment</Link>
                                               {/* <Link to={process.env.PUBLIC_URL + `/contact`}> <span class="icon-whatsapp"></span> Book Appointment</Link> */}
                                             </div>
                                         </div>
