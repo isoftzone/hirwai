@@ -116,7 +116,7 @@ function App() {
             <Route path={`${process.env.PUBLIC_URL}/fountains`} exact element={<Fountains />} />
             <Route path={`${process.env.PUBLIC_URL}/swimmingPools`} exact element={<SwimmingPools />} />
             <Route path={`${process.env.PUBLIC_URL}/waterfalls`} exact element={<Waterfalls />} />
-            <Route path={`${process.env.PUBLIC_URL}/aquaspace`} exact element={<Aquaspace />} />
+            {/* <Route path={`${process.env.PUBLIC_URL}/aquaspace`} exact element={<Aquaspace />} /> */}
 
             <Route path={`${process.env.PUBLIC_URL}/plantLibrary`} exact element={<PlantLibrary />} />
             <Route path={`${process.env.PUBLIC_URL}/indoorNOutdoor`} exact element={<IndoorNOutdoor />} />

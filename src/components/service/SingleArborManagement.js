@@ -114,7 +114,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Hardscapes In Hirwai</h2>
+                                                <h2>Hardscapes </h2>
                                                 <p className="text1">Expert Hardscaping for Beautiful, Functional Outdoor Spaces Transform your outdoor space with professional hardscaping services. Whether you're looking to build an elegant patio, a durable walkway, or a cozy outdoor kitchen, we specialize in creating stunning hardscape designs that perfectly complement your landscape.</p>
                                                 <p> Enhance your outdoor living space with custom-built patios and decks designed for relaxation and entertainment. Our expert team uses high-quality materials like natural stone, brick, and concrete to create beautiful, lasting surfaces for your family and guests to enjoy.</p><br />
 
@@ -374,7 +374,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Pathways In Hirwai</h2>
+                                                <h2>Pathways </h2>
                                                 <p className="text1">At Pathways Landscaping, we believe that your outdoor spaces should be as beautiful and functional as the inside of your home. Whether you're looking to create a lush garden oasis, install a stylish pathway, or transform your entire landscape, our team is here to bring your vision to life.</p>
                                                 <p>Here's a draft of website content for Pathways Landscaping, focusing on services, expertise, and a welcoming tone</p><br />
 
@@ -628,7 +628,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Gazebo's In Hirwai</h2>
+                                                <h2>Gazebo's </h2>
                                                 <p className="text1">At Pathways Landscaping, we specialize in designing and building custom gazebos that transform your outdoor space into a private oasis. Whether you’re looking for a peaceful spot to relax, a charming venue for outdoor gatherings, or a stylish addition to your garden, our gazebos are built to suit your unique vision and style.
                                                     A gazebo not only provides beauty and elegance but also offers functionality and comfort, allowing you to enjoy your garden, patio, or backyard through all seasons. Let us help you create the perfect space to relax, entertain, and enjoy nature.</p>
                                                 <p>Certainly! Below is an example of website content for Gazebo services in landscaping. This content can be added to a page on your landscaping website to showcase your expertise in designing and installing custom gazebos.</p><br />
@@ -884,7 +884,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Murals In Hirwai</h2>
+                                                <h2>Murals </h2>
                                                 <p className="text1">At Pathways Landscaping, we believe in adding artistic touches to your outdoor spaces to make them truly one-of-a-kind. Our mural design and installation services bring vibrant colors, textures, and themes to your landscape, whether it's a focal point for a garden, a boundary wall, or a creative element for your patio or outdoor living area. A mural can turn an ordinary outdoor space into a breathtaking work of art, adding character and style to your garden, courtyard, or backyard.</p>
                                                 <p>Certainly! Below is an example of website content for Mural services in landscaping, which highlights your expertise in incorporating murals into landscaping designs. This will showcase how murals can enhance outdoor spaces, creating unique and personalized environments.</p><br />
 
@@ -1128,7 +1128,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Ornamental Fabrication In Hirwai</h2>
+                                                <h2>Ornamental Fabrication </h2>
                                                 <p className="text1">At Pathways Landscaping, we specialize in ornamental fabrication that adds both beauty and functionality to your landscape. Our custom-designed metalwork—including gates, fences, trellises, arches, sculptures, and more—can transform your outdoor environment into a stunning masterpiece. Ornamental elements are not just decorative; they bring unique charm and sophistication to any landscape, giving your garden or outdoor living space a touch of elegance and style.
                                                     Whether you're looking to add a wrought-iron gate, a decorative garden trellis, or a custom fire pit, our team of skilled artisans creates high-quality ornamental pieces that are as durable as they are beautiful.</p>
                                                 <p>Certainly! Below is an example of website content for Ornamental Fabrication services in landscaping. This content emphasizes the custom design, craftsmanship, and impact of ornamental elements that can enhance outdoor spaces.</p><br />
@@ -1373,7 +1373,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Paved Areas In Hirwai</h2>
+                                                <h2>Paved Areas </h2>
                                                 <p className="text1">At Pathways Landscaping, we specialize in designing and installing custom paved areas that enhance the beauty and functionality of your outdoor spaces. Whether you’re looking to create a stunning patio, a smooth walkway, or a durable driveway, our expert team will craft the perfect paved surface that complements your landscape. Paving not only improves the aesthetic appeal of your yard but also provides practical benefits, such as easier maintenance and increased property value.
                                                     From driveways to garden paths to entertainment spaces, we offer a wide variety of materials, patterns, and designs to suit your style and needs.</p>
                                                 <p>Certainly! Below is an example of website content for Paved Areas in Landscaping that emphasizes the importance, benefits, and customization options for paving in outdoor spaces.</p><br />
@@ -1617,7 +1617,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Pergolas In Hirwai</h2>
+                                                <h2>Pergolas </h2>
                                                 <p className="text1">At Pathways Landscaping, we specialize in designing and installing custom pergolas that bring both beauty and function to your outdoor living space. A pergola is more than just a decorative feature—it serves as an architectural element that provides shade, adds structure, and creates a perfect spot for relaxation and entertainment. Whether you want to create a charming outdoor dining area, a romantic garden nook, or a stunning focal point, our team of experts can craft a pergola that enhances the aesthetic appeal and functionality of your garden or patio.</p>
                                                 <p>Certainly! Below is a detailed example of website content for Pergolas in Landscaping, designed to highlight the aesthetic, functional, and customizable aspects of pergolas in outdoor spaces.</p><br />
 
@@ -1860,7 +1860,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Sculptures In Hirwai</h2>
+                                                <h2>Sculptures </h2>
                                                 <p className="text1">At Pathways Landscaping, we believe that art should not be confined to museums or galleries—it can elevate the beauty and ambiance of your outdoor space as well. Adding a sculpture to your garden, lawn, or patio is an excellent way to introduce creativity, personality, and a striking focal point to your landscape. Whether you want a contemporary masterpiece, classical figure, or an abstract design, we specialize in helping you find the perfect sculpture to reflect your style and transform your outdoor environment.</p>
                                                 <p> Certainly! Here is a detailed example of website content for Sculptures in Landscaping, focusing on how sculptures can enhance a landscape and the services offered</p><br />
 
@@ -2104,7 +2104,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Deck In Hirwai</h2>
+                                                <h2>Deck </h2>
                                                 <p className="text1">A well-designed deck is the perfect addition to any outdoor space, offering a functional and stylish place for relaxation, dining, or entertaining guests. At Pathways Landscaping, we specialize in creating custom decks that seamlessly blend with your landscape while enhancing the overall aesthetic of your property. Whether you’re looking to build a simple, classic deck or a grand, multi-level structure, our team is here to bring your vision to life.</p>
                                                 <p>Certainly! Here is a detailed example of website content for Deck Work in Landscaping, focusing on how decks can enhance outdoor spaces and the services offered</p><br />
 
@@ -2347,7 +2347,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Rock Gardens In Hirwai</h2>
+                                                <h2>Rock Gardens </h2>
                                                 <p className="text1">Transform your outdoor space with the timeless beauty and charm of a rock garden. At Pathways Landscaping, we specialize in designing and creating custom rock gardens that blend seamlessly with your landscape, adding texture, structure, and a natural aesthetic. Whether you’re looking for a serene retreat or an eye-catching feature for your garden, our expert team is here to help you craft the perfect rock garden for your home.</p>
                                                 <p>A rock garden is a landscaped area that utilizes natural stones, rocks, and boulders to create a visually appealing, low-maintenance outdoor space. By combining these rocks with carefully selected plants, we create a stunning contrast that enhances the beauty of your landscape. Rock gardens can be designed in various styles, from minimalist designs to lush, alpine-inspired settings.</p><br />
 
@@ -2587,7 +2587,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Designer Walls In Hirwai</h2>
+                                                <h2>Designer Walls </h2>
                                                 <p className="text1">At Pathways Landscaping, we specialize in creating Designer Walls that transform your outdoor spaces into works of art. Whether you’re looking to add privacy, enhance the aesthetics of your garden, or create functional barriers, our custom designer walls offer both style and functionality. From decorative stone walls to modern concrete designs, we craft walls that blend seamlessly into your landscape, creating a visually appealing and durable solution for your property.</p>
                                                 <p> Designer walls are custom-built walls crafted from a variety of materials such as stone, brick, concrete, or wood, designed to enhance the beauty and functionality of your landscape. These walls are more than just structural elements; they are integral to the overall design of your outdoor space. Whether serving as retaining walls, privacy walls, or decorative features, designer walls add visual appeal while also providing practical benefits, such as erosion control, privacy, and boundary delineation.</p><br />
 
@@ -2831,7 +2831,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Softscapes In Hirwai</h2>
+                                                <h2>Softscapes </h2>
                                                 <p className="text1">
                                                     Creating engaging website content for a landscaping business focusing on softscapes is key to attracting potential clients. Here’s an example of how you can structure your website content for softscape services:
                                                     Expert Softscaping Solutions we transform outdoor spaces into lush, vibrant landscapes. Our expert softscaping services bring the beauty of nature to your property through the strategic use of plants, shrubs, trees, flowers, and more. Whether you are looking to create a serene garden.</p>
@@ -3104,7 +3104,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Lawn Expansion In Hirwai</h2>
+                                                <h2>Lawn Expansion </h2>
                                                 <p className="text1">
                                                     At we specialize in lawn expansion services designed to turn your outdoor space into a lush, green paradise. Whether you’re looking to extend your existing lawn or create an entirely new grassy area, our expert team ensures a seamless process from start to finish. We offer professional lawn expansion solutions that enhance the beauty of your property while increasing its value.</p>
                                                 <p>Whether you’re looking to extend your existing lawn or create an entirely new grassy area, our expert team ensures a seamless proces</p><br />
@@ -3374,7 +3374,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>AromaGardens In Hirwai</h2>
+                                                <h2>AromaGardens </h2>
                                                 <p className="text1">
                                                     At we specialize in creating Aroma Gardens that engage all of your senses with beautiful, fragrant plants that transform your outdoor space into a fragrant oasis. Imagine stepping into a garden that not only delights the eyes with vibrant colors but also fills the air with delightful scents, creating an atmosphere of peace, relaxation, and sensory bliss.
                                                     Whether you're designing a garden for your home, office, or commercial space, our experts can help you create a personalized Aroma Garden that suits your aesthetic preferences while infusing your outdoor space with the natural beauty and calming effects of aromatic plants.</p>
@@ -3653,7 +3653,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Topiaries In Hirwai</h2>
+                                                <h2>Topiaries </h2>
                                                 <p className="text1">
                                                     At we bring creativity and artistry to your landscape with our Topiary services. Topiaries are more than just plants—they are living sculptures that can transform any outdoor space into an elegant, whimsical, or sophisticated garden. Our expert team specializes in creating beautiful, meticulously pruned shapes that add a sense of structure and elegance to your garden, offering a unique focal point that stands out.
                                                     Whether you’re looking to add a classic topiary for a formal garden, whimsical animal shapes for a children’s play area, or modern geometric forms for a contemporary landscape, we can design and create the perfect topiaries to suit your style.</p>
@@ -3932,7 +3932,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Shrub Plantation In Hirwai</h2>
+                                                <h2>Shrub Plantation </h2>
                                                 <p className="text1">
                                                     At we understand that shrubs are essential elements that bring structure, beauty, and functionality to any landscape. Whether you are looking to enhance your garden’s aesthetics, create natural privacy screens, or add vibrant color to your outdoor spaces, our Shrub Plantation Services are tailored to meet your needs.
                                                     From selecting the perfect shrub species to professional planting and long-term care, we handle every step of the shrub planting process to ensure your landscape thrives. Our experienced team provides expert design advice, ensuring your shrubs complement the surrounding elements, create visual appeal, and thrive in your local climate.</p>
@@ -4199,7 +4199,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Vegetable Garden In Hirwai</h2>
+                                                <h2>Vegetable Garden </h2>
                                                 <p className="text1">
                                                     At we believe that the best food comes from the freshest, home-grown produce. Our Vegetable Garden Landscaping Services are designed to transform your outdoor space into a sustainable, productive garden that provides you with a variety of fresh, healthy vegetables. Whether you’re looking to start a small herb garden or a full-scale vegetable patch, we provide expert design, installation, and maintenance services to make your dream garden a reality.</p>
                                                 <p>At we believe that the best food comes from the freshest, home-grown produce. Our Vegetable Garden Landscaping Services are designed to transform your outdoor space into a sustainable, productive garden that provides you with a variety of fresh, healthy vegetables. Whether you’re looking to start a small herb garden or a full-scale vegetable patch, we provide expert design, installation, and maintenance services to make your dream garden a reality.</p><br />
@@ -4465,7 +4465,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Mounts In Hirwai</h2>
+                                                <h2>Mounts </h2>
                                                 <p className="text1">At we believe that landscaping is not just about the plants and flowers – it's about creating an environment that harmonizes with the land, incorporating elements that bring beauty, structure, and elevation to your garden. Our Mounts Landscaping Services specialize in incorporating raised mounds and slopes to enhance the aesthetic appeal and functionality of your outdoor space.
                                                     Whether you’re looking to create a natural-looking hill, a raised bed for your plants, or an elevated feature for your garden, we provide expert mount design, installation, and maintenance services to suit your needs.</p>
                                                 <p>Mounts in landscaping refer to the elevated mounds or raised areas created within a garden or landscape design. They are often used to add visual interest, create unique topography, and enhance plant growth. These raised formations can be made from soil, stone, or other natural materials.</p><br />
@@ -4743,7 +4743,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Spice Garden In Hirwai</h2>
+                                                <h2>Spice Garden </h2>
                                                 <p className="text1">
                                                     At [Your Company Name], we bring the world of flavors to your garden with our Spice Garden Landscaping Services. Imagine stepping into your own backyard and harvesting fresh herbs, spices, and aromatic plants that you can use in your kitchen. Our expert team helps you create a vibrant and functional spice garden that adds beauty, flavor, and sustainability to your outdoor space.
 
@@ -5013,7 +5013,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Ponds In Hirwai</h2>
+                                                <h2>Ponds </h2>
                                                 <p className="text1">we specialize in designing, creating, and maintaining beautiful ponds that bring tranquility, life, and aesthetic appeal to your outdoor space. Whether you want to create a serene water feature, a wildlife-friendly pond, or a custom design to complement your landscape, we have the expertise to turn your vision into reality.</p>
                                                 <p> we specialize in designing, creating, and maintaining beautiful ponds that bring tranquility, life, and aesthetic appeal to your outdoor space. Whether you want to create a serene water feature, a wildlife-friendly pond, or a custom design to complement your landscape, we have the expertise to turn your vision into reality.</p><br />
 
@@ -5231,7 +5231,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
+                                                    {/* <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li> */}
                                                 </ul>
                                             </div>
                                             {/* End Sidebar Single */}
@@ -5253,7 +5253,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Irrigation Systems In Hirwai</h2>
+                                                <h2>Irrigation Systems </h2>
                                                 <p className="text1"> we specialize in designing, installing, and maintaining high-quality irrigation systems that keep your landscape lush, healthy, and water-efficient. A reliable irrigation system is essential to ensuring your plants receive the right amount of water without waste, helping you save time, money, and resources while protecting the environment.</p>
                                                 <p>a comprehensive website content draft for your I irrigation systems services in landscaping. This will showcase your expertise and help potential customers understand the value of having a well-designed irrigation system in place.</p><br />
 
@@ -5471,7 +5471,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
+                                                    {/* <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li> */}
                                                 </ul>
                                             </div>
                                             {/* End Sidebar Single */}
@@ -5493,7 +5493,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Swimming Pools In Hirwai</h2>
+                                                <h2>Swimming Pools </h2>
                                                 <p className="text1">A swimming pool can completely transform your landscape, adding beauty, relaxation, and entertainment value to your home. Here's why a pool could be the perfect addition to your yard</p>
                                                 <p>Certainly!  Below is a detailed website content draft for your Swimming Pools services in landscaping. This will help potential customers understand the benefits of adding a pool to their landscape and the services you offer related to pool installation and maintenance.</p><br />
 
@@ -5716,7 +5716,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li className={activeSection === 'Swimming Pools' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/swimmingPools`} onClick={() => this.handleLinkClick('Swimming Pools')}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
+                                                    {/* <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li> */}
                                                 </ul>
                                             </div>
                                             {/* End Sidebar Single */}
@@ -5738,7 +5738,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Waterfalls In Hirwai</h2>
+                                                <h2>Waterfalls </h2>
                                                 <p className="text1"> A waterfall can transform your outdoor space into a tranquil retreat, adding beauty, movement, and natural charm to your garden or backyard. At [Your Company Name], we specialize in designing and installing custom waterfalls that create a peaceful ambiance while seamlessly blending with your landscape.</p>
                                                 <p>Certainly! Below is a detailed website content draft for your Waterfalls services in landscaping. This will highlight your expertise in creating beautiful water features and how waterfalls can enhance the aesthetic appeal of any landscape.</p><br />
 
@@ -5956,7 +5956,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
                                                     <li className={activeSection === 'Waterfalls' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/waterfalls`} onClick={() => this.handleLinkClick('Waterfalls')}>Waterfalls</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
+                                                    {/* <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li> */}
                                                 </ul>
                                             </div>
                                             {/* <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
@@ -5979,246 +5979,6 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : activeSection === 'Aquaspace' ? (
-                                <div className="row">
-                                    {/* Start Services Details Content */}
-                                    <div className="col-xl-8">
-                                        <div className="services-details__content">
-                                            <div className="services-details__content-img1">
-                                                <img src={publicUrl + "assets/images/services/aquascapes/aquaspace/content1.png"} alt="#" />
-                                            </div>
-
-                                            <div className="text-box1">
-                                                <h2>Aquaspace In Hirwai</h2>
-                                                <p className="text1">At [Your Company Name], we specialize in creating breathtaking Aquaspace designs that bring the beauty and tranquility of water into your outdoor space. Aquaspace combines the elegance of water features like ponds, waterfalls, and streams with landscaping elements that create a relaxing, visually stunning oasis. Whether you’re looking to create a serene garden retreat, a vibrant social space, or an innovative water feature, our expert team will craft the perfect Aquaspace tailored to your style and needs.</p>
-                                                <p> Aquaspace work in landscaping. This content introduces Aquaspace designs as a unique and innovative feature for transforming landscapes into serene, water-filled retreats that blend nature and luxury.</p><br />
-
-                                                <h5>Relaxing Atmosphere</h5>
-                                                <p> The sound of flowing water promotes relaxation, helping to reduce stress and create a peaceful environment perfect for unwinding.
-                                                </p>
-                                                <ul>
-
-                                                </ul>
-                                            </div>
-
-
-
-
-                                            <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/aquascapes/aquaspace/content2.png"} alt="#" />
-                                            </div>
-
-                                            <div className="text-box3">
-                                                <h5>Aesthetic Enhancement</h5>
-                                                <p> Water features add elegance, beauty, and visual interest to your garden or yard, making it a more inviting and dynamic space.</p>
-
-                                            </div>
-
-
-                                            <div className="text-box4">
-                                                <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/aquascapes/aquaspace/content-small.png"} alt="#" />
-                                                </div>
-
-                                                <div className="content-box">
-                                                    <h5>Improved Air Quality</h5>
-                                                    <p> Aquaspace features can help cool the air in your outdoor space, making it more comfortable during the warmer months while adding a natural humidifying effect.</p>
-                                                </div>
-
-                                            </div><br />
-
-                                            <div >
-
-                                                <br /><h5>Our Aquaspace Services:</h5><br />
-                                                <h6>Custom Aquaspace Design & Installation</h6>
-                                                <p>Our design experts work closely with you to develop a personalized Aquaspace plan that suits your landscape, style, and vision. Whether you want a natural, rustic aesthetic or a modern, sleek water feature, we ensure your Aquaspace design harmonizes with the existing elements of your outdoor space. We take care of every detail, including:</p>
-
-                                                <h6>Pond and Stream Design</h6>
-                                                <p>If you dream of having a pond or stream as part of your Aquaspace, our team can create a natural, flowing water system that integrates seamlessly into your landscape. Whether you want a serene koi pond, a flowing stream that meanders through your garden, or a combination of both, we’ll create the perfect water feature that meets your needs and enhances your outdoor space.</p>
-
-                                                <h6>Waterfall & Fountain Design</h6>
-                                                <p>Waterfalls and fountains are iconic elements of Aquaspace designs. Our team can create breathtaking cascading waterfalls or elegant fountains that add beauty and movement to your landscape. From large dramatic falls to subtle, peaceful trickles, we’ll craft a waterfall or fountain that fits your space and style.</p>
-
-                                                <h6>Aquaspace Landscaping & Maintenance</h6>
-                                                <p>landscape. Whether you want a serene koi pond, a flowing stream that meanders through your garden, or a combination of both, we’ll create the perfect water feature that meets your needs and enhances your outdoor space.</p>
-
-                                                <h6>Water Feature Selections</h6>
-                                                <p>Choose from a wide range of water features, such as ponds, waterfalls, streams, and fountains, based on your preferences and space requirements.</p>
-
-                                                <h6>Rock & Stone Integration</h6>
-                                                <p>We use natural and high-quality stones, boulders, and pebbles to build the foundation and aesthetic of your water features, creating a realistic and stunning effect.</p>
-
-                                            </div>
-
-
-
-
-                                            <div className="faq-two__accordion faq-two__accordion--services">
-                                                <h5>Why Choose for Your Aquaspace Design?</h5><br />
-                                                <ul className="accordion-box">
-                                                    <li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                Expert Design Team
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p>Our skilled designers have extensive experience in creating stunning Aquaspace features that integrate seamlessly with your landscape.</p>
-                                                        </div>
-                                                    </li>
-
-                                                    <li className="accordion block active-block">
-                                                        <div className="acc-btn active">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                Customized Solutions:
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content current">
-                                                            <p>Every Aquaspace we design is unique and tailored to your space, preferences, and budget.</p>
-                                                        </div>
-                                                    </li>
-
-                                                    <li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                High-Quality Materials:
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p>We use only the best materials, from natural stones to premium aquatic plants, to ensure your Aquaspace is long-lasting and beautiful.</p>
-                                                        </div>
-                                                    </li>
-                                                    <li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                Comprehensive Services
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p> From initial design through installation and ongoing maintenance, we offer a complete range of services to ensure your Aquaspace is always in top condition.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul><br /><br /><br />
-
-                                                <h5> Frequently Asked Questions (FAQs)</h5><br />
-                                                <ul className="accordion-box">
-                                                    <li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                What is Aquaspace in landscaping?
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p>Aquaspace in landscaping refers to the integration of water features like ponds, waterfalls, streams, and fountains into outdoor spaces. It combines the soothing presence of water with the natural beauty of plants, rocks, and lighting to create a serene, peaceful, and visually stunning landscape that promotes relaxation and tranquility</p>
-                                                        </div>
-                                                    </li>
-                                                    <li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                How does an Aquaspace design differ from other landscaping features?
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p> Aquaspace focuses specifically on incorporating water elements into landscaping, offering a unique blend of aesthetic appeal, sound, and motion. Unlike traditional gardens, Aquaspace uses water as a central element, transforming a space into a dynamic environment that changes with light, sound, and movement.</p>
-                                                        </div>
-                                                    </li><li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                How much space is required for an Aquaspace design?
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p>The space required for an Aquaspace design depends on the features you want to include. Smaller, more compact water features like fountains or small ponds can fit in more limited areas. Larger features like waterfalls and streams may require more space to allow for proper flow and integration with the surrounding landscape. During the consultation, we will assess your space and recommend the best options for your outdoor area.</p>
-                                                        </div>
-                                                    </li><li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                Can I add fish or plants to my Aquaspace design?
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p>Yes! Aquaspace designs can easily accommodate fish and aquatic plants. In fact, adding koi fish, goldfish, or water plants like lilies and cattails can enhance the natural beauty of your water features. We can help you choose the best plants and fish suited for your pond or water garden to create a balanced, thriving ecosystem.</p>
-                                                        </div>
-                                                    </li>
-                                                    <li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                Can Aquaspace features be added to an existing landscape or garden?
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p>Absolutely! Aquaspace elements can be seamlessly integrated into any existing landscape or garden. Whether you want to add a small fountain to an already landscaped area or install a larger pond and waterfall system, we work with your existing setup to create a harmonious design that blends with your current space.</p>
-                                                        </div>
-                                                    </li><li className="accordion block">
-                                                        <div className="acc-btn">
-                                                            <div className="icon-outer">
-                                                                <i className="icon-plus-1"></i>
-                                                            </div>
-                                                            <h3>
-                                                                How long does it take to install an Aquaspace design?
-                                                            </h3>
-                                                        </div>
-                                                        <div className="acc-content">
-                                                            <p>The installation time for an Aquaspace design depends on the complexity and size of the features being incorporated. Smaller installations, such as fountains or simple ponds, can be completed in a few days, while larger, more intricate systems like waterfalls and streams may take a week or longer. We will provide an estimated timeline based on the specific scope of your project.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Start Sidebar */}
-                                    <div className="col-xl-4">
-                                        <div className="sidebar">
-                                            {/* <ServiceSearchWidget /> */}
-                                            {/* Start Sidebar Single */}
-                                            <div className="sidebar__single sidebar__category wow animated fadeInUp" data-wow-delay="0.2s">
-                                                <h3 className="sidebar__title">Services</h3>
-                                                <ul className="sidebar__category-list">
-                                                    <li className=""><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/ponds`}>Ponds</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/irrigationSystems`}>Irrigation Systems</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
-                                                    <li className={activeSection === 'Aquaspace' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/aquaspace`} onClick={() => this.handleLinkClick('Aquaspace')}>Aquaspace</Link></li>
-                                                </ul>
-                                            </div>
-                                            {/* End Sidebar Single */}
-                                            {/* <ServiceButtonWidget />
-                                            <ServiceTagsWidget />
-                                            <ServiceSupportWidget /> */}
-                                        </div>
-                                        {/* End Sidebar */}
-                                    </div>
-                                    {/* End Services Details Content */}
-                                </div>
                             ) : activeSection === 'Fountains' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
@@ -6229,7 +5989,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Fountains In Hirwai</h2>
+                                                <h2>Fountains </h2>
                                                 <p className="text1">At we specialize in designing and installing custom fountains that elevate your outdoor space. A fountain is more than just a water feature—it's an artistic focal point, a source of tranquility, and an enhancement to the overall beauty of your landscape. Whether you want a modern sculpture fountain, a classic tiered design, or a natural stone feature, our team is here to help you create a stunning water feature that fits your style and space.</p>
                                                 <p> a draft of website content for your Fountains work in landscaping, designed to showcase your expertise in creating beautiful, functional water features that add elegance and tranquility to outdoor spaces.</p><br />
 
@@ -6449,7 +6209,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li className={activeSection === 'Fountains' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/fountains`} onClick={() => this.handleLinkClick('Fountains')}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
+                                                    {/* <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li> */}
                                                 </ul>
                                             </div>
                                             {/* End Sidebar Single */}
@@ -6471,7 +6231,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Aquascapes In Hirwai</h2>
+                                                <h2>Aquascapes </h2>
                                                 <p className="text1">Here’s a detailed website content for Aquascape services in landscaping. This content can help inform visitors about the beauty, functionality, and benefits of incorporating water features into their outdoor spaces.</p>
                                                 <p> Transform Your Outdoors with Aquascaping specialize in creating breathtaking aquascapes that bring a sense of tranquility and natural beauty to your landscape. Whether you envision a serene pond, a cascading waterfall, or a custom-designed water garden, our team can help design and install stunning water features that turn your outdoor space into a peaceful oasis.</p><br />
 
@@ -6693,7 +6453,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/fountains`}>Fountains</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/swimmingPools`}>Swimming Pools</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/waterfalls`}>Waterfalls</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li>
+                                                    {/* <li><Link to={process.env.PUBLIC_URL + `/aquaspace`}>Aquaspace</Link></li> */}
                                                 </ul>
                                             </div>
                                             {/* End Sidebar Single */}
@@ -6715,7 +6475,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Plant Library In Hirwai</h2>
+                                                <h2>Plant Library </h2>
                                                 <p className="text1">Your Guide to Beautiful Landscaping we believe that every great landscape begins with the right plants. Our Plant Library is an extensive collection of plant information to help you select the perfect species for your outdoor space. Whether you’re a seasoned gardener or a first-time homeowner looking to transform your yard, we’re here to provide the guidance you need to make informed, confident choices.</p>
                                                 <p>Here’s a detailed website content for a Plant Library section in landscaping, focusing on educating customers about plant options and helping them choose the best plants for their landscape.</p><br />
 
@@ -6956,7 +6716,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Indoor & Outdoor In Hirwai</h2>
+                                                <h2>Indoor & Outdoor </h2>
                                                 <p className="text1"> Your Landscaping Experts for Indoor & Outdoor Spaces
                                                     we specialize in transforming both indoor and outdoor spaces into beautiful, functional environments. Whether you're looking to enhance your backyard oasis or create a stunning indoor garden, our team of expert landscapers is here to bring your vision to life.</p>
                                                 <p>Here’s a sample of website content you could use for a landscaping business that offers both indoor and outdoor work. Feel free to customize it based on your business specifics!</p><br />
@@ -7197,7 +6957,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Succulent In Hirwai</h2>
+                                                <h2>Succulent </h2>
                                                 <p className="text1">At [Your Company Name], we specialize in creating stunning succulent landscapes that add beauty, texture, and low-maintenance elegance to any space. Whether you're looking to transform your garden, patio, or indoor environment, succulents are a versatile and sustainable choice that thrives with minimal care. Let us help you design a unique succulent garden that suits your style and space!</p>
                                                 <p>Here’s some engaging website content specifically focused on succulent landscaping. This can help showcase your expertise in designing and maintaining succulent gardens and add a touch of creativity to your landscaping business</p><br />
 
@@ -7437,7 +7197,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Maintenance and Services In Hirwai</h2>
+                                                <h2>Maintenance and Services </h2>
                                                 <p className="text1">At we understand that maintaining a beautiful landscape requires consistent care and attention to detail. Whether you have a lush garden, a pristine lawn, or an intricate hardscape, our landscaping maintenance services will keep your outdoor space looking its best all year round.
                                                     Our expert team is here to handle all aspects of your landscaping, from regular lawn care to seasonal cleanups and everything in between. We offer customizable maintenance plans to ensure your landscape stays healthy, vibrant, and inviting.</p>
                                                 <p>Here's a sample of website content tailored for landscaping maintenance and services</p><br />
@@ -7679,7 +7439,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Decoration Pots In Hirwai</h2>
+                                                <h2>Decoration Pots </h2>
                                                 <p className="text1">At we believe that the details make all the difference. That’s why we specialize in offering an exquisite selection of decorative pots that will add charm, style, and personality to your outdoor and indoor spaces. Whether you're looking for elegant planters for your garden, modern pots for your patio, or unique containers to enhance your interior design, we have the perfect solution for you.
                                                     Decorative pots not only enhance the aesthetics of your landscape but also provide a functional way to display your plants. Our curated collection of planters is designed to complement any style, from minimalist modern to rustic charm, ensuring that your plants get the beautiful setting they deserve.</p>
                                                 <p>At we offer an extensive range of services to incorporate decorative pots into your landscape</p><br />
@@ -7920,7 +7680,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Plant Decoration In Hirwai</h2>
+                                                <h2>Plant Decoration </h2>
                                                 <p className="text1">At we believe plants are more than just greenery—they're an essential part of your outdoor and indoor spaces that bring life, color, and character. With our plant decoration services, we help you incorporate plants into your landscape in a way that enhances its beauty and reflects your unique style. Whether it’s for a lush garden, stylish patio, or indoor oasis, our team specializes in designing and arranging plants that create visually striking spaces.
                                                     From large statement trees to delicate flowering plants, we ensure that every plant arrangement is designed thoughtfully to bring balance and harmony to your environment. Let us help you create a space where nature and design come together seamlessly.</p>
                                                 <p> With our plant decoration services, we help you incorporate plants into your landscape in a way that enhances its beauty and reflects your unique style. Whether it’s for a lush garden</p><br />
@@ -8161,7 +7921,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Plants In Hirwai</h2>
+                                                <h2>Plants </h2>
                                                 <p className="text1">At we understand that plants are the heart of any beautiful landscape. Whether you’re looking to enhance the beauty of your garden, create a lush backyard oasis, or add green accents to your commercial property, our expert plant work services can bring your vision to life.
                                                     We offer a range of plant-related services that include everything from plant selection and installation to care and maintenance. Let us help you design a space that feels vibrant, fresh, and full of life with our tailored planting solutions.</p>
                                                 <p>Here’s a well-structured website content draft for Plant Work in Landscaping that you can adapt to your needs:</p><br />
@@ -8390,7 +8150,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : para === 'Architect' ? (
+                            ) : para === 'Architectural Work' ? (
                                 <div className="">
                                     {/* Start Services Details Content */}
                                     <div className="">
@@ -8400,7 +8160,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Architect In Hirwai</h2>
+                                                <h2>Architectural Work </h2>
                                                 <p className="text1">we blend artistry with precision to create stunning landscapes that go beyond the ordinary. Our architectural landscaping services are designed to enhance the beauty, function, and value of your outdoor space. Whether you're looking to design an elegant backyard retreat, an inviting public park, or a modern outdoor living area, our team of skilled landscape architects is here to bring your vision to life</p>
                                                 <p> Architectural landscaping is the integration of architectural design elements into your landscape to create a harmonious, functional outdoor environment. This approach combines natural elements with structural features—such as pathways, patios, retaining walls, water features, and outdoor structures—to create a cohesive design that enhances your property's aesthetic and utility.
                                                     we focus on designing landscapes that complement the architecture of your home or business, creating seamless transitions between the built environment and nature.</p><br />
@@ -8417,7 +8177,7 @@ export default class SingleArborManagement extends React.Component {
 
 
                                             <div className="services-details__content-img2">
-                                                <img src={publicUrl + "assets/images/services/architech/a2.png"} alt="#" />
+                                                <img src={publicUrl + "assets/images/services/architech/a4.png"} alt="#" />
                                             </div>
 
                                             <div className="text-box3">
@@ -8620,7 +8380,7 @@ export default class SingleArborManagement extends React.Component {
                                             </div>
 
                                             <div className="text-box1">
-                                                <h2>Tree Replanting In Hirwai</h2>
+                                                <h2>Tree Replanting </h2>
                                                 <p className="text1"> we are passionate about preserving and enhancing the natural beauty of your outdoor space through professional tree replanting services. Trees play a vital role in the environment by offering shade, enhancing curb appeal, and providing natural habitats for wildlife. Whether you need to replace an old tree or introduce new tree species to your landscape, we have the expertise to manage the process with care and precision.</p>
                                                 <p>Certainly! Below is a sample content structure for a website that focuses on tree replanting within landscaping services. This is designed to highlight the importance, benefits, and process of tree replanting, while also showcasing your expertise and services</p><br />
 
@@ -8882,7 +8642,7 @@ export default class SingleArborManagement extends React.Component {
 //                             {/* Start Services Details Content */}
 //                             <div className="col-xl-8">
 //                                 <div className="services-details__content">
-//                                     <h2>Hardscapes In Hirwai</h2>
+//                                     <h2>Hardscapes </h2>
 //                                     {/* ... other content for Hardscapes ... */}
 //                                 </div>
 //                             </div>
@@ -8919,7 +8679,7 @@ export default class SingleArborManagement extends React.Component {
 //                             {/* Start Services Details Content */}
 //                             <div className="col-xl-8">
 //                                 <div className="services-details__content">
-//                                     <h2>Maintenance and Services In Hirwai</h2>
+//                                     <h2>Maintenance and Services in Hirwai</h2>
 //                                     {/* ... other content for Maintenance & Services ... */}
 //                                 </div>
 //                             </div>

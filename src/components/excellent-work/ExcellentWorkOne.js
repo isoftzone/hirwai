@@ -87,7 +87,7 @@ export default class ExcellentWorkOne extends React.Component {
                     <div className="shape1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <img className="float-bob-y" src={publicUrl+"assets/images/shapes/excellent-work-v1-shape1.png"} alt="#" />
                     </div>
-                    <div className="excellent-work-one__bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/services-side.png)'}}>
+                    <div className="excellent-work-one__bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/services-side1.png)'}}>
 
                         {/* <div className="content-box">
                             <div className="img-box">

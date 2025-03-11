@@ -64,7 +64,7 @@ export default class AboutThree extends React.Component {
 
                                     </div>
                                     <div className="inner">
-                                        <img src={publicUrl + "assets/images/about/about1.png"} alt="#" />
+                                        <img src={publicUrl + "assets/images/about/about2.png"} alt="#" />
                                     </div>
                                 </div>
                             </div>

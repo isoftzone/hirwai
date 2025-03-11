@@ -65,13 +65,13 @@ export default class FaqTwo extends React.Component {
                                                     <i className="icon-plus-1"></i>
                                                 </div>
                                                 <h3>
-                                                    1. How Often Should I Fertilize My Plants ?
+                                                    1.What services do you offer ?
                                                 </h3>
                                             </div>
                                             <div className="acc-content current">
-                                                <p>There are many variats of passage Lorem Ipsum the majority
-                                                    have suffered alte in some form by available Companuy
-                                                    alte pic alte in some form by to at available.</p>
+                                                <p>We offer a wide range of landscaping services including lawn care, 
+                                                   garden design, tree trimming, hardscaping, irrigation system installation,
+                                                   landscape lighting, and seasonal clean-up services.</p>
                                             </div>
                                         </li>
 
@@ -81,13 +81,13 @@ export default class FaqTwo extends React.Component {
                                                     <i className="icon-plus-1"></i>
                                                 </div>
                                                 <h3>
-                                                    2. What Does an Inch of water mean ?
+                                                    2.How long does a landscaping project take ?
                                                 </h3>
                                             </div>
                                             <div className="acc-content">
-                                                <p>There are many variats of passage Lorem Ipsum the majority
-                                                    have suffered alte in some form by available Companuy
-                                                    alte pic alte in some form by to at available.</p>
+                                                <p>The duration of a landscaping project depends on its complexity and size.
+                                                     Small projects like lawn care or garden maintenance may take a few hours,
+                                                     while larger projects like hardscaping or garden design may take several days to weeks.</p>
                                             </div>
                                         </li>
 
@@ -97,13 +97,13 @@ export default class FaqTwo extends React.Component {
                                                     <i className="icon-plus-1"></i>
                                                 </div>
                                                 <h3>
-                                                    3. How Does Gardening Make You Feel ?
+                                                    3. How much does landscaping cost?
                                                 </h3>
                                             </div>
                                             <div className="acc-content">
-                                                <p>There are many variats of passage Lorem Ipsum the majority
-                                                    have suffered alte in some form by available Companuy
-                                                    alte pic alte in some form by to at available.</p>
+                                                <p>The cost of landscaping varies depending on the size of your property,
+                                                  the services required, and the materials used. We will provide you with a 
+                                                  detailed quote after assessing your needs.</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -115,7 +115,7 @@ export default class FaqTwo extends React.Component {
                             <div className="col-xl-7">
                                 <div className="faq-two__content">
                                     <div className="faq-two__content-img">
-                                        <img src={publicUrl+"assets/images/resources/faq1.png"} alt="#" />
+                                        <img src={publicUrl+"assets/images/resources/faq3.png"} alt="#" />
                                     </div>
 
                                     <div className="faq-two__content-bottom clearfix">
@@ -126,8 +126,8 @@ export default class FaqTwo extends React.Component {
 
                                             <div className="text-box">
                                                 <h3> 
-                                                    <span className="odometer" data-count="12">00</span> 
-                                                    <span className="plus">+</span>Years of <br /> experience
+                                                    <span className="odometer" data-count="14">00</span> 
+                                                    <span className="plus"> +</span>Years of <br /> experience
                                                 </h3>
                                             </div>
                                         </div>
@@ -140,7 +140,7 @@ export default class FaqTwo extends React.Component {
                                                     </div>
 
                                                     <div className="text-box">
-                                                        <p>Entim estibulum dissim <br /> posuere discontent.</p>
+                                                        <p>We offer expert landscaping solutions tailored to your needs.</p>
                                                     </div>
                                                 </li>
 
@@ -150,7 +150,7 @@ export default class FaqTwo extends React.Component {
                                                     </div>
 
                                                     <div className="text-box">
-                                                        <p>Lorem Ispum on the tend <br /> to repeat constreat.</p>
+                                                        <p>High-quality landscaping services at budget-friendly rates</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -162,7 +162,7 @@ export default class FaqTwo extends React.Component {
                                                     </div>
 
                                                     <div className="text-box">
-                                                        <p>If you are going to uses <br /> a passage in deves.</p>
+                                                        <p>Get a free consultation and estimate for your landscape project.</p>
                                                     </div>
                                                 </li>
 
@@ -172,7 +172,7 @@ export default class FaqTwo extends React.Component {
                                                     </div>
 
                                                     <div className="text-box">
-                                                        <p>Suspe ndisse suscipit leo <br /> sagittis veitam atam.</p>
+                                                        <p>We use sustainable materials and eco-friendly methods.</p>
                                                     </div>
                                                 </li>
                                             </ul>

@@ -55,7 +55,7 @@ export default class FooterOne extends React.Component {
                                                         <li><Link to={process.env.PUBLIC_URL + `/hardscapes`}>Hardscapes</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architect</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architectural Work</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>PlantLibrary</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>Tree Replanting</Link></li>
                                                         </ul>
@@ -94,7 +94,7 @@ export default class FooterOne extends React.Component {
                                                     <div class="footer-one__right-single-contact">
                                                     {/* <a href="mailto:yourmail@email.com">hirwailandscapers@gmail.com</a> */}
                                                         <p>
-                                                         1103 Ambika, Sardar Height, Tithal Road, Valsad, Gujrat 396001 <br/>
+                                                         1103 Ambika, Sardar Heights, Tithal Road, Valsad, Gujrat 396001 <br/>
                                                             </p>
                                                         <a href="mailto:hirwailandscapers@gmail.com">hirwailandscapers@gmail.com</a>
                                                     
@@ -106,7 +106,7 @@ export default class FooterOne extends React.Component {
 
                                         <div class="footer-one__right-bottom wow animated fadeInUp" data-wow-delay="0.1s">
                                             <ul class="social-links">
-                                                
+                                            <li><Link to={`https://wa.me/919175932372`}><span class="icon-whatsapp"></span></Link></li>
                                                 <li><Link to={`https://www.youtube.com/@Hirwailandscape`}><span class="icon-play"></span></Link></li>
                                                 <li><Link to={`https://www.pinterest.com/hirwailandscape/?invite_code=71376df149cc401faec1abf513263ccb&sender=572098096322986051`}><span class="icon-pinterest"></span></Link></li>
                                                 <li><Link to={`https://www.instagram.com/hirwai_landscape/?igsh=bDlvaGxvdWlyM2M%3D&utm_source=qr#`}><span class="icon-instagram"></span></Link></li>
@@ -118,7 +118,7 @@ export default class FooterOne extends React.Component {
                                                 </div>
                                                 <div class="content-box" >
                                                     <p>Call Anytime</p>
-                                                    <h4><a href="tel:96875-83548">+91-96875-83548</a></h4>
+                                                    <h4><a href="tel:96875-83548">+91-91759 32372</a></h4>
                                                 </div>
                                             </div>
 
