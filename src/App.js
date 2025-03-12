@@ -84,7 +84,7 @@ function App() {
         <Routes>
             <Route path={`${process.env.PUBLIC_URL}/`} exact element={<HomeThree />} />
             <Route path={`${process.env.PUBLIC_URL}/home-two`} exact element={<HomeTwo />} />
-            <Route path={`${process.env.PUBLIC_URL}/`} exact element={<HomeThree />} />
+            {/* <Route path={`${process.env.PUBLIC_URL}/`} exact element={<HomeThree />} /> */}
             <Route path={`${process.env.PUBLIC_URL}/about`} exact element={<About />} />
             <Route path={`${process.env.PUBLIC_URL}/services`} exact element={<Service />} />
 

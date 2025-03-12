@@ -9,7 +9,7 @@ const VegetableGarden = () => {
         <>
             <HeaderThree />
             <Breadcrumb 
-                heading="VegetableGarden"
+                heading="Vegetable Garden"
                 currentPage="VegetableGarden"
                 Img='vg-banner.png' 
             />

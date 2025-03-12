@@ -9,7 +9,7 @@ const AromaGardens = () => {
         <>
             <HeaderThree />
             <Breadcrumb 
-                heading="AromaGardens"
+                heading="Aroma Gardens"
                 currentPage="AromaGardens"
                 Img='ag-banner.png'  
             />

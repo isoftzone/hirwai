@@ -108,7 +108,7 @@ export default class HeaderTwo extends React.Component {
                                                     <a href="#" className="main-menu__search search-toggler icon-magnifying-glass"></a>
                                                 </div>
                                                 <div className="main-header-one__bottom-right-btn">
-                                                    <Link to={process.env.PUBLIC_URL + `/contact`}>Book Appointment</Link>
+                                                    <Link to={process.env.PUBLIC_URL + `/contact`}>Book An Appointment</Link>
                                                 </div>
                                             </div>
 

@@ -144,7 +144,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/hard-content-small.png"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/hardscape/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -1158,7 +1158,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/of-content-small.png"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/hardscape/ornamental-fabrication/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -1888,7 +1888,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/sculptures-content-small.png"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/hardscape/sculptures/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -2132,7 +2132,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/deck-content-small.png"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/hardscape/deck/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -2375,7 +2375,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/rg-content-small.png"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/hardscape/rock-gardens/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -2616,7 +2616,7 @@ export default class SingleArborManagement extends React.Component {
 
                                             <div className="text-box4">
                                                 <div className="img-box">
-                                                    <img src={publicUrl + "assets/images/services/dw-content-small.png"} alt="#" />
+                                                    <img src={publicUrl + "assets/images/services/hardscape/designer-walls/content-small.png"} alt="#" />
                                                 </div>
 
                                                 <div className="content-box">
@@ -3094,7 +3094,7 @@ export default class SingleArborManagement extends React.Component {
                                     </div>
                                     {/* End Services Details Content */}
                                 </div>
-                            ) : activeSection === 'LawnExpansion' ? (
+                            ) : activeSection === 'Lawn Expansion' ? (
                                 <div className="row">
                                     {/* Start Services Details Content */}
                                     <div className="col-xl-8">
@@ -6693,7 +6693,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>Plant Decoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>
                                             </div>
@@ -6934,7 +6934,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>Plant Decoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>
                                             </div>
@@ -7174,7 +7174,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li className={activeSection === 'Succulent' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/succulent`} onClick={() => this.handleLinkClick('Succulent')}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>Plant Decoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>
                                             </div>
@@ -7416,7 +7416,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li className={activeSection === 'Maintenance & Services' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}onClick={() => this.handleLinkClick('Maintenance & Services')}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>Plant Decoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>
                                             </div>
@@ -7657,7 +7657,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li className={activeSection === 'DecorativePots' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/decorativePots`} onClick={() => this.handleLinkClick('DecorativePots')}>Decorative Pots</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>Plant Decoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>
                                             </div>
@@ -7898,7 +7898,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
-                                                    <li className={activeSection === 'Plant Decoration' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/plantDecoration`} onClick={() => this.handleLinkClick('Plant Decoration')}>PlantDecoration</Link></li>
+                                                    <li className={activeSection === 'Plant Decoration' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/plantDecoration`} onClick={() => this.handleLinkClick('Plant Decoration')}>Plant Decoration</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/plants`}>Plants</Link></li>
                                                 </ul>
                                             </div>
@@ -8137,7 +8137,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/succulent`}>Succulent</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/maintenanceNServices`}>Maintenance & Services</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/decorativePots`}>Decorative Pots</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>PlantDecoration</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/plantDecoration`}>Plant Decoration</Link></li>
                                                     <li className={activeSection === 'Plants' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/plants`} onClick={() => this.handleLinkClick('Plants')}>Plants</Link></li>
                                                 </ul>
                                             </div>

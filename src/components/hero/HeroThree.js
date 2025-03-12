@@ -41,8 +41,9 @@ export default class HeroThree extends React.Component {
                                         </div>
 
                                         <div className="btn-box">
+                                            
                                             <Link to={process.env.PUBLIC_URL + `/contact`} className="thm-btn">
-                                                <span className="txt">Book Appointment</span>
+                                                <span className="txt"> Book An Appointment</span>
                                                 <i className="fa fa-angle-double-right"></i>
                                             </Link>
                                         </div>
@@ -68,7 +69,7 @@ export default class HeroThree extends React.Component {
 
                                         <div className="btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/contact`} className="thm-btn">
-                                                <span className="txt">Book Appointment</span>
+                                                <span className="txt">Book An Appointment</span>
                                                 <i className="fa fa-angle-double-right"></i>
                                             </Link>
                                         </div>
@@ -94,7 +95,7 @@ export default class HeroThree extends React.Component {
 
                                         <div className="btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/contact`} className="thm-btn">
-                                                <span className="txt">Book Appointment</span>
+                                                <span className="txt">Book An Appointment</span>
                                                 <i className="fa fa-angle-double-right"></i>
                                             </Link>
                                         </div>
@@ -120,7 +121,7 @@ export default class HeroThree extends React.Component {
 
                                         <div className="btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/contact`} className="thm-btn">
-                                                <span className="txt">Book Appointment</span>
+                                                <span className="txt">Book An Appointment</span>
                                                 <i className="fa fa-angle-double-right"></i>
                                             </Link>
                                         </div>
