@@ -2647,10 +2647,16 @@ Main Header Three
   justify-content: space-between;
 }
 
-.main-header-three .container-fluid {
+/* .main-header-three .container-fluid {
   padding-left: 80px;
   padding-right: 0px;
+} */
+
+.main-header-three .container-fluid {
+  padding-left: 40px;
+  padding-right: 40px;
 }
+
 
 .main-header-three__left {
   position: relative;

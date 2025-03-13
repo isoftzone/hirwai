@@ -9,8 +9,8 @@ const ShrubPlantation = () => {
         <>
             <HeaderThree />
             <Breadcrumb 
-                heading="ShrubPlantation"
-                currentPage="ShrubPlantation" 
+                heading="Shrub Plantation"
+                currentPage="Shrub Plantation" 
                  Img='sp-banner.png'
             />
             <SingleArborManagement para="ShrubPlantation" />

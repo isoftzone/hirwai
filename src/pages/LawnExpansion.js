@@ -9,11 +9,11 @@ const LawnExpansion = () => {
         <>
             <HeaderThree />
             <Breadcrumb 
-                heading="LawnExpansion"
-                currentPage="LawnExpansion"
+                heading="Lawn Expansion"
+                currentPage="Lawn Expansion"
                 Img='le-banner.png' 
             />
-            <SingleArborManagement para="LawnExpansion" />
+            <SingleArborManagement para="Lawn Expansion" />
             <FooterOne />
         </>
     )

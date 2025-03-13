@@ -14,17 +14,17 @@ const menuData = [
 
         subNav: [
             {
-                title: 'Home One',
+                title: 'Home Three',
                 path: '/',
             },
             {
                 title: 'Home Two',
                 path: '/home-two',
             },
-            {
-                title: 'Home Three',
-                path: '/',
-            },
+            // {
+            //     title: 'Home Three',
+            //     path: '/',
+            // },
         ],
     },
     {
@@ -40,11 +40,11 @@ const menuData = [
         iconOpened: <CgChevronDown />,
 
         subNav: [
-            {
-                title: 'Services',
-                path: '/services',
-                cName: 'sub-nav',
-            },
+            // {
+            //     title: 'Services',
+            //     path: '/services',
+            //     cName: 'sub-nav',
+            // },
             {
                 title: 'Arbor Management',
                 path: '/arbor-management',
@@ -267,11 +267,11 @@ const MobileMenu = () => {
                             <ul className="mobile-nav__contact list-unstyled">
                                 <li>
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="mailto:needhelp@packageName__.com">needhelp@const.com</a>
+                                    <a href="mailto:hirwailandscapers@gmail.com">hirwailandscapers@gmail.com</a>
                                 </li>
                                 <li>
                                     <i className="fa fa-phone" aria-hidden="true"></i>
-                                    <a href="tel:666-888-0000">666 888 0000</a>
+                                    <a href="tel:+91-91759 32372">+91-91759 32372</a>
                                 </li>
                             </ul>
                             <div className="mobile-nav__top">

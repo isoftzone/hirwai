@@ -48,8 +48,8 @@ export default class WorkProcessFour extends React.Component {
                                     </div>
 
                                     <div className="work-process-one__single-content text-center">
-                                        <h2><Link to={process.env.PUBLIC_URL + `/arbor-management`}>Friendly Services</Link></h2>
-                                        <p>Simply free dumy text of <br /> the printing and amet <br /> piscing</p>
+                                        <h2><Link to={process.env.PUBLIC_URL + `/arbor-management`}>Project Handover</Link></h2>
+                                        <p>Complete the project with quality checks and finishing touches</p>
                                     </div>
                                 </div>
                             </div>
