@@ -10,7 +10,7 @@ const DecorativePots = () => {
             <HeaderThree />
             <Breadcrumb 
                 heading="Decorative Pots"
-                currentPage="DecorativePots"
+                currentPage="Decorative Pots"
                 Img='potsBanner.png' 
             />
             <SingleArborManagement para="DecorativePots"/>

@@ -348,7 +348,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -591,7 +591,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -847,7 +847,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li className={activeSection === 'Gazebo' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/gazebo`} onClick={() => this.handleLinkClick('Gazebo')}>Gazebo</Link></li>
@@ -1102,7 +1102,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li className={activeSection === 'Murals' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/murals`} onClick={() => this.handleLinkClick('Murals')}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -1347,7 +1347,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li className={activeSection === 'Ornamental Fabrication' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`} onClick={() => this.handleLinkClick('Ornamental Fabrication')}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -1591,7 +1591,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li className={activeSection === 'Paved Areas' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/pavedAreas`} onClick={() => this.handleLinkClick('Paved Areas')}>PavedAreas</Link></li>
+                                                    <li className={activeSection === 'Paved Areas' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/pavedAreas`} onClick={() => this.handleLinkClick('Paved Areas')}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -1834,7 +1834,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li className={activeSection === 'Pergolas' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/pergolas`} onClick={() => this.handleLinkClick('Pergolas')}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -2078,7 +2078,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li className={activeSection === 'Sculptures' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/sculptures`} onClick={() => this.handleLinkClick('Sculptures')}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -2321,7 +2321,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li className={activeSection === 'Deck' ? 'active' : ''}><Link to={process.env.PUBLIC_URL + `/deck`} onClick={() => this.handleLinkClick('Deck')}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -2561,7 +2561,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
@@ -2805,7 +2805,7 @@ export default class SingleArborManagement extends React.Component {
                                                     <li><Link to={process.env.PUBLIC_URL + `/deck`}>Deck</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/sculptures`}>Sculptures</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/pergolas`}>Pergolas</Link></li>
-                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>PavedAreas</Link></li>
+                                                    <li><Link to={process.env.PUBLIC_URL + `/pavedAreas`}>Paved Areas</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/ornamentalFabrication`}>Ornamental Fabrication</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/murals`}>Murals</Link></li>
                                                     <li><Link to={process.env.PUBLIC_URL + `/gazebo`}>Gazebo</Link></li>
