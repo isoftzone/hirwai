@@ -11,7 +11,7 @@ export default class HeroThree extends React.Component {
                 <section className="main-slider main-slider-three">
                     <Swiper 
                         loop={true}
-                        slidesPerView={1}
+                        // slidesPerView={1}
                         effect="fade"
                         autoplay={{delay:   5000}}
                         modules={[EffectFade, Pagination, Navigation]}

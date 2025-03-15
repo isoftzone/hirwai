@@ -40,7 +40,7 @@
 
 .auto-container {
   position: static;
-  max-width: 1200px;
+  max-width: 12 00px;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -2749,8 +2749,9 @@ Main Header Three
   display: block;
   padding: 43px 20px 42px;
   z-index: 1;
+   /* float: center; */
   /* right: 17px; */
-  left: 24%;
+  left: 37%;
 }
 
 .main-header-three__middle .logo-box-one::before {
