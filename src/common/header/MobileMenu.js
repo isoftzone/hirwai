@@ -12,20 +12,21 @@ const menuData = [
         iconClosed: <CgChevronLeft />,
         iconOpened: <CgChevronDown />,
 
-        subNav: [
-            {
-                title: 'Home Three',
-                path: '/',
-            },
-            {
-                title: 'Home Two',
-                path: '/home-two',
-            },
-            // {
-            //     title: 'Home Three',
-            //     path: '/',
-            // },
-        ],
+        // subNav: [
+        //     {
+        //         title: 'Home Three',
+        //         path: '/',
+        //     },
+        //     {
+        //         title: 'Home Two',
+        //         path: '/home-two',
+        //     },
+        //     // {
+        //     //     title: 'Home Three',
+        //     //     path: '/',
+        //     // },
+        // ],
+
     },
     {
         title: 'About',
@@ -34,102 +35,98 @@ const menuData = [
 
     {
         title: 'Services',
-        path: '#',
-
+        path: '/services',
         iconClosed: <CgChevronLeft />,
         iconOpened: <CgChevronDown />,
 
+      
+
         subNav: [
-            // {
-            //     title: 'Services',
-            //     path: '/services',
-            //     cName: 'sub-nav',
-            // },
             {
-                title: 'Arbor Management',
-                path: '/arbor-management',
+                title: 'Hardscapes',
+                path: '/hardscapes',
                 cName: 'sub-nav',
             },
             {
-                title: 'Garden Management',
-                path: '/garden-management',
+                title: 'Softscapes',
+                path: '/softscapes',
             },
             {
-                title: 'Nursery & Tree Farm',
-                path: '/nursery',
+                title: 'Aquascapes',
+                path: '/aquascapes',
             },
             {
-                title: 'Trimming & Pruning',
-                path: '/trimming',
+                title: 'plant Library',
+                path: '/plantLibrary',
             },
             {
-                title: 'Pests & Weeds Control',
-                path: '/weeds-control',
+                title: 'Architectural Work',
+                path: '/architect',
             },
             {
-                title: 'Fruits & Flowers Garden',
-                path: '/flowers-garden',
+                title: 'Tree Replanting',
+                path: '/treeReplanting',
             },
         ],
     },
 
-    {
-        title: 'Pages',
-        path: '#',
+    // {
+    //     title: 'Pages',
+    //     path: '#',
 
-        iconClosed: <CgChevronLeft />,
-        iconOpened: <CgChevronDown />,
+    //     iconClosed: <CgChevronLeft />,
+    //     iconOpened: <CgChevronDown />,
 
-        subNav: [
-            {
-                title: 'Team',
-                path: '/team',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Team Details',
-                path: '/team-details',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Portfolio 01',
-                path: '/portfolio-1',
-            },
-            {
-                title: 'Portfolio 02',
-                path: '/portfolio-2',
-            },
-            {
-                title: 'Faq',
-                path: '/faq',
-            },
-        ],
-    },
+    //     subNav: [
+    //         {
+    //             title: 'Team',
+    //             path: '/team',
+    //             cName: 'sub-nav',
+    //         },
+    //         {
+    //             title: 'Team Details',
+    //             path: '/team-details',
+    //             cName: 'sub-nav',
+    //         },
+    //         {
+    //             title: 'Portfolio 01',
+    //             path: '/portfolio-1',
+    //         },
+    //         {
+    //             title: 'Portfolio 02',
+    //             path: '/portfolio-2',
+    //         },
+    //         {
+    //             title: 'Faq',
+    //             path: '/faq',
+    //         },
+    //     ],
+    // },
 
-    {
-        title: 'Blog',
-        path: '#',
+    // {
+    //     title: 'Blog',
+    //     path: '#',
 
-        iconClosed: <CgChevronLeft />,
-        iconOpened: <CgChevronDown />,
+    //     iconClosed: <CgChevronLeft />,
+    //     iconOpened: <CgChevronDown />,
 
-        subNav: [
-            {
-                title: 'Blog',
-                path: '/blog',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Blog Grid',
-                path: '/blog-grid',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Blog Details',
-                path: '/blog-details',
-            },
-        ],
-    },
+    //     subNav: [
+    //         {
+    //             title: 'Blog',
+    //             path: '/blog',
+    //             cName: 'sub-nav',
+    //         },
+    //         {
+    //             title: 'Blog Grid',
+    //             path: '/blog-grid',
+    //             cName: 'sub-nav',
+    //         },
+    //         {
+    //             title: 'Blog Details',
+    //             path: '/blog-details',
+    //         },
+    //     ],
+    // },
 
     {
         title: 'Contact',
@@ -249,7 +246,7 @@ const MobileMenu = () => {
                     <SidebarWrap>
                         <div className="mobile-nav__content">
                             <div className="logo-box">
-                                <Link to={process.env.PUBLIC_URL + `/`} aria-label="logo image"><img src={publicUrl+"assets/images/resources/mobile-nav-logo.png"} width="155" alt="" /></Link>
+                                <Link to={process.env.PUBLIC_URL + `/`} aria-label="logo image"><img src={publicUrl+"assets/images/resources/Artboard-3.png"} width="155" alt="" /></Link>
                             </div>
                             <NavIcon to="#">
                                 <AiIcons.AiOutlineClose
@@ -274,14 +271,20 @@ const MobileMenu = () => {
                                     <a href="tel:+91-91759 32372">+91-91759 32372</a>
                                 </li>
                             </ul>
-                            <div className="mobile-nav__top">
-                                <div className="mobile-nav__social">
-                                    <a href="https://twitter.com/"><span className="fab fa-twitter"></span></a>
+                            {/* <div className="mobile-nav__top"> */}
+                                <div className="footer-one__right-bottom wow animated fadeInUp">
+                                    <ul class="social-links">
+                                        <li><Link to={`https://wa.me/919175932372`}><span class="icon-whatsapp"></span></Link></li>
+                                        <li><Link to={`https://www.youtube.com/@Hirwailandscape`}><span class="icon-play"></span></Link></li>
+                                        <li><Link to={`https://www.pinterest.com/hirwailandscape/?invite_code=71376df149cc401faec1abf513263ccb&sender=572098096322986051`}><span class="icon-pinterest"></span></Link></li>
+                                         <li><Link to={`https://www.instagram.com/hirwai_landscape/?igsh=bDlvaGxvdWlyM2M%3D&utm_source=qr#`}><span class="icon-instagram"></span></Link></li>
+                                    </ul>
+                                    {/* <a href="https://twitter.com/"><span className="fab fa-twitter"></span></a>
                                     <a href="https://facebook.com/"><span className="fab fa-facebook-square"></span></a>
                                     <a href="https://pinterest.com/"><span className="fab fa-pinterest-p"></span></a>
-                                    <a href="https://instagram.com/"><span className="fab fa-instagram"></span></a>
+                                    <a href="https://instagram.com/"><span className="fab fa-instagram"></span></a> */}
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                     </SidebarWrap>
                 </SidebarNav>
