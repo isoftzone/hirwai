@@ -56,7 +56,7 @@ export default class FooterOne extends React.Component {
                                                             <li><Link to={process.env.PUBLIC_URL + `/softscapes`}>Softscapes</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/aquascapes`}>Aquascapes</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/architect`}>Architectural Work</Link></li>
-                                                            <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>PlantLibrary</Link></li>
+                                                            <li><Link to={process.env.PUBLIC_URL + `/plantLibrary`}>Plant Library</Link></li>
                                                             <li><Link to={process.env.PUBLIC_URL + `/treeReplanting`}>Tree Replanting</Link></li>
                                                         </ul>
                                                     </div>
