@@ -3103,7 +3103,7 @@
 
 
 
-@media only screen and (min-width:300px) and (max-width:379px) {
+@media only screen and (min-width:300px) and (max-width:1024px) {
     .row.filter-layout.masonary-layout {
         display: flex ;
         flex-wrap:wrap;
@@ -3200,5 +3200,21 @@
             position: relative;
             display: block;
             right: 0px;
+        }
+        a.sc-hLBbgP {
+            display: block;
+            /* padding-top: 10px; */
+             padding-top:0px;
+        }
+        .main-header-three__middle .logo-box-one::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            /* background: rgba(255, 255, 255, .1); */
+             background:transparent; 
+            content: "";
+            z-index: -1;
         }
 }
