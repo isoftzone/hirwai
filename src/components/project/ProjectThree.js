@@ -241,7 +241,7 @@ export default class ProjectThree extends React.Component {
                                 </div>
 
                                 <div className="title-box">
-                                    <h2><a href="#">Take Care <br /> More</a></h2>
+                                    <h2><a href="#">Grow With <br /> Care</a></h2>
                                 </div>
                             </li>
 
