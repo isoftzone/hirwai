@@ -73,7 +73,7 @@ export default class CounterOne extends React.Component {
                                     <li className="counter-one__single">
                                         <div className="counter-one__single-inner">
                                             <div className="icon-box">
-                                                <span className="icon-gardener-1"></span>
+                                                <span className="icon-gardening"></span>
                                             </div>
 
                                             <div className="content-box">

@@ -263,12 +263,14 @@ const MobileMenu = () => {
                             ))}
                             <ul className="mobile-nav__contact list-unstyled">
                                 <li>
-                                    <i className="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="mailto:hirwailandscapers@gmail.com">hirwailandscapers@gmail.com</a>
+                                    {/* <i className="fa fa-envelope" aria-hidden="true"></i>
+                                    <a href="mailto:hirwailandscapers@gmail.com">hirwailandscapers@gmail.com</a> */}
+                                         
+                                          <a href="mailto:hirwailandscapers@gmail.com"><span><i className="fa fa-envelope" aria-hidden="true"></i></span>hirwailandscapers@gmail.com</a>
                                 </li>
                                 <li>
-                                    <i className="fa fa-phone" aria-hidden="true"></i>
-                                    <a href="tel:+91-91759 32372">+91-91759 32372</a>
+                                    {/* <i className="fa fa-phone" aria-hidden="true"></i> */}
+                                    <a href="tel:+91-91759 32372"><span><i className="fa fa-phone" aria-hidden="true"></i></span>+91-91759 32372</a>
                                 </li>
                             </ul>
                             {/* <div className="mobile-nav__top"> */}
