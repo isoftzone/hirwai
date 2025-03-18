@@ -29,7 +29,7 @@ const HomeThree = () => {
             {/* <TeamTwo /> */}
             {/* <PricingTwo /> */}
             <ProjectThree />
-            <TestimonialTwo />
+            {/* <TestimonialTwo /> */}
             {/* <BlogThree /> */}
             <QuoteOne />
             <FooterOne />

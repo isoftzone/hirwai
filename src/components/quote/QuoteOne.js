@@ -46,7 +46,7 @@ export default class QuoteOne extends React.Component {
                                         <img src={publicUrl+"assets/images/resources/FQ4.png"} alt="#" />
 
                                         <div className="video-box">
-                                            <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
+                                            <a href="https://www.youtube.com/watch?v=1q4UnMc5kTA" className="video-popup">
                                                 <div className="free-quote-one__video">
                                                     <span className="icon-play-button"></span>
                                                     <i className="ripple"></i>
@@ -66,7 +66,7 @@ export default class QuoteOne extends React.Component {
                                         <div className="sec-title-three__tagline">
                                             <h6>free quote</h6>
                                         </div>
-                                        <h2 className="sec-title-three__title">Get an insurance quote <br /> to get started!</h2>
+                                        <h2 className="sec-title-three__title">Get a landscaping quote <br /> to bring your vision to life!</h2>
                                     </div>
 
                                     <div className="free-quote-one__content-text">
