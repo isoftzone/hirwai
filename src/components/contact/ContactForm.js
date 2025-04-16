@@ -25,12 +25,12 @@ export default class ContactForm extends React.Component {
                                         <div className="row">
                                             <div className="col-xl-6 col-lg-6 col-md-6">
                                                 <div className="input-box">
-                                                    <input type="text" name="name" value="" placeholder="Your Name" required="" />
+                                                    <input type="text" name="name"  placeholder="Your Name" required="" />
                                                 </div>
                                             </div>
                                             <div className="col-xl-6 col-lg-6 col-md-6">
                                                 <div className="input-box">
-                                                    <input type="email" name="email" value="" placeholder="Email Address" required="" />
+                                                    <input type="email" name="email"  placeholder="Email Address" required="" />
                                                 </div>
                                             </div>
                                         </div>

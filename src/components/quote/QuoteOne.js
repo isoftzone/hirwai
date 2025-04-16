@@ -80,13 +80,13 @@ export default class QuoteOne extends React.Component {
                                             <div className="row">
                                                 <div className="col-xl-12 col-lg-12 col-md-12">
                                                     <div className="input-box">
-                                                        <input type="text" name="form_name" value="" placeholder="Full name"
+                                                        <input type="text" name="form_name"  placeholder="Full name"
                                                             required="" />
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-12 col-lg-12 col-md-12">
                                                     <div className="input-box">
-                                                        <input type="email" name="form_email" value=""
+                                                        <input type="email" name="form_email" 
                                                             placeholder="Email address" required="" />
                                                     </div>
                                                 </div>
