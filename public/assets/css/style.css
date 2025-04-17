@@ -6569,6 +6569,19 @@ Footer One
   margin-bottom: 0;
 }
 
+.footer-one__right-single-contact .foot-contact{
+   color: rgba(255, 255, 255, .5);
+   
+}
+
+/* .footer-one__right-single-contact .foot-contact .icon-message + span{
+  background-color: red;
+  
+ 
+} */
+
+
+
 .footer-one__right-single-list li a {
   position: relative;
   display: block;
@@ -6581,6 +6594,8 @@ Footer One
   transition: all 200ms linear;
   transition-delay: 0.1s;
 }
+
+
 
 .footer-one__right-single-list li a:hover {
   color: #ffffff;
@@ -11789,7 +11804,7 @@ Free Quote One
   position: relative;
   display: block;
   width: 100%;
-  height: 55px;
+  height: 125px;
 }
 
 .free-quote-one__content-form .input-box .nice-select {
