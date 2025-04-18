@@ -322,3 +322,22 @@ const QuoteOne = () => {
 };
 
 export default QuoteOne;
+
+
+
+
+
+
+{/* <div className="input-box">
+<div className="select-box">
+  <select name="from_service" required>
+    <option value="">Select service</option>
+    <option value="Hardscapes">Hardscapes</option>
+    <option value="Softscapes">Softscapes</option>
+    <option value="Aquascapes">Aquascapes</option>
+    <option value="Plant Library">Plant Library</option>
+    <option value="Architectural Work">Architectural Work</option>
+    <option value="Tree Replanting">Tree Replanting</option>
+  </select>
+</div>
+</div> */}
