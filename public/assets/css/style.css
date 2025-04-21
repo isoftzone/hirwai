@@ -11804,7 +11804,7 @@ Free Quote One
   position: relative;
   display: block;
   width: 100%;
-  height: 125px;
+  height: 55px;
 }
 
 .free-quote-one__content-form .input-box .nice-select {
@@ -11834,8 +11834,17 @@ Free Quote One
   z-index: 10;
 }
 
+/* .free-quote-one__content-form .nice-select .list {
+  background-color: var(--thm-primary);
+} */
+
+
 .free-quote-one__content-form .nice-select .list {
   background-color: var(--thm-primary);
+  max-height: 200px; /* or any height you want */
+  overflow-y: auto;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #ccc transparent; /* Firefox */
 }
 
 .free-quote-one__content-form .nice-select .option {
@@ -11926,6 +11935,9 @@ Free Quote One
   padding-left: 7px;
   padding-right: 7px;
 }
+
+
+
 
 /***
 =====================================================

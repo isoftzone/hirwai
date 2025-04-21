@@ -286,7 +286,7 @@ const QuoteOne = () => {
                                         <div className="col-xl-12 col-lg-12 col-md-12">
                                             <div className="input-box">
                                                 <div className="select-box">
-                                                    <select name="from_service" className="selectmenu wide" required>
+                                                    <select name="from_service" className="selectmenu selecting wide" required>
                                                         <option value="">Select service</option>
                                                         <option value="Hardscapes">Hardscapes</option>
                                                         <option value="Softscapes">Softscapes</option>

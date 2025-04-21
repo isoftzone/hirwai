@@ -3297,4 +3297,25 @@
             margin-right: calc(var(--bs-gutter-x) / -2);
             margin-left: calc(var(--bs-gutter-x) / -2);
         }
+
+        .free-quote-one__content-form .nice-select .list {
+            max-height: 180px;
+            font-size: 14px;
+          }
+
+
+          .nice-select:active, .nice-select.open, .nice-select:focus{
+            overflow: visible !important;
+          }
+
+        /* select>.selecting {
+            overflow: visible !important;
+        } */
+
+        /* @media screen and (max-width: 768px) {
+            .free-quote-one__content-form .nice-select .list {
+              max-height: 180px;
+              font-size: 14px;
+            }
+          } */
 }
