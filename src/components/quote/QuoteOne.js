@@ -153,13 +153,13 @@
 
 
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 
 const QuoteOne = () => {
     const form = useRef();
     const publicUrl = process.env.PUBLIC_URL + '/';
-
+    const [openService,setOpenService] =useState(false);
     useEffect(() => {
         const $ = window.$;
 
@@ -281,11 +281,18 @@ const QuoteOne = () => {
                                             </div>
                                         </div>
                                     </div>
-
+{/* 
                                     <div className="row">
                                         <div className="col-xl-12 col-lg-12 col-md-12">
                                             <div className="input-box">
-                                                <div className="select-box">
+                                                
+                                            </div>
+                                        </div>
+                                    </div> */}
+
+                                    <div className="row">
+                                        <div className="col-xl-6">
+                                        <div onClick={() => setOpenService(prev => !prev)} className={`select-box ${ openService ? "service_select_box" :""} `}>
                                                     <select name="from_service" className="selectmenu selecting wide" required>
                                                         <option value="">Select service</option>
                                                         <option value="Hardscapes">Hardscapes</option>
@@ -296,12 +303,6 @@ const QuoteOne = () => {
                                                         <option value="Tree Replanting">Tree Replanting</option>
                                                     </select>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="row">
-                                        <div className="col-xl-6">
                                             <div className="free-quote-one__content-form-btn">
                                                 <button className="thm-btn" type="submit">
                                                     <span className="txt">Send</span>
@@ -341,3 +342,8 @@ export default QuoteOne;
   </select>
 </div>
 </div> */}
+
+
+
+
+// hirwailandscapers@gmail.com

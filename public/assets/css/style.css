@@ -11806,6 +11806,31 @@ Free Quote One
   width: 100%;
   height: 55px;
 }
+/* Base select box style */
+.select-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60px; /* Default height */
+  transition: height 0.3s ease;
+}
+
+/* Make the select element taller on focus to show all options */
+.select-box select.selectmenu.wide {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+}
+
+/* When the select is focused (clicked), increase height of wrapper */
+/* .service_select_box {
+  height: 250px;
+} */
+
+.col-xl-6 {
+  flex: 0 0 auto;
+  width: 100%;
+}
 
 .free-quote-one__content-form .input-box .nice-select {
   background: #ffffff;

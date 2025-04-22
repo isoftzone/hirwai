@@ -3298,6 +3298,12 @@
             margin-left: calc(var(--bs-gutter-x) / -2);
         }
 
+        .contact-page-bottom__content-img {
+            position: relative;
+            display: block;
+            height: 200px;
+            width: 288px;
+        }
         .free-quote-one__content-form .nice-select .list {
             max-height: 180px;
             font-size: 14px;
@@ -3308,14 +3314,24 @@
             overflow: visible !important;
           }
 
-        /* select>.selecting {
-            overflow: visible !important;
-        } */
+   
 
-        /* @media screen and (max-width: 768px) {
-            .free-quote-one__content-form .nice-select .list {
-              max-height: 180px;
-              font-size: 14px;
-            }
-          } */
+          .service_select_box {
+            height: 250px;
+          }
+          .col-xl-6  .service_select_box{
+            flex: 0 0 auto;
+            width: 100%;
+        }
+
+        .services-three__single-content {
+            position: relative;
+            display: block;
+            left: 10px;
+        }
+
+        .footer-one__right-bottom {
+            display: block;
+            bottom: 27px;
+        }
 }
