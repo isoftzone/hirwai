@@ -71,7 +71,7 @@ export default class AboutThree extends React.Component {
                             {/* End About Three Img */}
 
                             {/* Start About Three Content */}
-                            <div className="col-xl-6">
+                            <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
                                 <div className="about-three__content">
                                     <div className="sec-title-three">
                                         <div className="sec-title-three__tagline">
@@ -89,25 +89,27 @@ export default class AboutThree extends React.Component {
                                     </div>
 
                                     <div className="about-three__content-text2">
-                                        <div className="row">
+                                        {/* <div className="row"> */}
                                             <div className="col-xl-6 col-lg-6 col-md-6">
                                                 <div className="single-box">
                                                     <ul>
                                                         <li><h4><span className="icon-tick"></span>Watering & Irrigation</h4></li>
                                                         <li><h4><span className="icon-tick"></span>Plant Stands & Trays</h4></li>
+                                                        <li><h4><span className="icon-tick"></span>Lawn Maintenance</h4></li>
+                                                        <li><h4><span className="icon-tick"></span>Yard & Garden Decor</h4></li>
                                                     </ul>
                                                 </div>
                                             </div>
 
-                                            <div className="col-xl-6 col-lg-6 col-md-6">
+                                            {/* <div className="col-xl-6 col-lg-6 col-md-6">
                                                 <div className="single-box">
                                                     <ul>
                                                         <li><h4><span className="icon-tick"></span>Lawn Maintenance</h4></li>
                                                         <li><h4><span className="icon-tick"></span>Yard & Garden Decor</h4></li>
                                                     </ul>
                                                 </div>
-                                            </div>
-                                        </div>
+                                            </div> */}
+                                        {/* </div> */}
                                     </div>
 
                                 </div>
