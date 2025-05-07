@@ -274,20 +274,23 @@ export default class FooterOne extends React.Component {
             <div class="container">
               <div class="bottom-inner">
                 <div class="copyright">
-                  <p>Copyright © 2025 All Rights Reserved.</p>
+                  <p>Designed and Powered  by 
+                     <Link to={`https://isoftzone.com/`}>
+                      i-SOFTZONE 
+                    </Link></p>
                 </div>
 
                 <ul class="footer-one__bottom-menu">
                   <li>
-                    <Link to={process.env.PUBLIC_URL + `/about`}>
-                      Terms & Condition
+                    <Link to={process.env.PUBLIC_URL + `/`}>
+                     Home
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + `/about`}>Privacy </Link>
+                    <Link to={process.env.PUBLIC_URL + `/about`}>About </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + `/about`}>Support</Link>
+                    <Link to={process.env.PUBLIC_URL + `/contact`}>Contact</Link>
                   </li>
                 </ul>
               </div>
