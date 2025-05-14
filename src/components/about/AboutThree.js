@@ -71,7 +71,7 @@ export default class AboutThree extends React.Component {
                             {/* End About Three Img */}
 
                             {/* Start About Three Content */}
-                            <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
+                            <div className="col-xl-6 col-lg-4 col-md-12">
                                 <div className="about-three__content">
                                     <div className="sec-title-three">
                                         <div className="sec-title-three__tagline">
