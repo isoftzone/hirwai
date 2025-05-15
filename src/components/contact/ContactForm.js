@@ -250,7 +250,7 @@ const ContactForm = () => {
         from_email: '',
         from_ph: '',
         from_sub: '',
-        message: ''
+        message: '',
     });
 
     const [errors, setErrors] = useState({});
@@ -263,20 +263,29 @@ const ContactForm = () => {
         }));
     };
 
-    const validate = () => {
-        const newErrors = {};
-        if (!formData.from_name.trim()) newErrors.from_name = 'Name is required';
-        if (!formData.from_email.trim()) {
-            newErrors.from_email = 'Email is required';
-        } else if (!/\S+@\S+\.\S+/.test(formData.from_email)) {
-            newErrors.from_email = 'Email is invalid';
-        }
-        if (!formData.message.trim()) newErrors.message = 'Message is required';
-        if (!formData.from_ph.trim() && formData.from_ph.trim().length < 10) newErrors.from_ph = 'Phone Number is required';
-        if (!formData.from_sub.trim()) newErrors.from_sub = 'Subject is required';
+const validate = () => {
+    const newErrors = {};
+    if (!formData.from_name.trim()) newErrors.from_name = 'Name is required';
 
-        return newErrors;
-    };
+    if (!formData.from_email.trim()) {
+        newErrors.from_email = 'Email is required';
+    } else if (!/\S+@\S+\.\S+/.test(formData.from_email)) {
+        newErrors.from_email = 'Email is invalid';
+    }
+
+    if (!formData.from_ph.trim()) {
+        newErrors.from_ph = 'Phone Number is required';
+    } else if (!/^\d{10,15}$/.test(formData.from_ph.trim())) {
+        newErrors.from_ph = 'Phone number must be at least 10 digits and digits only';
+    }
+
+    if (!formData.from_sub.trim()) newErrors.from_sub = 'Subject is required';
+
+    if (!formData.message.trim()) newErrors.message = 'Message is required';
+
+    return newErrors;
+};
+
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -293,7 +302,7 @@ const ContactForm = () => {
             'pldr8UQOSNvxDGkao'
         ).then(
             () => {
-                alert('Message Sent Successfully!');
+                alert("Thank you for contacting Hirwai Landscape");
                 setFormData({ from_name: '', from_email: '', from_ph: '', from_sub: '', message: '' });
                 setErrors({});
                 form.current.reset();
